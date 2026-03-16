@@ -1,0 +1,1076 @@
+student_id,register_number,first_name,last_name,email,phone,gender,department,year,gpa,attendance_percentage,certification,placement_status,skills
+17,IT741,Madelon,Backler,mbacklerg@oaic.gov.au,788-734-4786,Female,IT,1,4.8,0,Microsoft Azure,Internship,"Data Analysis, Spring Boot, React, C++, Java"
+92,ME231,Dav,De Vere,ddevere2j@a8.net,468-526-5112,Male,Mechanical,3,9.3,10,Coursera,NOt PLacEd,Power BI
+101,CS868,Elvin,Isaksen,eisaksen2s@icq.com,83683-82563,Male,Computer Science,4,4.3,40,,placed,AWS
+165,MC057,Christopher,Byre,cbyre4k@patch.com,318-417-3014,Male,Mechatronics,Second Year,9,40,ML,Placed,"C++, Power BI, Spring Boot, React, Java"
+234,MC913,Esma,Wigfall,ewigfall6h@cafepress.com,441-313-7541,Female,cs,3,5.9,36,ML,placed,"Java, C++, Data Analysis"
+335,CE142,Emilio,Gocher,egocher9a@free.fr,619-724-1315,FEMALE,Civil,1,"7,3",36,AWS,Internship,"Data Analysis, Power BI, React"
+499,MC298,Gracia,Satyford,gsatyforddu@comcast.net,791-963-5984,Female,MCT,Fourth Year,14,36,Certified Google Data Analytics,NOt PLacEd,React
+503,CS047,Tabb,Farbrace,,592-787-8821,Male,cs,Second Year,14,36,,placed,Power BI
+506,MC995,Florina,Danford,fdanforde1@yelp.com,660-885-2000,Female,Mechatronics,3,6.1,36,Coursera,Internship,Java
+538,MC212,Dell,Leyband,dleybandex@discuz.net,957-156-1830,F,Mechatronics,Second Year,4,40,,Placed,"AWS, SQL, Machine Learning, C++, Power BI"
+540,MC825,Antonin,Hadwick,ahadwickez@eepurl.com,950-503-7864,Male,Mechatronics,1,5.1,36,Microsoft Azure,placed,"React, AWS, C++, Java"
+574,EC348,Morena,Berrington,mberringtonfx@guardian.co.uk,219-435-6206,OTHER,Electronics,1,6.2,40,Coursera,NOt PLacEd,"C++, AWS, SQL, Python"
+579,ME978,Gerri,Hearnes,ghearnesg2@quantcast.com,772-557-1428,Female,Mechanical,Second Year,4.1,40,ML,NOT PLACED,"React, C++, Data Analysis, Power BI, Java"
+579,ME978,Gerri,Hearnes,ghearnesg2@quantcast.com,772-557-1428,Female,Mechanical,Second Year,4.1,40,ML,NOT PLACED,"React, C++, Data Analysis, Power BI, Java"
+590,IT751,Ikey,McCrillis,imccrillisgd@liveinternet.ru,205-491-2749,Male,IT,3,6.8,40,Certified Google Data Analytics,Placed,"Data Analysis, Java, SQL, Power BI, C++"
+600,MC358,Goddart,Nanetti,gnanettign@tamu.edu,373-824-7655,Male,Mechatronics,2,9.4,40,ML,NOt PLacEd,"Java, Power BI"
+616,MC322,Clarance,Fancutt,cfancutth3@free.fr,226-247-0136,Male,cs,1,"6,3",40,,Internship,AWS
+629,IT967,Hamlin,Selcraig,hselcraighg@senate.gov,879-668-7255,Male,Information Technology,Third Year,7.9,40,Microsoft Azure,NOT PLACED,"Python, React, Power BI, Data Analysis"
+635,CE041,Bryant,Zanitti,bzanittihm@studiopress.com,691-627-4582,Male,Civil,4,9.2,40,AWS,Placed,"Data Analysis, Power BI"
+682,ME994,Genevieve,Stirton,,549-787-8640,Female,Mechanical,3,4.3,40,,Internship,Java
+686,CE530,Stephenie,Costan,scostanj1@ehow.com,920-998-0349,,Civil,2,5.2,40,AWS,Internship,"C++, Data Analysis, Spring Boot, AWS"
+838,CS762,Beitris,McLaine,bmclainen9@tinypic.com,975-477-0144,Female,cs,4,6.7,40,,placed,"Python, Spring Boot, C++, Data Analysis, AWS"
+838,MC583,Beitris,McLaine,bmclainen9@tinypic.com,975-477-0144,M,cs,4,6.7,40,,placed,"Python, Spring Boot, C++, Data Analysis, AWS"
+842,CE005,Minnnie,Milvarnie,mmilvarniend@bing.com,289-831-9785,Female,Civil,dxyug,9.4,40,ML,Internship,"Power BI, Spring Boot, Python, React"
+892,CE150,Alleen,Aspinal,aaspinalor@opensource.org,814-557-3840,non-binary,Civil,3,6.2,40,Certified Google Data Analytics,Internship,"Power BI, Machine Learning"
+919,CE594,Halette,,invalidemail.com,368-589-6091,F,,Second Year,"7,3",40,Certified Google Data Analytics,NOt PLacEd,"React, C++, SQL"
+947,CS993,Luciano,Paske,lpaskeqa@surveymonkey.com,495-649-5673,Male,cs,1,9.3,40,AWS,placed,"Data Analysis, Python, C++, Machine Learning"
+973,MC844,Thedric,Kahen,tkahenr0@wordpress.org,917-264-3913,Male,Mechatronics,1,8,40,ML,placed,"Power BI, Java, React, C++"
+988,MC081,Arleen,Overthrow,aoverthrowrf@vinaora.com,907-909-6508,Female,MCT,2,8.4,40,ML,Placed,"Power BI, SQL, AWS, Java"
+70,CS055,Sibella,Schroter,sschroter1x@theatlantic.com,764-710-8716,Female,Computer Science,First Year,5.7,41,AWS,NOt PLacEd,"Power BI, React, AWS, C++"
+77,MC902,Lib,Dartnell,ldartnell24@123-reg.co.uk,,Female,MCT,Second Year,6,41,Certified Google Data Analytics,Internship,"Python, Java, React"
+77,MC902,Lib,Dartnell,ldartnell24@123-reg.co.uk,,Female,MCT,Second Year,6,41,Certified Google Data Analytics,Internship,"Python, Java, React"
+115,ME377,Jacobo,Crosthwaite,invalidemail.com,758-765-9920,Male,Mechanical,4,6.4,41,,placed,"AWS, Power BI, Java, Python"
+173,ME255,Ulric,,ujaan4s@google.com.br,148-215-9310,unknown,Mechanical,Third Year,7.1,41,,NOT PLACED,"Machine Learning, Data Analysis, React, SQL"
+325,IT824,Tymon,Obal,tobal90@dedecms.com,233-381-8209,Male,Information Technology,First Year,6.1,41,Certified Google Data Analytics,Placed,Machine Learning
+415,CS818,Janean,,jbithanybi@hostgator.com,658-832-7932,Female,cs,1,4.1,41,AWS,NOT PLACED,C++
+418,CS139,Mano,Banbrick,mbanbrickbl@moonfruit.com,213-853-0930,Male,Computer Science,Third Year,"7,3",41,,NOT PLACED,"Machine Learning, React, AWS, Power BI, Data Analysis"
+504,ME966,Kendre,Althorpe,kalthorpedz@sbwire.com,397-780-7958,Female,Mechanical,3,7.8,41,Coursera,Placed,Data Analysis
+554,IT673,,Paffett,tpaffettfd@huffingtonpost.com,436-838-0255,Male,Information Technology,3,4.5,41,,placed,"C++, Java"
+641,ME993,Millie,Emblem,memblemhs@usgs.gov,755-957-1181,Female,Mechanical,4,5,41,,placed,"SQL, AWS, Python"
+678,CE290,Nanny,Dockwray,ndockwrayit@telegraph.co.uk,12345,Female,Civil,Second Year,4,41,Certified Google Data Analytics,NOt PLacEd,"C++, Machine Learning"
+680,EC895,Baudoin,Ackeroyd,invalidemail.com,12923 88792,BN,Electronics,Third Year,8.7,41,NPTEL,NOT PLACED,"Data Analysis, C++, Spring Boot, AWS"
+733,MC528,Barb,Sivewright,bsivewrightkc@ustream.tv,49852-39287,Female,MCT,1,4.6,41,Coursera,Internship,"AWS, Power BI, C++, SQL"
+734,CS307,Debbie,Jenman,djenmankd@ibm.com,917-608-3508,MALE,cs,4,7.1,41,,Placed,"SQL, Java"
+851,CE748,Olly,Leatham,oleathamnm@mtv.com,1225464ugvu,Male,Civil,4,9.2,41,Certified Google Data Analytics,Internship,"React, SQL, C++, Python"
+989,EC004,Caitlin,Tummasutti,ctummasuttirg@fc2.com,363-568-9169,Female,Electronics,1,7.4,41,,NOT PLACED,"C++, Python, Spring Boot, Data Analysis"
+7,IT384,Enrico,Curthoys,ecurthoys6@nih.gov,784-912-9749,,Information Technology,3,4.6,42,Coursera,Placed,"Data Analysis, SQL, C++, Machine Learning, AWS"
+111,IT338,Lance,Loch,lloch32@qq.com,3939ahf,Male,IT,2,7.5,42,,placed,"C++, Data Analysis"
+126,IT914,Bastian,Maddaford,bmaddaford3h@dailymotion.com,788-852-0550,Male,Information Technology,3,7.4,42,,NOt PLacEd,"React, Machine Learning, C++, Java, Data Analysis"
+198,CS401,,Dominiak,rdominiak5h@canalblog.com,536-381-7011,female,Computer Science,4,4.9,42,Coursera,Internship,"Power BI, Java, React, C++, Machine Learning"
+252,CS697,Barry,Flaunier,bflaunier6z@ifeng.com,533-152-7864,Male,Computer Science,4,9.7,42,AWS,placed,"SQL, Data Analysis, AWS, React, Spring Boot"
+273,IT001,Randolph,Keay,rkeay7k@bigcartel.com,276-835-5865,Male,Information Technology,4,7.5,42,Microsoft Azure,NOT PLACED,"AWS, Java, Power BI, C++"
+391,IT593,Carmella,,cbankesau@nationalgeographic.com,988-172-3354,Female,IT,Second Year,5.9,42,Microsoft Azure,Placed,SQL
+471,ME507,Piper,Tytherton,ptythertond2@shareasale.com,983-339-6122,Female,,First Year,8.8,42,ML,Placed,"Machine Learning, Data Analysis, Python, React"
+473,CE505,Codee,Fountain,cfountaind4@goo.ne.jp,782-447-5657,Female,,Second Year,"6,3",42,ML,Internship,"Power BI, C++, Machine Learning, Spring Boot, React"
+481,CS926,Seamus,Colbertson,scolbertsondc@reverbnation.com,240-775-0968,Male,cs,3,6,42,,NOt PLacEd,"Data Analysis, C++, Python, Spring Boot, React"
+485,IT050,Susan,Kubczak,skubczakdg@goo.gl,837-667-3267,Female,IT,Fourth Year,14,42,,placed,Spring Boot
+522,MC657,Clem,Concklin,cconcklineh@oracle.com,617-784-6212,Male,Mechatronics,Fourth Year,5.2,42,AWS,Placed,"Spring Boot, React"
+522,MC657,Clem,Concklin,cconcklineh@oracle.com,617-784-6212,Male,Mechatronics,Fourth Year,5.2,42,AWS,Placed,"Spring Boot, React"
+595,EC726,Lexine,Philliskirk,lphilliskirkgi@shinystat.com,542-227-6622,Female,Electronics,Fourth Year,8.3,42,,Placed,"SQL, React, C++"
+766,CS058,Sarah,Currell,scurrelll9@cmu.edu,12345,Female,Computer Science,Third Year,8.5,42,,NOT PLACED,Data Analysis
+775,EC200,Candy,Balloch,cballochli@ow.ly,12345,Female,Electronics,First Year,5.2,42,,Internship,"Power BI, Machine Learning, AWS, C++"
+878,ME845,Dottie,Megahey,dmegaheyod@tuttocitta.it,442-215-9666,Female,Mechanical,dxyug,7.1,42,Microsoft Azure,NOT PLACED,"Python, AWS, Power BI, Spring Boot"
+18,IT389,Alon,Rembrant,arembranth@360.cn,360-531-0792,Male,IT,2,6.9,43,Coursera,placed,Data Analysis
+64,ME244,Avis,Boulger,aboulger1r@webnode.com,548-844-2721,FEMALE,Mechanical,8,4.3,43,Certified Google Data Analytics,Placed,Data Analysis
+206,ME905,Stephine,Achurch,sachurch5p@mtv.com,258-425-3281,Female,Mechanical,Third Year,8.5,43,Certified Google Data Analytics,Internship,"Data Analysis, Java, C++, Spring Boot, SQL"
+288,IT401,Paton,Schrader,pschrader7z@is.gd,929-157-5292,FEMALE,IT,Second Year,"7,3",43,,Placed,"Power BI, Data Analysis"
+306,CS201,Adair,Tzuker,atzuker8h@meetup.com,391-600-8288,Male,cs,3,8.4,43,Microsoft Azure,Internship,"Spring Boot, React"
+403,MC991,Skip,Revell,srevellb6@clickbank.net,826-208-1049,Male,MCT,First Year,5.5,43,AWS,placed,"Power BI, Python, AWS"
+546,CE140,Nadiya,Baldick,nbaldickf5@cdc.gov,528-332-1843,Female,Civil,3,5.5,43,,Placed,"Java, C++, SQL, Python"
+568,IT254,Aida,Bissiker,abissikerfr@businesswire.com,362-797-3735,Female,IT,Fourth Year,9.4,43,Coursera,Internship,"React, C++"
+583,CS961,Clarisse,Mucci,cmuccig6@independent.co.uk,651-167-5118,Female,cs,3,4.1,43,ML,NOT PLACED,"Power BI, Python, Java"
+607,EC339,Nolie,Brayn,nbrayngu@vkontakte.ru,12345,Female,Electronics,4,9.6,43,AWS,NOT PLACED,"AWS, C++, SQL"
+660,ME939,Shaw,Dormer,sdormerib@imageshack.us,718-813-8677,Male,Mechanical,3,7.7,43,Microsoft Azure,Placed,"Machine Learning, AWS, C++, SQL"
+679,IT777,Torey,Kevis,tkevisiu@sakura.ne.jp,559-624-5874,Male,IT,Third Year,7.9,43,ML,Placed,"C++, Machine Learning"
+679,IT777,Torey,Kevis,tkevisiu@sakura.ne.jp,559-624-5874,Male,IT,Third Year,7.9,43,ML,Placed,"C++, Machine Learning"
+690,CE322,Dwight,Acheson,dachesonj5@huffingtonpost.com,219-113-7506,Male,Civil,3,4.6,43,NPTEL,placed,"Spring Boot, Python, Machine Learning, AWS, C++"
+821,IT194,Orran,Kirk,okirkms@imdb.com,135-181-0910,Male,IT,3,9.2,43,NPTEL,NOt PLacEd,"Spring Boot, C++, AWS, SQL"
+821,IT194,Orran,Kirk,okirkms@imdb.com,135-181-0910,Male,IT,3,9.2,43,NPTEL,NOt PLacEd,"Spring Boot, C++, AWS, SQL"
+936,IT781,Vernon,Husband,vhusbandpz@uol.com.br,740-169-0915,Male,Information Technology,3,6,43,AWS,NOT PLACED,"Spring Boot, AWS, Power BI, Java, C++"
+993,MC378,Chaim,Nast,cnastrk@photobucket.com,884-880-2207,OTHER,Mechatronics,4,4.4,43,AWS,NOt PLacEd,"C++, Spring Boot, React, Data Analysis"
+85,ME764,Lyndsay,Domingues,ldomingues2c@ebay.com,918-747-0213,Female,Mechanical,1,5.7,44,Coursera,placed,Python
+90,CS583,Channa,Entwistle,centwistle2h@ask.com,155-765-0735,Female,Computer Science,4,8.9,44,Microsoft Azure,Internship,Data Analysis
+95,IT020,Gilly,Strafen,gstrafen2m@google.co.jp,366-416-1392,Female,Information Technology,Second Year,5.3,44,Certified Google Data Analytics,Internship,AWS
+232,CS996,Melisenda,Bischoff,mbischoff6f@mashable.com,866-594-9919,Female,Computer Science,2,4.1,44,,placed,"SQL, Power BI"
+254,IT567,Say,Cattrall,invalidemail.com,,Male,Information Technology,Fourth Year,7.4,44,Microsoft Azure,placed,"C++, AWS, SQL, Python"
+317,CS336,Phebe,,pantonellini8s@angelfire.com,472-177-5335,male,,2,9.3,44,,Placed,"C++, Machine Learning, Spring Boot"
+419,EC398,Gabbey,Chiese,gchiesebm@lulu.com,714-154-7898,Female,Electronics,1,5.5,44,Certified Google Data Analytics,Internship,"Power BI, React, AWS, Java, C++"
+428,MC722,Burty,Amiable,bamiablebv@bbc.co.uk,295-777-3816,,MCT,Fourth Year,8.2,44,Certified Google Data Analytics,placed,"Machine Learning, C++, Python, Power BI, React"
+455,EC304,Suzann,Guerra,sguerracm@bloomberg.com,611-386-4563,Female,Electronics,1,4.5,44,NPTEL,NOT PLACED,Java
+498,CE554,Hailee,Buffey,hbuffeydt@wp.com,629-363-9949,Female,Civil,2,5.9,44,AWS,placed,"Data Analysis, Java, C++"
+560,ME107,Karylin,Chalkly,kchalklyfj@quantcast.com,230-125-4803,Female,Mechanical,2,9.7,44,Microsoft Azure,placed,"Power BI, React, Spring Boot"
+581,MC493,Konstantine,Glauber,kglauberg4@wunderground.com,534-129-3657,Male,IT,2,9.2,44,NPTEL,placed,Python
+627,MC473,Cissy,Blenkin,cblenkinhe@squarespace.com,295-128-0655,Female,Mechatronics,4,6.2,44,AWS,NOT PLACED,"AWS, Java, SQL, React, C++"
+627,MC473,Cissy,Blenkin,cblenkinhe@squarespace.com,295-128-0655,Female,Mechatronics,4,6.2,44,AWS,NOT PLACED,"AWS, Java, SQL, React, C++"
+630,CS075,Dulci,Lidgley,dlidgleyhh@feedburner.com,416-587-2278,F,cs,Fourth Year,"7,3",44,Certified Google Data Analytics,placed,"C++, Spring Boot, Python"
+720,MC123,Cullin,Dreng,cdrengjz@alexa.com,974-211-2126,Male,MCT,Fourth Year,7.7,44,,NOt PLacEd,"Data Analysis, Python, AWS, SQL, React"
+873,MC270,Robbi,O'Leahy,roleahyo8@mozilla.com,417-967-7075,BN,MCT,uie,8.2,44,AWS,Placed,"React, Machine Learning, AWS"
+910,MC615,Tilly,Hendriks,thendriksp9@redcross.org,145-585-6333,Female,MCT,Fourth Year,4.4,44,ML,placed,"AWS, Python, C++"
+26,CE336,Estell,Aymeric,eaymericp@squarespace.com,955-403-2028,FEMALE,Civil,3,5.8,45,,NOt PLacEd,"Spring Boot, Data Analysis, Power BI, C++"
+102,CS319,Ansell,O'Dunniom,aodunniom2t@businessweek.com,925-976-5157,Male,Computer Science,First Year,8.9,45,,placed,"Spring Boot, Machine Learning, Power BI"
+102,CS319,Ansell,O'Dunniom,aodunniom2t@businessweek.com,925-976-5157,Male,Computer Science,First Year,8.9,45,,placed,"Spring Boot, Machine Learning, Power BI"
+205,ME352,Halli,Heynen,hheynen5o@dmoz.org,567-406-4613,,Mechanical,First Year,7.5,45,Coursera,NOt PLacEd,"Data Analysis, Python, SQL, AWS"
+215,IT832,Corina,Quibell,cquibell5y@nationalgeographic.com,739-437-1919,Female,Information Technology,Third Year,8,45,NPTEL,NOT PLACED,"Power BI, Java, React"
+236,EC035,Chelsey,De Laspee,cdelaspee6j@yellowpages.com,931-253-0810,Female,Electronics,1,"6,3",45,,placed,"Machine Learning, C++, Power BI, Spring Boot, Java"
+236,EC035,Chelsey,De Laspee,cdelaspee6j@yellowpages.com,931-253-0810,Female,Electronics,1,"6,3",45,,placed,"Machine Learning, C++, Power BI, Spring Boot, Java"
+269,MC157,Gregg,Egle of Germany,gegleofgermany7g@dailymail.co.uk,379-945-8595,Male,Mechatronics,First Year,5.7,45,Microsoft Azure,Internship,"Java, Power BI"
+406,IT085,Craggie,de Quesne,invalidemail.com,3939ahf,Male,Information Technology,2,6.4,45,AWS,Internship,"Spring Boot, Data Analysis"
+451,CE196,Jillene,Quincey,jquinceyci@dmoz.org,968-604-7914,M,Civil,1,5.5,45,NPTEL,placed,"Java, Python"
+501,EC404,Stephenie,,invalidemail.com,321-558-0568,Female,Electronics,Second Year,7,45,Microsoft Azure,Placed,Spring Boot
+529,MC267,Cybill,Deware,invalidemail.com,532-456-4196,Female,MCT,Fourth Year,4.5,45,Microsoft Azure,NOT PLACED,"Java, Machine Learning, Data Analysis, C++"
+532,MC453,Alfonso,Farrington,,306-124-2663,Male,MCT,2,12,45,Certified Google Data Analytics,Placed,"Java, Python, React, SQL, Spring Boot"
+557,EC865,Zachariah,Jinkinson,zjinkinsonfg@answers.com,935-645-6790,Male,Electronics,3,12,45,AWS,NOT PLACED,"Java, C++, Machine Learning"
+569,CS017,Sharyl,Tace,stacefs@feedburner.com,299-134-0514,Female,Computer Science,First Year,5.4,45,,NOT PLACED,"Machine Learning, C++, AWS, Java"
+615,ME094,Gabrielle,Clapson,,844-945-5529,Female,Mechanical,Second Year,7.5,45,,Placed,"SQL, Spring Boot, React, Java"
+669,MC790,Culley,,csussamsik@nba.com,447-442-3361,Male,MCT,First Year,5.6,45,Microsoft Azure,Placed,Power BI
+675,MC929,Juliette,Scirman,jscirmaniq@woothemes.com,932-119-7751,Female,Mechatronics,Fourth Year,6,45,Coursera,placed,Spring Boot
+712,MC567,Fraser,I'anson,fiansonjr@princeton.edu,12345,Male,MCT,First Year,4,45,Coursera,Internship,Spring Boot
+745,CE724,Ernie,Chugg,echuggko@cpanel.net,628-806-0893,Male,Civil,4,5,45,Certified Google Data Analytics,Internship,"Spring Boot, Python, Power BI, AWS, Java"
+789,MC005,Aurelie,Langstone,,255-722-3417,Female,Civil,3,5,45,Microsoft Azure,NOt PLacEd,Data Analysis
+794,MC737,Christiano,Hapke,chapkem1@macromedia.com,962-944-1767,Male,MCT,3,6.8,45,Microsoft Azure,Internship,"AWS, Spring Boot, Python"
+837,EC551,Betta,Scamel,bscameln8@netlog.com,871-190-3328,M,Electronics,Second Year,9.7,45,,NOt PLacEd,"Data Analysis, Machine Learning, Spring Boot, SQL, C++"
+948,IT881,Virgie,Cypler,,733-649-3595,Male,IT,Fourth Year,5.7,45,Coursera,placed,"AWS, Java"
+948,IT881,Virgie,Cypler,,733-649-3595,Male,IT,Fourth Year,5.7,45,Coursera,placed,"AWS, Java"
+75,CS754,Jacky,Corteis,jcorteis22@oakley.com,713-850-9149,FEMALE,cs,3,5.3,46,NPTEL,Placed,"SQL, Data Analysis, Python"
+81,IT231,Kennedy,Fydoe,kfydoe28@samsung.com,3939ahf,Male,Information Technology,Fourth Year,6.8,46,,Internship,"Data Analysis, C++, Java, Spring Boot, Power BI"
+108,ME626,Hakeem,Simeon,,542-112-8433,Male,Mechanical,1,8.8,46,AWS,placed,Java
+108,MC416,Hakeem,Simeon,,542-112-8433,Male,Mechanical,dxyug,8.8,46,AWS,placed,Java
+116,IT972,Asa,O'Shavlan,aoshavlan37@cyberchimps.com,613-838-3728,Male,Information Technology,Third Year,7.4,46,,placed,Data Analysis
+139,EC211,Tudor,Marney,tmarney3u@amazon.de,628-373-1745,Male,Electronics,Third Year,8.5,105,NPTEL,placed,Data Analysis
+216,CS875,Abbott,Klossmann,aklossmann5z@ning.com,444-292-0441,Male,Computer Science,4,5.1,105,Coursera,Internship,"Python, AWS, C++"
+257,EC530,Ches,Scotti,cscotti74@dropbox.com,12345,Male,Electronics,Fourth Year,7.4,105,,NOt PLacEd,"AWS, Spring Boot"
+258,IT840,Emyle,Raycroft,eraycroft75@exblog.jp,538-754-7663,Female,IT,Fourth Year,5.2,46,AWS,Placed,"Python, C++, React"
+264,ME173,Barty,Burditt,bburditt7b@networksolutions.com,902-110-9636,Male,Mechanical,Fourth Year,5.7,46,,NOT PLACED,AWS
+267,MC731,Fields,Franzonetti,ffranzonetti7e@amazon.de,,Male,Civil,Second Year,4.6,46,,placed,Machine Learning
+284,MC641,Tom,Jobbings,tjobbings7v@tamu.edu,285-306-3945,BN,MCT,1,5.1,46,,Internship,"Data Analysis, Machine Learning, Python, Java"
+341,EC533,Denys,Ayerst,dayerst9g@dmoz.org,901-514-7995,Male,Electronics,4,9.3,46,,Internship,AWS
+827,MC392,Chic,Dmitr,cdmitrmy@gizmodo.com,,Male,Information Technology,2,7.2,46,Coursera,NOT PLACED,"React, SQL, C++"
+983,ME425,Giffard,Paris,gparisra@behance.net,304-674-7102,Male,Mechanical,2,-8.6,46,NPTEL,NOT PLACED,"Data Analysis, Spring Boot"
+6,ME343,Mikkel,Stell,mstell5@pcworld.com,,FEMALE,Mechanical,3,7,47,NPTEL,Internship,"Machine Learning, C++, React, Spring Boot, Java"
+28,IT606,Celie,Ferson,cfersonr@google.com.hk,860-814-3272,Female,IT,1,6.4,47,ML,Placed,"C++, AWS, Java, Power BI"
+82,IT251,Dominick,Riggs,driggs29@shop-pro.jp,584-376-4306,Male,IT,3,9.8,47,Coursera,Placed,"AWS, Power BI"
+87,CS749,Marcello,Emanuelov,memanuelov2e@go.com,812-940-8183,Male,Computer Science,3,6.5,47,,Placed,"Java, Python"
+156,MC069,Ignatius,Duetschens,iduetschens4b@discuz.net,975-443-6555,Male,Mechatronics,1,6,47,Coursera,Internship,"AWS, Data Analysis"
+224,ME541,Constantin,Colling,ccolling67@walmart.com,659-226-8050,Male,Mechanical,4,8.3,47,NPTEL,placed,"Python, SQL"
+424,IT583,Vassili,Toplis,vtoplisbr@tmall.com,995-129-4256,Male,Information Technology,Third Year,7.2,47,,NOt PLacEd,Data Analysis
+431,MC686,Johan,Baudouin,jbaudouinby@geocities.com,954-264-7282,Male,cs,2,5.6,47,Certified Google Data Analytics,NOT PLACED,"Spring Boot, Java"
+622,EC020,Beau,Hearle,bhearleh9@imdb.com,596-414-2268,Male,Electronics,4,4.8,47,Coursera,Internship,"Power BI, Python, Machine Learning, Java"
+622,EC020,Beau,Hearle,bhearleh9@imdb.com,596-414-2268,Male,Electronics,4,4.8,47,Coursera,Internship,"Power BI, Python, Machine Learning, Java"
+831,EC675,Gearalt,Mulkerrins,invalidemail.com,93538-83911,Male,Electronics,First Year,8.7,47,AWS,NOt PLacEd,"Machine Learning, C++"
+845,CE914,Elliot,Parratt,eparrattng@51.la,324-177-1648,Male,Civil,Second Year,4.4,47,Microsoft Azure,Placed,AWS
+853,MC579,Astrid,Naulty,anaultyno@dailymotion.com,105-778-1398,Female,MCT,2,6.5,47,,Internship,"SQL, Java, Power BI, AWS"
+877,CS770,Eduino,Parkhouse,eparkhouseoc@oakley.com,239-760-6496,Male,Computer Science,3,9.4,47,Coursera,placed,"SQL, Spring Boot, Power BI, Machine Learning, React"
+886,IT679,Rouvin,Scotchmoor,rscotchmoorol@bloglines.com,204-626-1165,Male,IT,4,5.6,47,ML,NOt PLacEd,"Java, React, Power BI, Data Analysis"
+901,MC396,Friedrich,Shepcutt,fshepcuttp0@godaddy.com,597-940-4254,Male,Mechatronics,First Year,8.9,47,NPTEL,NOT PLACED,"Java, AWS, SQL"
+908,ME968,Francklyn,Swindon,fswindonp7@google.co.jp,533-332-4957,Male,Mechanical,Second Year,-8.6,47,Certified Google Data Analytics,Internship,"Machine Learning, Power BI, Data Analysis, Java"
+2,ME510,Jordanna,,jmcettigen1@nationalgeographic.com,12345,Female,Mechanical,3,6.8,48,,placed,"SQL, Python, AWS"
+13,CS882,Filide,Stallibrass,fstallibrassc@elegantthemes.com,379-702-0712,Female,cs,Third Year,6.1,48,Coursera,Internship,"React, C++, Java"
+171,MC512,Ferrell,Morrison,fmorrison4q@prlog.org,294-464-7430,Male,Mechatronics,3,4.4,48,,NOT PLACED,"Java, Power BI, Spring Boot"
+175,MC513,Arleta,Gallally,agallally4u@mozilla.org,336-411-6189,Female,Mechanical,Second Year,9.3,48,Coursera,placed,Spring Boot
+175,MC513,Arleta,Gallally,agallally4u@mozilla.org,336-411-6189,Female,Mechanical,Second Year,9.3,48,Coursera,placed,Spring Boot
+238,CS266,Cynde,Sclater,csclater6l@amazon.de,3939ahf,BN,Computer Science,Third Year,14,48,,Internship,"Spring Boot, Machine Learning, Data Analysis"
+295,IT205,Floria,Tsar,,413-696-2683,Female,IT,1,9,48,,Internship,"Power BI, C++, React"
+304,CE833,Nananne,Tuer,ntuer8f@mtv.com,741-591-7465,Female,Civil,1,9.2,48,Coursera,Internship,"Python, SQL, AWS"
+404,CS911,Burtie,Janovsky,bjanovskyb7@uol.com.br,12345,Male,cs,First Year,6.9,48,NPTEL,Placed,"Spring Boot, SQL, Java, Machine Learning"
+425,EC818,Marlin,Critchell,mcritchellbs@goo.ne.jp,631-365-3998,Male,Electronics,3,5.8,48,Certified Google Data Analytics,Placed,"Java, Spring Boot, React, AWS"
+475,CS629,Raymund,Embery,remberyd6@diigo.com,429-660-9109,Male,cs,Fourth Year,9.4,48,Coursera,NOT PLACED,"React, C++, Data Analysis"
+476,IT313,Karole,Hathwood,khathwoodd7@360.cn,420-206-0611,,Information Technology,Fourth Year,4,48,Microsoft Azure,Internship,Data Analysis
+541,ME215,Ag,Keenlyside,akeenlysidef0@weather.com,143-118-5237,Female,Mechanical,Fourth Year,-7.6,48,Certified Google Data Analytics,placed,"Machine Learning, SQL, C++, Python"
+592,CS066,Teddie,Custance,tcustancegf@tiny.cc,770-678-4478,Male,cs,Second Year,8.4,48,Coursera,placed,"Spring Boot, Python, Power BI"
+637,IT631,Fee,Capeloff,fcapeloffho@cyberchimps.com,,Male,IT,2,7.4,48,ML,Placed,Machine Learning
+637,IT631,Fee,Capeloff,fcapeloffho@cyberchimps.com,,Male,IT,2,7.4,48,ML,Placed,Machine Learning
+729,CS375,Letitia,Ambresin,lambresink8@yolasite.com,391-260-3229,male,Computer Science,2,5,48,,Placed,"Java, AWS, Data Analysis"
+770,IT733,Muriel,Hawkridge,mhawkridgeld@csmonitor.com,770-956-4411,Female,Information Technology,1,4.3,48,AWS,Placed,"Machine Learning, AWS, Data Analysis, C++, React"
+797,EC136,Vally,Shuard,invalidemail.com,751-760-5788,Female,Electronics,Fourth Year,10,48,AWS,Placed,Data Analysis
+830,MC871,Daren,Redhead,dredheadn1@hostgator.com,93595-47182,Male,MCT,4,"6,3",48,NPTEL,NOT PLACED,"Data Analysis, C++, Java, Machine Learning"
+956,MC707,Griswold,Janway,gjanwayqj@youtube.com,312-353-6379,Male,Mechatronics,Third Year,-8.6,48,,NOT PLACED,Power BI
+65,IT716,Engelbert,Shoemark,eshoemark1s@sakura.ne.jp,846-570-4784,Male,IT,3,6.1,49,Coursera,Internship,"Python, Data Analysis"
+167,MC465,Leigh,Southerton,lsoutherton4m@taobao.com,,OTHER,Mechatronics,Fourth Year,9.6,49,,Placed,"AWS, SQL, Python, Machine Learning, Java"
+186,IT833,Claire,Manthroppe,cmanthroppe55@sohu.com,258-426-9383,Female,IT,First Year,4.2,49,Coursera,NOt PLacEd,"Spring Boot, Machine Learning, React"
+202,CS190,Salomi,Ohms,sohms5l@netscape.com,834-887-0403,Female,cs,4,4.5,49,NPTEL,NOt PLacEd,"Java, React, Data Analysis, Machine Learning"
+370,MC654,Galven,Lotwich,glotwicha9@techcrunch.com,836-223-4795,,Mechatronics,3,7.7,49,Coursera,Internship,Python
+387,ME310,Curtis,Harrop,charropaq@cloudflare.com,,Male,Mechanical,Third Year,5.1,49,Coursera,Placed,Java
+414,CE498,Mathias,Leggan,mlegganbh@jalbum.net,594-314-2656,non-binary,Civil,Third Year,9.6,49,NPTEL,Internship,"React, Spring Boot, Machine Learning, Power BI"
+477,MC523,Corbin,Bartosek,cbartosekd8@livejournal.com,238-415-7262,Male,MCT,First Year,4,49,ML,NOT PLACED,"Power BI, C++, Machine Learning"
+488,CE977,Berti,Musico,bmusicodj@theglobeandmail.com,967-906-4579,Male,Civil,Fourth Year,-8.6,49,NPTEL,NOT PLACED,"React, Power BI, Data Analysis, SQL, Spring Boot"
+513,IT648,Letitia,Tubble,ltubblee8@cloudflare.com,648-130-9550,MALE,IT,2,9.2,49,,NOt PLacEd,"Data Analysis, Machine Learning, Java, AWS"
+543,MC684,Gordy,Marc,gmarcf2@webmd.com,12345,Male,Mechatronics,3,8.1,49,AWS,NOt PLacEd,"Machine Learning, C++"
+543,MC684,Gordy,Marc,gmarcf2@webmd.com,12345,Male,Mechatronics,3,8.1,49,AWS,NOt PLacEd,"Machine Learning, C++"
+640,CE737,Gilberto,Roselli,,176-395-8247,Male,Civil,Fourth Year,"6,3",49,ML,Internship,"React, AWS, SQL, C++, Data Analysis"
+684,ME819,Julianna,Shivell,jshivelliz@xing.com,667-193-0302,Female,Mechanical,Second Year,7.8,49,,NOt PLacEd,"Machine Learning, Java, Python"
+692,MC028,Pavia,Devons,pdevonsj7@tripod.com,531-376-3615,Female,IT,First Year,5,49,NPTEL,NOT PLACED,"Python, Power BI"
+792,CS567,Nelson,O'Dooghaine,nodooghainelz@earthlink.net,335-726-2883,Male,Computer Science,Third Year,9,49,,Internship,"Data Analysis, Machine Learning"
+799,EC564,Judith,Guilfoyle,,681-301-8773,Female,Electronics,First Year,8,49,,Placed,"Java, C++"
+800,IT923,Horton,Tilio,htiliom7@unesco.org,933-526-4269,Male,Information Technology,Second Year,8.2,49,Microsoft Azure,Placed,React
+57,ME248,Kingsly,Boocock,kboocock1k@fastcompany.com,104-221-4449,Male,Mechanical,Second Year,7.4,50,Certified Google Data Analytics,Placed,"Data Analysis, Python"
+61,CS328,Janka,Leel,jleel1o@ezinearticles.com,573-849-8044,Female,,Second Year,6.1,50,NPTEL,NOT PLACED,"React, Power BI, Data Analysis"
+143,CS886,Dorene,Lafuente,dlafuente3y@google.ru,,Female,cs,First Year,9.2,50,ML,Placed,"React, Spring Boot, Power BI, C++, Java"
+196,MC568,Myriam,Dawkes,mdawkes5f@upenn.edu,773-936-2020,Female,Mechatronics,3,4.2,50,,NOt PLacEd,"Data Analysis, React, Spring Boot, C++"
+260,CE105,Terence,Steel,tsteel77@pcworld.com,66322-59361,Male,Civil,Third Year,-8.6,50,Coursera,Placed,"Power BI, Data Analysis, React"
+777,IT034,Berkley,Kerwood,bkerwoodlk@gravatar.com,236-636-1710,Male,Information Technology,Second Year,6.8,50,,Internship,"Java, Power BI, C++, Data Analysis"
+804,ME674,Delainey,Whoolehan,dwhoolehanmb@soundcloud.com,383-661-4679,,Mechanical,1,5.9,50,AWS,Internship,"React, C++, Python, Machine Learning, AWS"
+860,MC263,Kaile,Rittmeyer,krittmeyernv@state.tx.us,961-861-8943,M,MCT,Fourth Year,10,50,,placed,"Java, React, Machine Learning"
+860,MC352,Kaile,Rittmeyer,krittmeyernv@state.tx.us,961-861-8943,Female,MCT,Fourth Year,10,50,,placed,"Java, React, Machine Learning"
+897,CS220,Clayton,Bickerdyke,cbickerdykeow@patch.com,567-833-9444,Male,cs,2,5.7,50,,Placed,"Python, React, Data Analysis, Java"
+935,CS290,Law,McKellar,lmckellarpy@google.it,326-127-3543,Male,Computer Science,Fourth Year,7.8,50,Microsoft Azure,NOt PLacEd,"Power BI, Java, Machine Learning, Python, Data Analysis"
+955,ME873,Kirstin,Leinthall,kleinthallqi@woothemes.com,443-117-4034,non-binary,Mechanical,1,6.8,50,AWS,NOt PLacEd,"Java, Power BI, SQL, React, C++"
+969,MC548,Vernon,Brimicombe,vbrimicombeqw@exblog.jp,914-959-6795,Male,MCT,First Year,9.3,50,ML,placed,"SQL, Python, Power BI, Java, Spring Boot"
+12,IT303,Lizzie,Wint,invalidemail.com,411-881-7059,,Information Technology,Fourth Year,6.6,51,ML,placed,"AWS, Data Analysis, Power BI, Machine Learning"
+16,MC287,Roz,Mustchin,rmustchinf@techcrunch.com,407-685-6118,Female,Mechatronics,First Year,14,51,Certified Google Data Analytics,Placed,"React, Spring Boot, C++"
+97,CS856,Kirstyn,Terzi,kterzi2o@hud.gov,859-207-7377,Female,cs,3,-8.6,51,NPTEL,placed,"Java, React"
+97,MC584,Kirstyn,Terzi,kterzi2o@hud.gov,859-207-7377,Female,,3,-8.6,51,NPTEL,placed,"Java, React"
+151,CS123,Parrnell,Digger,pdigger46@cornell.edu,155-969-1534,Male,cs,4,4.1,51,NPTEL,NOT PLACED,"Power BI, Python"
+184,CE482,Sharla,Lumber,slumber53@blogger.com,913-428-5615,Female,Civil,2,7.5,51,Certified Google Data Analytics,NOt PLacEd,SQL
+210,IT975,Mendy,Grivori,mgrivori5t@wix.com,565-895-8276,Male,Information Technology,1,5.5,51,Coursera,NOt PLacEd,"Data Analysis, C++, Java, SQL, React"
+210,MC635,Mendy,Grivori,mgrivori5t@wix.com,565-895-8276,Male,,1,5.5,51,Coursera,NOt PLacEd,"Data Analysis, C++, Java, SQL, React"
+242,ME138,Brook,Riseam,briseam6p@google.com,415-907-8915,Male,Mechanical,Fourth Year,7.4,51,AWS,Placed,"React, Power BI, Machine Learning, AWS"
+410,ME092,Olivia,McCullen,omccullenbd@skyrock.com,512-216-7202,Female,Mechanical,2,8.2,51,,Placed,"Spring Boot, C++, React, SQL"
+472,CS130,Charlie,Warlowe,cwarlowed3@youtu.be,407-869-6570,Male,,1,7.2,51,NPTEL,Internship,"Java, C++, Python, AWS, Power BI"
+479,CE340,Tedd,Maskrey,tmaskreyda@wunderground.com,661-196-5091,FEMALE,Civil,4,"6,3",51,,Placed,"AWS, Java, Python, C++, Power BI"
+586,CS425,Yorker,,yburgwing9@github.com,,Male,cs,2,7.8,51,NPTEL,NOT PLACED,"Spring Boot, SQL, Python"
+657,MC382,Hilary,Donativo,hdonativoi8@google.com.au,736-523-6178,Male,Mechatronics,First Year,9.2,51,AWS,Internship,"AWS, SQL, Java"
+664,CE436,Kelsey,Sapsed,ksapsedif@dedecms.com,,Female,Civil,2,7.2,51,Microsoft Azure,Internship,"Spring Boot, C++, Data Analysis"
+861,EC879,Raquel,Reinger,rreingernw@samsung.com,118-878-7183,male,Electronics,Third Year,8.9,51,Certified Google Data Analytics,Placed,"Power BI, Java"
+917,MC770,Blancha,Dudmarsh,bdudmarshpg@hexun.com,626-543-3010,Female,Mechatronics,Third Year,4.1,51,,Placed,"Power BI, Data Analysis"
+10,ME191,Fraze,Finby,ffinby9@skype.com,294-101-6937,Male,Mechanical,Fourth Year,5.1,52,Coursera,Internship,Spring Boot
+121,IT411,Guglielmo,Romaine,gromaine3c@adobe.com,457-255-0960,NON-BINARY,IT,Second Year,7.1,52,NPTEL,Internship,"Spring Boot, SQL"
+189,CE790,Catharine,Ducarel,,666-433-3286,Female,Civil,Third Year,4.1,52,AWS,Internship,"Python, Java, C++, React"
+268,CS160,Sigismund,Thewles,,457-159-4520,Male,Computer Science,Third Year,7.2,52,Coursera,placed,"Python, C++, Data Analysis, AWS"
+274,IT892,Arni,St. Paul,astpaul7l@spiegel.de,395-680-9982,Male,IT,Second Year,4.7,52,NPTEL,Internship,"Power BI, Python"
+377,IT816,John,Jestico,jjesticoag@gizmodo.com,269-767-3854,Male,Information Technology,1,8.8,52,Microsoft Azure,NOt PLacEd,"AWS, Spring Boot, Python, C++"
+379,CS381,Hakeem,Danilchev,invalidemail.com,344-333-4841,Male,cs,4,12,52,,Placed,"Spring Boot, Python, C++"
+380,IT558,Jehu,Hinckesman,jhinckesmanaj@economist.com,692-482-8158,Male,IT,2,7.8,52,,NOT PLACED,Data Analysis
+459,IT700,Margot,Colcutt,mcolcuttcq@cdc.gov,768-843-0948,Female,Information Technology,2,6.7,52,Certified Google Data Analytics,NOt PLacEd,SQL
+465,CS398,Serena,Colvine,scolvinecw@fda.gov,,,cs,4,6.7,52,ML,Internship,React
+510,EC482,Kristoforo,Menlow,kmenlowe5@google.cn,577-425-8082,Male,Electronics,Second Year,8.7,52,,Placed,"Java, React, Python"
+608,IT696,Elisha,Gregoraci,egregoracigv@fda.gov,600-257-4222,Female,IT,3,15,52,Coursera,Placed,"Power BI, AWS, Machine Learning, C++"
+663,MC304,Buck,Troutbeck,btroutbeckie@mayoclinic.com,935-738-5859,,MCT,Fourth Year,5.9,52,,placed,"Machine Learning, AWS, SQL"
+663,MC438,Buck,Troutbeck,btroutbeckie@mayoclinic.com,935-738-5859,Male,,Fourth Year,5.9,52,,placed,"Machine Learning, AWS, SQL"
+753,MC049,Carolynn,,cupsalekw@usa.gov,384-482-2957,Female,MCT,First Year,4.1,52,Microsoft Azure,Placed,"SQL, React, Python, Java, C++"
+779,MC128,Antonio,Pattle,apattlelm@weather.com,69762-79423,non-binary,MCT,3,9.2,52,NPTEL,NOt PLacEd,"C++, Machine Learning, AWS, Java, React"
+881,MC912,Kara-lynn,Gainfort,kgainfortog@domainmarket.com,346-445-4183,Female,Mechatronics,3,4,52,NPTEL,Placed,AWS
+991,CS302,Isa,Butt Gow,ibuttgowri@naver.com,741-769-3093,MALE,cs,3,7.9,52,,NOt PLacEd,React
+44,MC805,See,Spraggs,sspraggs17@vkontakte.ru,832-301-4874,Male,MCT,First Year,7.7,53,AWS,Placed,C++
+106,IT867,Dori,Maruszewski,dmaruszewski2x@npr.org,496-617-0960,OTHER,Information Technology,Fourth Year,8.9,53,,NOt PLacEd,Java
+119,CS121,Kirsti,Allcorn,kallcorn3a@netlog.com,900-302-0780,Female,cs,dxyug,6.4,53,ML,NOT PLACED,SQL
+153,ME517,Rodolphe,Pinks,rpinks48@addthis.com,154-970-0137,Male,Mechanical,First Year,4.3,53,Coursera,Internship,SQL
+222,ME019,Sharline,Jaspar,sjaspar65@arstechnica.com,723-995-7775,Female,Mechanical,3,7.7,53,Microsoft Azure,NOt PLacEd,"Spring Boot, Power BI, Java, AWS"
+222,ME019,Sharline,Jaspar,sjaspar65@arstechnica.com,723-995-7775,Female,Mechanical,3,7.7,53,Microsoft Azure,NOt PLacEd,"Spring Boot, Power BI, Java, AWS"
+298,MC365,Asher,Maro,amaro89@wp.com,804-495-3952,Male,Mechatronics,First Year,9.6,53,,NOT PLACED,"Spring Boot, AWS, Data Analysis, Java, Machine Learning"
+312,EC589,Lezley,Hasty,,460-201-6060,Male,Electronics,1,6,53,,NOT PLACED,"React, Data Analysis, Spring Boot"
+384,MC683,Cully,Lias,cliasan@baidu.com,403-434-9331,Male,Computer Science,First Year,5.3,53,,Placed,"Java, Data Analysis, Spring Boot"
+393,CE379,Gregorius,Morpeth,gmorpethaw@networkadvertising.org,217-465-3975,Male,Civil,3,6.4,53,AWS,Internship,SQL
+526,IT453,Chiquita,Ginty,cgintyel@mayoclinic.com,690-133-3696,Female,IT,4,5.2,53,Microsoft Azure,NOt PLacEd,"Power BI, Java, AWS, SQL, Data Analysis"
+552,MC553,Jamie,Landreth,jlandrethfb@cbsnews.com,186-311-7480,Male,Mechatronics,First Year,5.4,53,Microsoft Azure,NOt PLacEd,"C++, Data Analysis"
+563,CS892,Berte,Reuben,breubenfm@printfriendly.com,448-914-0214,M,Computer Science,2,9,53,ML,NOt PLacEd,"Data Analysis, AWS, Spring Boot, C++"
+601,MC326,Pietro,Barczynski,,749-889-9124,Male,,3,8.7,53,Microsoft Azure,NOt PLacEd,Data Analysis
+620,MC134,Rockey,Georgins,rgeorginsh7@apache.org,640-554-7660,Male,Mechatronics,4,7.2,53,ML,placed,"Power BI, SQL, Python, Data Analysis, AWS"
+691,CE244,Tabbie,Skitral,tskitralj6@digg.com,,Male,Civil,3,7,53,Coursera,placed,Spring Boot
+705,EC491,Evelyn,MacGauhy,emacgauhyjk@umich.edu,174-688-1006,MALE,Electronics,Second Year,4.3,53,AWS,placed,"Machine Learning, SQL, Python, Java, React"
+795,CE891,Raimundo,Beange,rbeangem2@geocities.jp,604-803-2003,MALE,Civil,4,5.7,53,AWS,NOt PLacEd,"SQL, Python, AWS, React, C++"
+801,IT177,Imogene,Thomasen,ithomasenm8@sciencedaily.com,812-797-4890,Female,Information Technology,4,4.8,53,Microsoft Azure,NOt PLacEd,"C++, Python, React, Power BI, SQL"
+820,ME817,Marcia,Morrant,mmorrantmr@reddit.com,285-256-1167,F,Mechanical,4,4.9,53,AWS,NOt PLacEd,"Data Analysis, Spring Boot, Python, AWS, Java"
+834,CS873,Dorthy,Dalloway,ddallowayn5@fema.gov,938-892-3144,non-binary,cs,3,8.7,53,,NOT PLACED,"Data Analysis, React"
+868,MC749,Mike,Coxon,mcoxono3@google.com.br,422-789-5538,Male,MCT,First Year,9.2,53,Certified Google Data Analytics,placed,Python
+961,IT262,Francisca,Grundwater,invalidemail.com,355-174-5878,NON-BINARY,IT,3,9.3,53,Certified Google Data Analytics,Placed,C++
+34,MC301,Evonne,Fettes,efettesx@theglobeandmail.com,982-625-1335,FEMALE,MCT,3,6.6,54,NPTEL,NOT PLACED,"Data Analysis, Machine Learning, React, SQL, C++"
+109,EC122,Gene,Semeradova,gsemeradova30@irs.gov,718-179-1685,Male,Electronics,4,7,54,AWS,NOT PLACED,"Data Analysis, React, Python, Machine Learning"
+191,IT990,Flossie,Huntriss,fhuntriss5a@usnews.com,12345,Female,IT,3,6.6,54,ML,NOt PLacEd,"React, SQL, C++, Python, Spring Boot"
+282,IT440,Jemimah,Schiell,jschiell7t@cbsnews.com,456-146-5641,Female,Information Technology,Third Year,8,54,Coursera,Internship,"C++, Power BI, Machine Learning, Data Analysis"
+285,CS845,Jareb,Achromov,jachromov7w@businessweek.com,12345,Male,cs,3,9.8,54,,Placed,"Spring Boot, Machine Learning, AWS"
+318,EC919,,Maingot,pmaingot8t@altervista.org,12345,Female,Electronics,Second Year,5.8,54,Microsoft Azure,Placed,"AWS, Machine Learning, C++"
+334,MC261,Ana,Blenkharn,ablenkharn99@yahoo.co.jp,350-510-4475,Female,Electronics,First Year,9.7,54,,Placed,"Spring Boot, React, Power BI, Java, AWS"
+348,CE119,Dexter,Kremer,dkremer9n@imgur.com,895-153-0886,Male,Civil,3,5.7,54,,placed,"Python, Data Analysis, AWS"
+351,EC017,Dorena,Arthey,darthey9q@opensource.org,592-924-3900,OTHER,Electronics,4,7.1,54,,NOt PLacEd,"Python, Machine Learning, Data Analysis, Power BI, Spring Boot"
+422,CS895,Conn,Bryceson,cbrycesonbp@netscape.com,627-346-0919,Male,Computer Science,First Year,4.4,54,ML,NOt PLacEd,Data Analysis
+474,CS847,Donelle,Najera,dnajerad5@yale.edu,,Female,,4,-7.6,54,,Internship,"Data Analysis, SQL, C++, Power BI, Spring Boot"
+484,CS703,Jeffrey,Shorthouse,jshorthousedf@jimdo.com,910-451-4427,Male,cs,Fourth Year,4.5,54,ML,Internship,"Power BI, AWS, Java, Data Analysis"
+517,MC980,Elene,Cathrall,ecathrallec@meetup.com,468-668-9897,Female,Mechatronics,1,7.2,54,AWS,Placed,"Machine Learning, Spring Boot"
+593,MC029,Renaud,Trace,rtracegg@salon.com,,Male,Mechatronics,2,8.5,54,,placed,"AWS, Power BI, Data Analysis, Machine Learning"
+671,CE254,Teddi,Upcraft,tupcraftim@admin.ch,205-435-4602,Female,Civil,Fourth Year,5.1,54,Coursera,NOt PLacEd,Python
+672,ME299,Margarete,Andreassen,mandreassenin@google.it,712-855-9343,Female,Mechanical,3,8.1,54,NPTEL,placed,Power BI
+89,CS348,Morris,Klimkiewich,mklimkiewich2g@nih.gov,181-881-5258,BN,cs,4,8.4,55,Coursera,Placed,"React, Power BI, Python, Machine Learning, Spring Boot"
+123,MC108,Garey,Sibyllina,gsibyllina3e@ycombinator.com,880-168-6928,Male,Electronics,Fourth Year,7.4,55,Certified Google Data Analytics,Placed,"Java, Machine Learning, Python, SQL, AWS"
+134,CE212,Dyna,Garham,dgarham3p@skyrock.com,550-334-0731,FEMALE,Civil,3,5.8,55,,NOT PLACED,"Machine Learning, Power BI, AWS, Python"
+354,MC254,,Ashling,invalidemail.com,158-542-6209,BN,MCT,2,9.1,55,ML,Internship,"Machine Learning, SQL, Power BI, AWS"
+493,MC417,Renata,Freathy,rfreathydo@un.org,443-675-5630,,MCT,1,8.2,55,AWS,Placed,Machine Learning
+561,MC664,Heindrick,Sinnott,,887-413-8699,Male,Computer Science,2,6.2,55,Coursera,placed,"C++, Java, Spring Boot, Data Analysis, React"
+565,MC846,Hernando,Bothwell,hbothwellfo@blinklist.com,647-939-9937,Male,Mechatronics,2,7.1,55,Microsoft Azure,Internship,"Power BI, Java, C++, SQL, Spring Boot"
+580,EC005,Steffi,Pigram,spigramg3@ted.com,234-605-7322,MALE,Electronics,Third Year,5.2,55,AWS,placed,"Python, Machine Learning, React, SQL, Data Analysis"
+591,CS805,Luelle,Winscum,invalidemail.com,918-353-1618,Female,cs,Second Year,8,55,,Placed,"C++, Spring Boot, Data Analysis"
+591,MC185,Luelle,Winscum,invalidemail.com,918-353-1618,Female,cs,7,8,55,,Placed,"C++, Spring Boot, Data Analysis"
+598,ME867,Priscilla,Bisco,pbiscogl@slashdot.org,757-264-6333,Female,Mechanical,Second Year,8.5,55,,Internship,"Spring Boot, AWS, C++, SQL, Machine Learning"
+661,IT309,Marietta,Frede,mfredeic@dagondesign.com,872-631-7390,Male,Information Technology,Fourth Year,7,55,ML,Internship,"Python, SQL"
+661,MC307,Marietta,Frede,mfredeic@dagondesign.com,872-631-7390,MALE,Information Technology,Fourth Year,7,55,ML,Internship,"Python, SQL"
+693,MC289,Natassia,Trolley,ntrolleyj8@hud.gov,556-328-7761,Female,MCT,Third Year,4.6,55,Coursera,Internship,"C++, React"
+693,MC728,Natassia,Trolley,ntrolleyj8@hud.gov,556-328-7761,Female,,Third Year,4.6,55,Coursera,Internship,"C++, React"
+721,IT469,Meghan,Margery,mmargeryk0@squarespace.com,,Female,IT,Third Year,9.3,55,Microsoft Azure,placed,"Power BI, Python"
+944,MC482,Ruy,Catford,rcatfordq7@vistaprint.com,697-512-8727,Male,MCT,First Year,5,55,Microsoft Azure,placed,Power BI
+975,CS817,Conny,Harkess,charkessr2@topsy.com,520-145-9264,Female,cs,Fourth Year,6.9,55,ML,Placed,"C++, AWS, Data Analysis, Power BI, React"
+975,CS817,Conny,Harkess,charkessr2@topsy.com,520-145-9264,Female,cs,Fourth Year,6.9,55,ML,Placed,"C++, AWS, Data Analysis, Power BI, React"
+5,CS027,Ursala,Baughen,ubaughen4@nationalgeographic.com,319-234-9625,OTHER,Computer Science,Second Year,9.3,56,Microsoft Azure,Internship,"C++, React, Machine Learning, AWS"
+49,EC294,Upton,Hartop,uhartop1c@people.com.cn,205-833-7063,Male,Electronics,3,8.3,56,AWS,Placed,"Data Analysis, Python, React, AWS, SQL"
+91,CS195,Linnie,Whale,lwhale2i@hibu.com,245-350-3764,Female,Computer Science,2,6.1,56,Certified Google Data Analytics,NOt PLacEd,"Java, Power BI, Data Analysis, Machine Learning, Spring Boot"
+118,EC250,Seamus,Kighly,skighly39@amazon.co.uk,927-207-2629,Male,Electronics,Fourth Year,5.6,56,ML,Internship,"Data Analysis, React, Spring Boot, Java, Python"
+149,IT047,Howey,Gronous,hgronous44@fema.gov,864-113-4258,Male,IT,First Year,6.8,56,,placed,"Spring Boot, SQL"
+204,MC811,Lilah,Hanbury,lhanbury5n@about.com,694-416-7684,Female,IT,Second Year,6.6,56,ML,NOT PLACED,"Data Analysis, SQL, AWS"
+243,MC851,Franklyn,Nicolls,fnicolls6q@oracle.com,104-536-7432,Male,MCT,3,9.1,56,,placed,"Java, AWS, Data Analysis, Python"
+266,MC925,Wendy,Beade,wbeade7d@phoca.cz,182-669-0748,Female,Mechatronics,2,9.1,56,Microsoft Azure,NOt PLacEd,"Spring Boot, Python, Java, Machine Learning"
+323,IT012,Sharlene,Makeswell,smakeswell8y@furl.net,338-352-0002,Female,Information Technology,1,7.8,56,Certified Google Data Analytics,NOT PLACED,"Machine Learning, C++, Data Analysis, SQL, Python"
+364,IT168,,Earengey,eearengeya3@bbb.org,681-607-2439,Female,Information Technology,Fourth Year,9.4,56,,Placed,"Data Analysis, Spring Boot"
+426,CS566,Orelee,Ramsier,oramsierbt@xing.com,849-635-3504,Female,cs,2,10,56,AWS,NOt PLacEd,"Java, AWS, Machine Learning"
+457,ME302,Chicky,Gronaller,cgronallerco@hugedomains.com,377-545-9941,Male,Mechanical,3,5.9,56,NPTEL,Internship,Java
+582,IT365,Eunice,Terrell,invalidemail.com,12345,Female,IT,2,6,56,Certified Google Data Analytics,NOt PLacEd,Machine Learning
+614,IT846,Elias,Purrington,epurringtonh1@aol.com,882-555-8811,Male,IT,Third Year,6.4,56,Microsoft Azure,NOt PLacEd,SQL
+677,ME877,Pen,Mathely,pmathelyis@sakura.ne.jp,12345,Male,Mechanical,Third Year,4.9,56,,placed,"React, Machine Learning"
+695,CS461,Artair,Treadger,,12345,FEMALE,cs,2,5.3,56,Coursera,NOT PLACED,Machine Learning
+727,ME521,Guthrey,Campes,gcampesk6@flickr.com,475-518-7336,O,Mechanical,4,5.7,56,Coursera,Internship,Spring Boot
+737,MC262,Nessy,Titchen,ntitchenkg@cnn.com,559-177-2481,Female,MCT,2,9.3,56,AWS,NOt PLacEd,"SQL, C++, Spring Boot, AWS, React"
+751,EC957,Trevar,Heeron,theeronku@ox.ac.uk,774-978-1810,Male,Electronics,3,4.8,56,,placed,Java
+846,IT429,Natala,Nice,nnicenh@de.vu,993-796-5459,Female,IT,Second Year,"7,3",56,Certified Google Data Analytics,Placed,"React, Power BI, Machine Learning"
+867,IT580,Merry,Marchello,mmarchelloo2@bloglovin.com,465-283-2246,,Information Technology,2,8.8,56,,NOT PLACED,Java
+867,MC288,Merry,Marchello,mmarchelloo2@bloglovin.com,465-283-2246,,,2,8.8,56,,NOT PLACED,Java
+879,IT103,Fey,Sanbrook,fsanbrookoe@google.co.jp,681-504-5031,Female,Information Technology,3,5.1,56,Coursera,NOT PLACED,"Python, SQL, C++"
+882,CS941,Crosby,Lannon,clannonoh@icq.com,597-566-1363,Male,Computer Science,2,4.4,56,ML,Placed,"Python, Machine Learning, Data Analysis, React, C++"
+934,CS002,Jason,Endley,jendleypx@mac.com,356-338-8617,Male,Computer Science,Third Year,6.9,56,Coursera,NOT PLACED,"Java, Power BI, Python, SQL"
+974,MC985,Berti,Maundrell,bmaundrellr1@hc360.com,173-474-1242,Female,Information Technology,2,9.2,56,Microsoft Azure,NOT PLACED,"Java, Spring Boot, Python"
+974,MC613,Berti,Maundrell,bmaundrellr1@hc360.com,173-474-1242,,Information Technology,2,9.2,56,Microsoft Azure,NOT PLACED,"Java, Spring Boot, Python"
+138,EC992,Tait,Rosen,trosen3t@tmall.com,518-923-7744,Male,Electronics,3,4.3,57,Microsoft Azure,placed,"Machine Learning, Data Analysis, Power BI, SQL, AWS"
+201,MC907,Blondell,Got,bgot5k@umich.edu,546-838-4398,O,MCT,1,5.3,57,Certified Google Data Analytics,NOT PLACED,AWS
+229,CS099,Ardenia,Roget,aroget6c@linkedin.com,866-344-3182,Female,cs,4,7.7,57,NPTEL,placed,"AWS, Java"
+293,CE347,Ted,Gingold,tgingold84@miibeian.gov.cn,131-648-3513,,Civil,First Year,6.6,57,Certified Google Data Analytics,NOt PLacEd,"Python, Data Analysis, React"
+293,CE347,Ted,Gingold,tgingold84@miibeian.gov.cn,131-648-3513,,Civil,First Year,6.6,57,Certified Google Data Analytics,NOt PLacEd,"Python, Data Analysis, React"
+300,CS636,Cathyleen,Gammon,cgammon8b@artisteer.com,721-153-9117,BN,cs,4,4,57,,Internship,"Spring Boot, Java, Data Analysis, SQL, Python"
+300,MC839,Cathyleen,Gammon,cgammon8b@artisteer.com,3939ahf,Female,cs,4,4,57,,Internship,"Spring Boot, Java, Data Analysis, SQL, Python"
+311,CS212,Hilton,Hamlett,hhamlett8m@who.int,12345,F,Computer Science,2,8,57,Microsoft Azure,placed,"SQL, Python, Data Analysis"
+347,CE199,Kristofer,Ortas,kortas9m@weibo.com,550-453-8576,Male,Civil,Third Year,4.5,57,,NOT PLACED,Data Analysis
+347,CE199,Kristofer,Ortas,kortas9m@weibo.com,550-453-8576,Male,Civil,Third Year,4.5,57,,NOT PLACED,Data Analysis
+395,IT017,Matthew,Hargreave,mhargreaveay@umich.edu,490-417-7945,Male,Information Technology,Fourth Year,5.2,57,AWS,Internship,"Power BI, Python, C++, Java, Data Analysis"
+450,MC039,Tabbitha,Sawkin,invalidemail.com,529-671-6271,non-binary,Mechatronics,2,8.1,57,,NOT PLACED,"C++, Machine Learning, Spring Boot"
+644,MC078,Freddie,Drake,invalidemail.com,12345,Male,Civil,1,5,57,NPTEL,NOt PLacEd,"SQL, Spring Boot, Python, Java, AWS"
+648,CE628,Christos,Melly,cmellyhz@bluehost.com,998-913-2912,Male,Civil,Fourth Year,8.1,57,Coursera,Internship,"React, Data Analysis, Machine Learning"
+768,CS256,Sheppard,Ondra,invalidemail.com,985-988-3501,Male,Computer Science,1,5.1,57,Coursera,NOt PLacEd,"AWS, Data Analysis, Machine Learning, SQL, React"
+791,MC171,Ari,Chell,achellly@apple.com,673-287-3310,Male,cs,4,8.3,57,,placed,"Spring Boot, Power BI, AWS, React"
+931,CE321,Tadeas,Crinkley,tcrinkleypu@hubpages.com,,male,Civil,First Year,7,57,,NOT PLACED,"Python, Machine Learning, Spring Boot"
+952,MC984,Bethanne,Nicholes,bnicholesqf@columbia.edu,375-378-7514,Female,Mechatronics,Third Year,5,57,Certified Google Data Analytics,NOt PLacEd,React
+9,CS779,Pam,Silberschatz,psilberschatz8@soundcloud.com,3939ahf,Female,cs,4,5.4,58,Microsoft Azure,Placed,"AWS, Data Analysis, SQL"
+41,CS293,Sapphira,Crush,,339-107-1518,Female,Computer Science,2,7,58,,Internship,AWS
+76,CS539,Bart,Moss,bmoss23@columbia.edu,455-438-6682,MALE,Computer Science,First Year,15,58,AWS,Placed,"Spring Boot, Machine Learning"
+112,EC126,,Hannabuss,mhannabuss33@ehow.com,362-226-9094,Male,Electronics,Second Year,6.9,58,Coursera,NOt PLacEd,"Power BI, C++"
+168,MC145,Felicity,Gildersleeve,fgildersleeve4n@google.de,358-838-6983,O,Mechatronics,First Year,6.1,58,Microsoft Azure,Internship,C++
+213,MC774,Georgeta,Hastler,ghastler5w@booking.com,445-233-5316,Female,MCT,2,6.8,58,Microsoft Azure,NOt PLacEd,"Spring Boot, Power BI"
+225,EC768,Erhart,Cathee,ecathee68@wp.com,855-743-6730,Male,Electronics,4,-8.6,58,AWS,Internship,"C++, Python, AWS, Machine Learning"
+340,EC419,Kath,Guillem,kguillem9f@imageshack.us,627-296-3744,Female,Electronics,4,7.2,58,,placed,"SQL, Power BI, Python, React, Machine Learning"
+466,MC614,Myrvyn,Kuhnwald,mkuhnwaldcx@reference.com,868-723-3917,Male,Civil,Second Year,4.2,58,,Placed,"Spring Boot, SQL, Data Analysis, C++"
+497,IT683,Jobyna,Fraulo,jfraulods@myspace.com,420-976-1197,Female,Information Technology,1,5.7,58,,Placed,"AWS, Java"
+544,CS923,Con,Corragan,ccorraganf3@nih.gov,991-761-3301,O,cs,3,8.4,58,,Placed,"React, Java"
+544,MC765,Con,Corragan,ccorraganf3@nih.gov,991-761-3301,Male,,3,8.4,58,,Placed,"React, Java"
+597,EC539,Doreen,Bischoff,dbischoffgk@booking.com,291-767-3397,NON-BINARY,Electronics,3,5.4,58,AWS,NOT PLACED,"Python, AWS, C++"
+761,CE941,Bartolemo,Millwater,bmillwaterl4@bbc.co.uk,585-628-7170,Male,Civil,4,6.2,58,ML,NOT PLACED,"AWS, Python, Power BI, SQL"
+764,CS834,Ave,Taffrey,ataffreyl7@newsvine.com,465-196-6023,Male,Computer Science,3,4.6,58,Microsoft Azure,NOT PLACED,Power BI
+784,CS222,Phillipp,Sempill,psempilllr@scribd.com,925-519-5308,NON-BINARY,cs,Second Year,7.1,58,ML,NOt PLacEd,"Power BI, AWS, Spring Boot, Python"
+823,CS178,Maribelle,Everard,meverardmu@networksolutions.com,925-796-5540,Female,Computer Science,4,9.6,58,Microsoft Azure,Internship,"Power BI, C++, Java"
+889,ME670,Felizio,Courtman,,433-605-3666,Male,Mechanical,2,8.2,58,Certified Google Data Analytics,NOT PLACED,"Power BI, SQL, AWS, Machine Learning, React"
+914,EC150,Garnet,Boldra,gboldrapd@youtube.com,298-599-5255,Female,Electronics,Second Year,8.2,58,,NOt PLacEd,"SQL, Data Analysis, Power BI, Machine Learning"
+958,MC202,,Osburn,aosburnql@aol.com,448-203-7089,Female,IT,4,15,58,Certified Google Data Analytics,NOT PLACED,"C++, Machine Learning, SQL, Data Analysis"
+30,MC807,Whit,Presnell,wpresnellt@google.nl,541-471-1513,Male,Mechatronics,Fourth Year,4.7,59,Coursera,Internship,"C++, React, Python"
+32,ME652,Emalia,Exrol,eexrolv@forbes.com,971-754-9846,Female,Mechanical,Third Year,4.1,59,ML,Internship,"Power BI, React, Machine Learning"
+74,CS918,Alisun,,apheazey21@netscape.com,172-850-3221,Female,Computer Science,3,9.4,59,NPTEL,Internship,"Java, AWS"
+88,IT104,Staford,Servant,sservant2f@printfriendly.com,217-488-2322,Male,IT,4,7.5,59,AWS,NOT PLACED,"React, Data Analysis"
+105,CS674,Wright,Balharry,wbalharry2w@yale.edu,788-992-9465,Male,Computer Science,1,5.2,59,ML,NOt PLacEd,Power BI
+214,MC196,Janis,Bearne,jbearne5x@columbia.edu,598-544-0530,OTHER,Mechatronics,2,6.4,59,,Internship,"SQL, C++, Machine Learning, Spring Boot"
+271,EC720,Veronica,Pulham,vpulham7i@blog.com,167-337-7423,Female,Electronics,Fourth Year,4.5,59,Microsoft Azure,NOt PLacEd,"Power BI, SQL, AWS, Python"
+421,CE669,Graig,,gsimmonbo@wunderground.com,624-542-5173,Male,Civil,1,5.9,59,,placed,"Spring Boot, Machine Learning, Python, AWS"
+505,CE608,Rufus,,rhurte0@cnet.com,73263-05405,Male,Civil,Second Year,-7.6,59,Microsoft Azure,NOT PLACED,"Java, Data Analysis, React"
+610,ME884,Eada,Narrie,enarriegx@discuz.net,828-825-9391,Female,Mechanical,Fourth Year,7,59,AWS,Placed,"AWS, React, SQL, Data Analysis"
+632,MC628,Falito,Lester,flesterhj@theguardian.com,,Male,MCT,Fourth Year,9.7,59,NPTEL,NOT PLACED,"Python, C++, Java"
+685,CS420,Jermayne,Synan,jsynanj0@cocolog-nifty.com,124-815-0200,Male,Computer Science,First Year,9.4,59,Microsoft Azure,Placed,"Java, Data Analysis, React"
+694,IT894,Goraud,Giamuzzo,ggiamuzzoj9@studiopress.com,324-959-5996,Male,IT,Second Year,5.5,59,,NOt PLacEd,"Spring Boot, Java, SQL, React"
+703,EC690,Garrek,Corlett,gcorlettji@mapquest.com,954-879-4614,Male,Electronics,3,9.5,59,Certified Google Data Analytics,Internship,"Spring Boot, C++"
+747,CS789,Zelma,Condit,zconditkq@elpais.com,228-116-5105,Female,cs,1,6,59,Certified Google Data Analytics,Placed,"Java, Spring Boot, React"
+759,CS507,Emili,Negal,enegall2@dailymotion.com,813-919-4310,Female,cs,Fourth Year,9.2,59,ML,NOT PLACED,"Machine Learning, Data Analysis, Power BI, AWS"
+809,IT122,Johnny,Nuth,jnuthmg@privacy.gov.au,637-214-6626,Male,Information Technology,3,7.7,59,AWS,NOt PLacEd,"React, SQL"
+822,ME682,Daryle,Danielsen,ddanielsenmt@usa.gov,594-116-4149,Male,Mechanical,Third Year,9,59,ML,NOt PLacEd,"React, C++, Machine Learning, SQL"
+870,EC648,Salli,Stedson,,470-753-9216,Female,Electronics,1,5.9,59,Microsoft Azure,placed,"Data Analysis, Python"
+965,MC315,Marlo,Constantine,mconstantineqs@blogger.com,290-906-0252,Male,Mechatronics,1,9.4,59,NPTEL,placed,"SQL, Python, Java, React"
+972,MC789,Megen,MacMeeking,mmacmeekingqz@mit.edu,12345,Female,Mechatronics,1,5.7,59,ML,NOT PLACED,"Java, AWS, C++, Power BI"
+39,IT938,Alec,,afletcher12@jigsy.com,182-398-5654,Male,Information Technology,1,5.1,60,,placed,"Machine Learning, Data Analysis, Java, C++"
+48,IT479,Petronella,Tanti,ptanti1b@unicef.org,715-801-2874,Female,IT,3,6.1,60,NPTEL,placed,"C++, SQL, Machine Learning, Power BI"
+132,MC596,Bert,Tesdale,btesdale3n@stanford.edu,767-318-2247,Female,Mechatronics,1,9.4,60,,Placed,Python
+150,ME479,Hogan,MacLaig,hmaclaig45@dedecms.com,12345,MALE,Mechanical,First Year,-7.6,60,Microsoft Azure,Internship,"Java, AWS, Power BI, React, Spring Boot"
+158,EC904,Gregory,Filippucci,gfilippucci4d@joomla.org,475-851-6247,Male,Electronics,Third Year,"6,3",60,Certified Google Data Analytics,NOT PLACED,"SQL, C++, Python, Spring Boot"
+344,IT694,Melinda,Sainsbury,msainsbury9j@naver.com,174-657-0304,Female,IT,2,5.6,60,NPTEL,placed,"AWS, Python, Data Analysis, Spring Boot, C++"
+346,IT771,Paolina,McGiffie,pmcgiffie9l@businesswire.com,3939ahf,BN,Information Technology,2,9.4,60,Coursera,placed,"Power BI, AWS, Python, Spring Boot, Data Analysis"
+398,EC164,Sonnie,Diemer,sdiemerb1@telegraph.co.uk,500-646-3701,Male,Electronics,Second Year,13,60,Microsoft Azure,NOT PLACED,"Java, AWS, Machine Learning, SQL"
+443,MC849,Alissa,Jacombs,ajacombsca@senate.gov,581-487-8061,NON-BINARY,Mechatronics,3,5.7,60,,Internship,SQL
+642,IT907,Shaughn,Heap,sheapht@telegraph.co.uk,928-528-7415,Male,Information Technology,1,6.7,60,,placed,"React, Java"
+968,CE161,Ashleigh,Creek,acreekqv@geocities.jp,459-856-5130,Female,Civil,1,9.7,60,NPTEL,NOt PLacEd,"Power BI, AWS, Java, React, Spring Boot"
+25,CE391,Karoline,Ingre,kingreo@microsoft.com,349-726-3517,Female,Civil,3,4.3,61,ML,NOT PLACED,"Data Analysis, Power BI, Java, Python"
+94,MC116,Maurice,Jakubowicz,mjakubowicz2l@foxnews.com,,Male,Mechatronics,First Year,5.3,61,Microsoft Azure,placed,Power BI
+124,CS681,Ashton,Hartrick,ahartrick3f@amazon.de,521-268-0681,Male,cs,2,6.1,61,Microsoft Azure,Internship,"AWS, Java, Data Analysis"
+147,MC126,Harmonia,Sommersett,hsommersett42@thetimes.co.uk,697-142-8049,Female,Mechatronics,2,15,61,Microsoft Azure,Placed,"SQL, Data Analysis, Spring Boot, C++, React"
+170,CS124,Wilton,Metheringham,wmetheringham4p@google.com.au,277-262-2305,Male,cs,1,8,61,,Placed,Machine Learning
+446,IT762,Akim,Cobbald,acobbaldcd@omniture.com,,Male,Information Technology,First Year,8.1,61,Coursera,NOt PLacEd,"C++, Spring Boot, Data Analysis, Java, Power BI"
+460,CE149,Ronica,Lubomirski,rlubomirskicr@census.gov,941-690-4437,Female,Civil,3,6.4,61,,Placed,"React, AWS, Python, SQL, Power BI"
+533,MC990,Flossie,Littledyke,flittledykees@nyu.edu,788-766-9860,Female,Mechatronics,1,9.1,61,Certified Google Data Analytics,Placed,C++
+575,IT314,Niel,Eyton,neytonfy@japanpost.jp,521-509-3313,Male,IT,1,12,61,,placed,"C++, React, Power BI"
+651,MC186,Ingar,Hoyland,ihoylandi2@theguardian.com,296-456-9664,Male,Mechatronics,Second Year,8.1,61,ML,Placed,"Data Analysis, Machine Learning, React, Java"
+748,CS778,Abby,Naire,invalidemail.com,364-396-7294,Female,Computer Science,2,9,61,AWS,placed,"Power BI, Python"
+763,MC272,Grissel,Morter,gmorterl6@wsj.com,314-731-5870,Female,MCT,First Year,15,61,Coursera,NOt PLacEd,"AWS, SQL, Java, Machine Learning, Power BI"
+921,IT388,Shelia,Aleksandrikin,saleksandrikinpk@accuweather.com,352-876-0431,F,,4,7.2,61,Coursera,Internship,"SQL, React, Python, AWS"
+924,MC409,Eyde,Eckford,eeckfordpn@myspace.com,12345,Female,cs,Fourth Year,4,61,,NOt PLacEd,Power BI
+107,CE897,Powell,Ellicombe,,687-394-1883,Male,Civil,4,-7.6,62,NPTEL,NOt PLacEd,"Spring Boot, SQL"
+283,MC183,Reagan,Pietersen,rpietersen7u@weather.com,584-780-0440,Male,cs,4,9.1,62,AWS,Placed,"Python, AWS, C++"
+328,EC060,Brandy,Lusted,blusted93@myspace.com,104-927-5031,Male,Electronics,Third Year,9.6,62,ML,placed,"Python, Spring Boot, Java"
+363,ME203,Armando,Littler,alittlera2@si.edu,454-443-1633,Male,Mechanical,Second Year,8.9,62,AWS,placed,"Power BI, C++, AWS, Machine Learning, Data Analysis"
+458,ME595,Korry,Gilardone,kgilardonecp@ihg.com,213-593-2696,Female,Mechanical,2,9.4,62,,Internship,"Java, Data Analysis, Python, AWS"
+584,IT090,,Verbeke,bverbekeg7@addthis.com,,non-binary,Information Technology,4,8.8,62,Microsoft Azure,NOt PLacEd,"Python, Machine Learning, React, SQL, AWS"
+829,CS414,Kandy,Champkins,kchampkinsn0@ucsd.edu,463-248-7848,Female,Computer Science,2,6.9,62,NPTEL,Placed,"Data Analysis, SQL, React, C++, Spring Boot"
+869,ME628,Jeni,Pelcheur,jpelcheuro4@ucsd.edu,287-491-5783,Female,Mechanical,3,-7.6,62,NPTEL,NOT PLACED,"C++, Data Analysis, React, Java"
+949,CS334,Bobbie,,bskipseyqc@technorati.com,877-315-8228,Female,Computer Science,First Year,4.4,62,ML,placed,"AWS, Spring Boot, SQL, Data Analysis, Machine Learning"
+971,IT830,Dulcine,Willgoose,dwillgooseqy@squarespace.com,118-426-8018,Female,Information Technology,4,6.2,62,,NOT PLACED,"Spring Boot, Data Analysis, Java"
+45,CE769,Ricardo,Muffett,rmuffett18@simplemachines.org,,Male,Civil,4,5.4,63,Coursera,Placed,Power BI
+128,MC486,Colan,Lanktree,clanktree3j@purevolume.com,753-858-8520,Male,Mechatronics,Second Year,6,63,Coursera,Placed,"AWS, C++, Python"
+136,IT253,Broddy,Camacke,bcamacke3r@seattletimes.com,610-127-9936,Male,IT,4,9.4,63,ML,NOT PLACED,"Data Analysis, C++, Spring Boot, AWS, Power BI"
+253,IT868,Gianina,Sailor,gsailor70@google.cn,12345,Female,IT,4,12,63,AWS,NOT PLACED,"C++, Power BI, Data Analysis, Python, React"
+290,MC794,Tonia,Camplin,tcamplin81@nih.gov,,Female,Mechatronics,4,12,63,AWS,Internship,"Machine Learning, C++, Spring Boot, AWS, Python"
+366,ME389,Granny,Doyley,gdoyleya5@opera.com,384-583-3011,Male,Mechanical,Second Year,4.7,63,NPTEL,placed,"Spring Boot, Power BI, Java, React, Python"
+467,IT527,Arley,Boundy,,,Male,Information Technology,Fourth Year,"7,3",63,Microsoft Azure,placed,"AWS, Machine Learning, Data Analysis"
+514,CE909,Beniamino,Robinson,brobinsone9@ycombinator.com,887-778-9161,Male,Civil,Third Year,9.7,63,,NOT PLACED,Power BI
+514,MC867,Beniamino,Robinson,brobinsone9@ycombinator.com,887-778-9161,non-binary,Civil,Third Year,9.7,63,,NOT PLACED,Power BI
+530,CS338,Sandy,Walas,swalasep@google.pl,662-134-9052,non-binary,cs,Second Year,-7.6,63,Microsoft Azure,NOT PLACED,"Data Analysis, Spring Boot"
+578,MC689,Pam,Allsobrook,pallsobrookg1@squarespace.com,476-667-4510,,Mechatronics,First Year,7.4,63,NPTEL,Placed,Python
+609,MC343,Meade,,mscarregw@vk.com,708-307-8451,Female,MCT,3,9,63,Certified Google Data Analytics,NOT PLACED,Spring Boot
+611,CS528,Evie,Zarb,ezarbgy@rediff.com,3939ahf,Female,cs,2,5.7,63,AWS,Placed,"C++, Java, Machine Learning"
+670,IT712,Vivia,Sevin,vsevinil@parallels.com,844-785-4167,Female,Information Technology,4,6.2,63,,NOT PLACED,"SQL, Spring Boot, Power BI, C++, Python"
+819,ME080,Thaddus,Buscher,tbuschermq@simplemachines.org,422-935-8699,Male,Mechanical,3,9,63,Certified Google Data Analytics,Internship,Python
+854,MC694,Luce,Erbe,lerbenp@tripadvisor.com,125-496-7409,Female,Electronics,1,4.6,63,NPTEL,NOT PLACED,"Java, Data Analysis, C++"
+903,MC394,Gianna,Worthing,gworthingp2@imageshack.us,437-463-6910,Female,Mechatronics,3,5.9,63,,Placed,"C++, Spring Boot, AWS"
+903,MC394,Gianna,Worthing,gworthingp2@imageshack.us,437-463-6910,Female,Mechatronics,3,5.9,63,,Placed,"C++, Spring Boot, AWS"
+930,MC531,Dorri,Aldin,daldinpt@cbslocal.com,610-929-1116,Female,Mechatronics,1,4.2,63,Microsoft Azure,NOT PLACED,"Python, AWS, SQL, Java, Data Analysis"
+945,IT695,Melony,Danelut,mdanelutq8@tripadvisor.com,,Female,Information Technology,Third Year,9.8,63,,NOT PLACED,"C++, Machine Learning, SQL"
+976,MC831,Neils,Van der Brugge,nvanderbrugger3@networkadvertising.org,3939ahf,Male,Mechatronics,First Year,4.4,63,Microsoft Azure,NOT PLACED,"C++, SQL, Machine Learning, Data Analysis"
+66,EC137,Hall,Brien,hbrien1t@miitbeian.gov.cn,796-964-3904,M,Electronics,Fourth Year,7.5,64,NPTEL,Placed,"AWS, Spring Boot, Data Analysis, SQL"
+110,MC775,Torry,Dinsale,tdinsale31@unesco.org,148-547-2230,,Mechatronics,Fourth Year,9.3,64,Microsoft Azure,placed,"Java, Machine Learning"
+178,CS641,Beatrisa,Luff,bluff4x@hud.gov,472-857-2698,Female,Computer Science,Fourth Year,7.1,64,Coursera,NOt PLacEd,"React, Data Analysis, Java, Spring Boot, C++"
+179,EC529,Archibold,Reuben,areuben4y@hc360.com,862-377-1653,Male,Electronics,4,6.7,64,ML,Internship,"Data Analysis, SQL, Python, C++, Power BI"
+208,CE458,Klarrisa,Causnett,,151-179-3461,female,Civil,1,5.7,64,Coursera,NOT PLACED,Machine Learning
+279,IT361,Ben,Passingham,bpassingham7q@dropbox.com,,Male,Information Technology,Third Year,8.7,64,Coursera,NOt PLacEd,"C++, AWS, Python"
+289,IT828,Arie,Ahearne,aahearne80@amazon.co.uk,347-221-2214,Male,IT,4,8.5,64,,NOT PLACED,Power BI
+448,MC900,Judah,Jeckell,jjeckellcf@time.com,688-796-7967,Male,MCT,4,7.9,64,AWS,Placed,"AWS, Data Analysis"
+470,MC740,Gregorio,Towriss,gtowrissd1@wikia.com,249-608-9260,NON-BINARY,MCT,3,6.4,64,,Internship,"Data Analysis, SQL, Java"
+496,CE703,Wally,Rowler,wrowlerdr@dedecms.com,791-390-6568,Male,Civil,Second Year,9,64,ML,placed,"Machine Learning, React, AWS, SQL"
+521,EC235,Carmelle,Arens,carenseg@canalblog.com,834-171-3984,Female,Electronics,Third Year,9.6,64,Coursera,Internship,"C++, Spring Boot, SQL, Python"
+613,EC597,,Freen,rfreenh0@mit.edu,831-154-2447,Male,Electronics,1,9,64,NPTEL,Internship,"C++, SQL, Java, Power BI, AWS"
+666,CE623,Thedrick,Teasell,tteasellih@devhub.com,405-175-8112,Male,Civil,Second Year,4.3,64,Certified Google Data Analytics,NOt PLacEd,"SQL, C++"
+667,MC277,Rosanne,Parfitt,invalidemail.com,324-223-0252,Female,Computer Science,1,5,64,AWS,placed,"SQL, React"
+736,CS357,Brod,Plank,bplankkf@1und1.de,415-768-8160,Male,Computer Science,First Year,4.9,64,,NOt PLacEd,"Spring Boot, Machine Learning, Python, AWS"
+741,MC860,Far,Kelsow,fkelsowkk@xinhuanet.com,920-920-3850,Male,Mechatronics,First Year,"7,3",64,Microsoft Azure,NOt PLacEd,Data Analysis
+741,MC860,Far,Kelsow,fkelsowkk@xinhuanet.com,920-920-3850,Male,Mechatronics,First Year,"7,3",64,Microsoft Azure,NOt PLacEd,Data Analysis
+778,MC981,Juieta,Wrinch,jwrinchll@deliciousdays.com,219-253-5633,Female,Computer Science,3,9.7,64,Microsoft Azure,Placed,"Java, Machine Learning, AWS"
+802,EC773,Hamnet,Symonds,hsymondsm9@house.gov,180-888-8414,female,Electronics,3,9.6,64,,Internship,"SQL, Data Analysis"
+884,CE227,Rabi,Upton,ruptonoj@netlog.com,,F,Civil,4,"7,3",64,,placed,"React, C++, Java, Spring Boot"
+884,MC359,Rabi,Upton,ruptonoj@netlog.com,,Male,Civil,4,"7,3",64,,placed,"React, C++, Java, Spring Boot"
+898,MC947,Lion,Carville,lcarvilleox@about.com,582-594-3528,Male,Mechatronics,Fourth Year,-8.6,64,AWS,Internship,"Spring Boot, React"
+922,MC916,Arnaldo,Whalley,awhalleypl@sciencedaily.com,187-170-7353,Male,Computer Science,dxyug,5.5,64,Microsoft Azure,Placed,"Power BI, React, Data Analysis, SQL, AWS"
+15,EC559,Malinde,Hully,mhullye@berkeley.edu,221-739-9668,,Electronics,1,8.1,65,,Internship,"Data Analysis, AWS"
+174,CS798,Lemar,Sheddan,lsheddan4t@merriam-webster.com,934-940-9847,Male,Computer Science,First Year,8.5,65,AWS,Placed,"AWS, Java"
+336,ME580,Padgett,Srutton,psrutton9b@cisco.com,3939ahf,Male,Mechanical,Second Year,5.1,65,,NOT PLACED,"C++, React, Python, AWS, Power BI"
+355,CE138,Tallie,Domican,tdomican9u@mapy.cz,923-583-2514,Female,Civil,Fourth Year,6.6,65,Microsoft Azure,NOT PLACED,"React, Data Analysis, SQL, AWS, Power BI"
+357,MC565,Justine,Reape,jreape9w@artisteer.com,,Female,MCT,Third Year,4.4,65,,NOT PLACED,C++
+386,ME473,Karlis,Reven,krevenap@webnode.com,373-223-7707,Male,Mechanical,Fourth Year,5.5,65,AWS,placed,"Machine Learning, C++, Python"
+405,MC983,Nana,Cowlas,ncowlasb8@cdbaby.com,114-221-5534,other,Mechatronics,4,6.9,65,NPTEL,NOt PLacEd,"Power BI, Data Analysis, Python, AWS"
+464,ME176,Meta,Daen,invalidemail.com,,FEMALE,Mechanical,Third Year,4.9,65,,NOT PLACED,"Python, SQL"
+516,MC256,Sisile,Labroue,slabroueeb@lulu.com,216-708-3538,Female,MCT,4,-8.6,65,,placed,"SQL, Spring Boot, React, Python"
+619,CS292,Dorothy,Brennand,invalidemail.com,836-854-8137,Female,Computer Science,First Year,4.9,65,Coursera,placed,"React, C++, Java, Spring Boot"
+738,IT841,Berkly,Sallnow,,821-991-6390,Male,IT,Second Year,4.4,65,ML,NOt PLacEd,Spring Boot
+738,IT841,Berkly,Sallnow,,821-991-6390,Male,IT,Second Year,4.4,65,ML,NOt PLacEd,Spring Boot
+760,MC508,Cthrine,Dolbey,cdolbeyl3@trellian.com,528-805-7297,O,MCT,Fourth Year,-8.6,65,AWS,NOT PLACED,C++
+875,CS026,Maisey,Delamere,mdelamereoa@comcast.net,237-751-5309,OTHER,Computer Science,4,7.2,65,AWS,Internship,"Python, AWS, Data Analysis, Machine Learning"
+996,MC650,Artie,Wrintmore,awrintmorern@mail.ru,398-996-2317,male,Mechatronics,3,-7.6,65,Microsoft Azure,NOT PLACED,"Java, Data Analysis, AWS, React"
+140,IT460,Nappie,Mallinson,nmallinson3v@lycos.com,92239-93304,Male,Information Technology,2,9.8,66,AWS,Internship,"AWS, C++"
+140,MC504,Nappie,Mallinson,nmallinson3v@lycos.com,839-991-0056,M,Information Technology,2,9.8,66,AWS,Internship,"AWS, C++"
+219,MC509,Colleen,Catling,ccatling62@stumbleupon.com,685-420-2114,Female,MCT,First Year,9.3,66,,NOT PLACED,"Power BI, SQL"
+327,ME359,Lindsay,Bollom,lbollom92@dot.gov,249-691-3425,Male,Mechanical,First Year,5,66,AWS,Placed,"Python, Data Analysis, C++"
+409,EC714,Oralle,Pogson,opogsonbc@barnesandnoble.com,868-197-0643,Female,Electronics,4,"6,3",66,ML,Internship,"Java, React, Data Analysis, SQL, Spring Boot"
+453,IT327,Ezri,Gheraldi,egheraldick@nymag.com,770-383-0306,Male,Information Technology,4,7.1,66,Coursera,Placed,"Machine Learning, Python"
+550,ME831,Gal,Nutley,gnutleyf9@forbes.com,229-371-5479,Male,Mechanical,Second Year,7.5,66,,Placed,AWS
+550,ME831,Gal,Nutley,gnutleyf9@forbes.com,229-371-5479,Male,Mechanical,Second Year,7.5,66,,Placed,AWS
+606,EC633,Walliw,Stooke,wstookegt@comcast.net,910-193-9868,Female,Electronics,3,6.5,66,,NOT PLACED,"SQL, React, Data Analysis, Java"
+618,EC594,Elizabet,Alliott,ealliotth5@plala.or.jp,12345,Female,Electronics,1,8.8,66,ML,Placed,"Machine Learning, Spring Boot, Power BI, AWS"
+618,EC594,Elizabet,Alliott,ealliotth5@plala.or.jp,12345,Female,Electronics,1,8.8,66,ML,Placed,"Machine Learning, Spring Boot, Power BI, AWS"
+645,IT307,Brad,Milius,bmiliushw@privacy.gov.au,716-820-6285,Male,Information Technology,Third Year,6.9,66,Coursera,placed,"Power BI, React, Spring Boot, AWS"
+706,IT587,Marcela,Antonsen,mantonsenjl@geocities.com,230-494-0270,Female,Information Technology,2,9.4,66,,Internship,"Power BI, C++, React, Java"
+774,IT232,Rhetta,Masic,rmasiclh@google.cn,421-265-8208,Female,IT,4,5.6,66,Coursera,Internship,"React, SQL, Python, Data Analysis"
+849,CS094,Cecile,Quest,,607-327-7031,Female,Computer Science,3,8,66,,Placed,"React, C++, Spring Boot"
+858,MC506,Mindy,Insko,minskont@blogtalkradio.com,365-444-0429,,MCT,3,4.3,66,Certified Google Data Analytics,NOT PLACED,"Java, Power BI, Data Analysis"
+871,EC924,Craggie,Lathan,clathano6@furl.net,915-227-7065,Male,Electronics,3,7.4,66,AWS,Placed,C++
+918,MC204,Raeann,Whitehurst,,955-495-4441,non-binary,Civil,1,5.6,66,NPTEL,NOt PLacEd,"Machine Learning, Java"
+966,IT310,Verge,Hayller,vhayllerqt@surveymonkey.com,964-872-1266,,IT,4,"6,3",66,NPTEL,placed,"Data Analysis, Java, Spring Boot, C++, Machine Learning"
+98,MC893,Nat,Golston,ngolston2p@nationalgeographic.com,384-236-5827,Male,Mechatronics,2,5.3,67,Coursera,NOT PLACED,"SQL, React"
+144,IT664,Virgil,Sollowaye,vsollowaye3z@ucoz.com,274-473-9312,Male,Information Technology,1,5.2,67,AWS,NOT PLACED,"SQL, Data Analysis, Python, AWS"
+217,MC225,Odie,Hadrill,ohadrill60@scientificamerican.com,599-723-3658,Male,Mechatronics,1,9.7,67,Coursera,NOT PLACED,React
+436,IT285,Lynnett,Burry,lburryc3@addtoany.com,69482-80535,abc,IT,First Year,4.2,67,Microsoft Azure,NOt PLacEd,"Python, SQL, Spring Boot"
+490,EC603,Jemima,Major,invalidemail.com,347-219-9571,male,Electronics,Fourth Year,9.4,67,AWS,NOt PLacEd,"Java, React"
+547,CS680,Wandie,,wmeacherf6@bluehost.com,568-744-1884,Female,Computer Science,3,4.9,67,Coursera,Placed,"C++, SQL, Data Analysis"
+571,MC243,Alexa,,alivenfu@ask.com,964-517-3836,Female,Mechatronics,2,5.2,67,Coursera,NOt PLacEd,"Java, Data Analysis"
+571,MC636,Alexa,,alivenfu@ask.com,964-517-3836,MALE,Mechatronics,2,5.2,67,Coursera,NOt PLacEd,"Java, Data Analysis"
+793,CS576,Sherrie,Leander,invalidemail.com,913-651-0324,NON-BINARY,cs,3,4.8,67,,placed,"Spring Boot, Python, SQL, Java"
+810,IT607,Rochella,Rawes,rrawesmh@hhs.gov,692-801-1861,Female,IT,Second Year,6.9,67,,Placed,Python
+891,CS164,Fabien,Leon,invalidemail.com,975-510-1587,Male,Computer Science,Second Year,9.8,67,NPTEL,Internship,Java
+946,MC748,Frank,Malden,fmaldenq9@epa.gov,888-882-6464,Male,MCT,4,5,67,Coursera,Placed,"Machine Learning, Power BI, C++"
+246,CS438,Salomo,Cosins,scosins6t@php.net,442-180-5738,Male,cs,Fourth Year,15,68,AWS,Placed,"SQL, Spring Boot, Python, React, Power BI"
+270,CS114,Muriel,Alen,malen7h@redcross.org,279-471-6090,female,Computer Science,1,7.2,68,Coursera,Placed,"AWS, Data Analysis"
+372,MC060,Trenton,Battison,tbattisonab@princeton.edu,559-102-2552,FEMALE,MCT,First Year,"7,3",68,Coursera,placed,"Data Analysis, Python"
+372,MC676,Trenton,Battison,tbattisonab@princeton.edu,559-102-2552,Male,MCT,First Year,"7,3",68,Coursera,placed,"Data Analysis, Python"
+373,CE274,Mandi,Grogor,mgrogorac@blinklist.com,712-414-7209,Female,Civil,2,4.1,68,NPTEL,NOT PLACED,"React, Power BI"
+392,IT699,Cliff,Climson,cclimsonav@google.pl,589-509-4356,Male,Information Technology,1,5,68,Microsoft Azure,Placed,"Spring Boot, Java, Data Analysis, C++, AWS"
+394,IT697,Donovan,Baggalley,,290-695-9392,Male,IT,1,9.5,68,,NOT PLACED,"Spring Boot, SQL"
+492,MC466,Dori,Brimmicombe,dbrimmicombedn@seesaa.net,,Female,Mechatronics,Second Year,6.5,68,NPTEL,placed,"React, C++, Spring Boot, AWS"
+509,MC958,Shae,Drohane,sdrohanee4@jalbum.net,318-736-0993,Male,MCT,Third Year,11,68,AWS,placed,"Java, Spring Boot, React"
+523,MC776,Whit,Peebles,wpeeblesei@g.co,334-367-4441,Male,IT,2,7.5,68,Coursera,NOt PLacEd,"Java, SQL, AWS, Spring Boot, Data Analysis"
+585,MC065,Vladamir,Jugging,vjuggingg8@blogger.com,651-231-4917,F,MCT,3,9.1,68,,placed,"Java, Machine Learning, C++, Data Analysis"
+585,MC041,Vladamir,Jugging,vjuggingg8@blogger.com,651-231-4917,Male,MCT,3,9.1,68,,placed,"Java, Machine Learning, C++, Data Analysis"
+683,CE291,Gilda,,gtaffleyiy@hubpages.com,787-823-6896,Female,Civil,2,7.7,68,,placed,"Java, C++"
+739,CS963,Anetta,Pendlebery,apendleberyki@hhs.gov,209-530-6842,Female,Computer Science,Fourth Year,5,68,,NOT PLACED,React
+786,MC682,Clarey,Aleksandrov,,960-630-2946,Female,MCT,2,"6,3",68,ML,NOt PLacEd,"Machine Learning, C++, Power BI, Spring Boot"
+857,EC499,Pauli,Truggian,ptruggianns@google.com,635-449-6342,Female,Electronics,Second Year,4.5,68,Certified Google Data Analytics,NOt PLacEd,"AWS, Python, Data Analysis, C++, Spring Boot"
+896,CE832,Melinde,Baitey,mbaiteyov@chicagotribune.com,264-427-2474,Female,Civil,3,8.9,68,,Placed,"Java, SQL, Data Analysis, Power BI, C++"
+943,ME616,Maddalena,Angell,,12345,Female,Mechanical,Second Year,8.7,68,ML,Placed,"Power BI, Java, React, C++, Spring Boot"
+50,MC551,Vic,Schneidar,vschneidar1d@java.com,694-228-7616,Male,MCT,Third Year,6.2,69,Microsoft Azure,NOt PLacEd,"Java, Power BI, SQL, React"
+93,CE877,Ibbie,Cuming,icuming2k@yahoo.com,383-866-6350,Female,Civil,Third Year,9.5,69,ML,placed,"Java, Power BI, Machine Learning, AWS, C++"
+141,MC497,Paule,Butter,pbutter3w@virginia.edu,164-749-9252,Female,MCT,Fourth Year,5.1,69,Certified Google Data Analytics,NOt PLacEd,"Java, Spring Boot, Data Analysis, Python, React"
+187,CE973,Zilvia,Fayre,zfayre56@free.fr,577-656-7621,Female,Civil,3,4.9,69,ML,NOt PLacEd,"Power BI, Machine Learning, SQL"
+255,CS589,Sutherland,Swalwell,sswalwell72@google.nl,587-247-1386,Male,cs,Second Year,4.5,69,,NOT PLACED,"C++, SQL, React, Java, AWS"
+286,IT714,Brynne,Thuillier,bthuillier7x@tuttocitta.it,825-364-6507,Female,Information Technology,Second Year,6,69,,NOt PLacEd,"Power BI, Python"
+376,CS518,Hayyim,Alen,halenaf@boston.com,684-803-5366,Male,Computer Science,Fourth Year,7.1,69,Certified Google Data Analytics,NOt PLacEd,"Power BI, SQL, Spring Boot, React, Python"
+390,MC979,Niall,,ngiddyat@redcross.org,620-986-1122,Male,MCT,Second Year,7.1,69,Certified Google Data Analytics,NOt PLacEd,"C++, Java, Python, AWS, Machine Learning"
+407,IT308,Darell,Bithany,dbithanyba@amazon.de,709-228-0791,Female,Information Technology,2,9.7,69,Microsoft Azure,placed,Python
+442,CS840,Rona,Toulch,rtoulchc9@yellowpages.com,246-950-3387,Female,cs,4,14,69,,placed,"Spring Boot, Java, SQL, AWS"
+524,CS305,Any,Von Brook,avonbrookej@domainmarket.com,12345,Male,cs,Fourth Year,4.8,69,Coursera,placed,"SQL, Python, AWS, Java, Power BI"
+668,IT276,Godfrey,Ilyinykh,gilyinykhij@paypal.com,206-354-4074,Male,Information Technology,Second Year,8.7,69,Coursera,placed,"Power BI, Machine Learning, Python, Java"
+700,MC214,Corissa,Pigram,cpigramjf@nhs.uk,,MALE,MCT,First Year,7.4,69,Coursera,NOT PLACED,Python
+833,ME666,Lavinie,Dallow,ldallown4@boston.com,218-307-2715,,Mechanical,1,7,69,NPTEL,placed,"AWS, React, Spring Boot, Data Analysis, C++"
+840,MC590,Dalston,Bazoche,dbazochenb@dell.com,479-727-9327,Male,Mechatronics,1,6.9,69,,Internship,"Java, Data Analysis, C++, Spring Boot"
+852,CS758,Clarance,Knoller,cknollernn@paginegialle.it,813-635-0434,Male,cs,79979,5.7,69,NPTEL,NOt PLacEd,"AWS, Power BI"
+953,CS234,Christen,,cfeaseyqg@nhs.uk,676-975-9683,Female,cs,4,8.8,69,AWS,NOT PLACED,"React, Data Analysis, Java, AWS"
+103,IT566,Andrey,Simioni,asimioni2u@huffingtonpost.com,457-394-0665,Male,Information Technology,Third Year,6.2,70,,NOt PLacEd,"Java, C++, Python, Machine Learning"
+197,CS236,Debbi,Swires,dswires5g@omniture.com,656-932-5982,Female,cs,Fourth Year,4.1,70,,placed,"Data Analysis, Python, AWS"
+200,CS036,Maje,Bacon,mbacon5j@home.pl,127-849-7766,M,cs,Fourth Year,"6,3",70,,Internship,"Spring Boot, Power BI, AWS, Java"
+235,CS902,Cordy,Cuffe,ccuffe6i@hostgator.com,192-968-8254,Female,Computer Science,First Year,5,70,Coursera,Internship,"Java, Spring Boot, AWS"
+245,IT227,Robbyn,Broady,rbroady6s@stanford.edu,706-902-5268,Female,Information Technology,2,7.8,70,Certified Google Data Analytics,placed,"React, C++, SQL, Java"
+277,CE430,Margy,Rosenshine,mrosenshine7o@wikispaces.com,486-556-0966,Female,Civil,3,5.8,70,Coursera,Internship,Python
+329,CS657,Felizio,Dunstone,,860-158-0354,Male,cs,3,6.8,70,,placed,"C++, SQL, AWS, Power BI"
+329,MC706,Felizio,Dunstone,,860-158-0354,Male,,3,6.8,70,,placed,"C++, SQL, AWS, Power BI"
+388,CE084,Kerrie,Reed,kreedar@nationalgeographic.com,812-772-7666,Female,Civil,1,4.2,70,AWS,Placed,"Machine Learning, AWS, React, Python"
+480,MC141,Alf,Myring,amyringdb@accuweather.com,945-125-9485,FEMALE,MCT,2,5.2,70,,NOT PLACED,"Spring Boot, Machine Learning, Power BI"
+567,CE958,Ezri,Fattorini,efattorinifq@github.com,662-639-7435,???,Civil,3,8.3,70,AWS,Internship,React
+655,IT979,Marysa,Venditto,mvendittoi6@people.com.cn,326-573-9374,Female,Information Technology,1,4.6,70,Microsoft Azure,Internship,"Spring Boot, Machine Learning, Power BI"
+710,MC661,Brit,Cady,bcadyjp@paginegialle.it,293-682-3725,Male,Information Technology,1,5.8,70,Certified Google Data Analytics,NOT PLACED,SQL
+749,IT105,Adiana,Tomczykowski,invalidemail.com,886-123-6748,Female,Information Technology,3,7.7,70,Coursera,Internship,Python
+805,IT636,Farlie,Ansty,invalidemail.com,269-231-8136,Male,Information Technology,4,8.7,70,ML,NOt PLacEd,"React, AWS, Java, C++, Machine Learning"
+815,IT814,,Windmill,vwindmillmm@google.nl,,Male,Information Technology,4,-8.6,70,,NOT PLACED,"Machine Learning, Data Analysis, Java, AWS"
+954,IT150,Sancho,Ledbury,sledburyqh@so-net.ne.jp,,M,Information Technology,1,5.2,70,,Internship,"Spring Boot, Python, Power BI"
+227,CE641,Carce,MacIntyre,cmacintyre6a@usatoday.com,393-276-7191,M,Civil,1,6.4,71,Microsoft Azure,Placed,"Java, SQL, React, Spring Boot"
+256,MC494,Baily,Dunn,bdunn73@google.ca,,Male,MCT,Fourth Year,4.9,71,NPTEL,NOt PLacEd,"Data Analysis, Python, AWS, Power BI"
+278,MC299,Joni,Phant,jphant7p@t.co,,Female,MCT,1,8.9,71,Certified Google Data Analytics,NOt PLacEd,"Spring Boot, Data Analysis"
+278,MC299,Joni,Phant,jphant7p@t.co,,Female,MCT,1,8.9,71,Certified Google Data Analytics,NOt PLacEd,"Spring Boot, Data Analysis"
+315,EC926,Willdon,Ellar,wellar8q@webs.com,376-986-1780,Male,Electronics,4,6,71,ML,Internship,Power BI
+330,ME347,,Stiger,mstiger95@google.es,904-655-0785,Female,Mechanical,First Year,-7.6,71,Coursera,Placed,Spring Boot
+400,MC852,Felisha,Blackboro,fblackborob3@washington.edu,998-257-3797,Female,cs,Third Year,6.6,71,Certified Google Data Analytics,NOt PLacEd,"Power BI, C++, AWS"
+420,MC692,Erasmus,Borer,eborerbn@walmart.com,747-111-2365,O,MCT,Fourth Year,4.5,71,,placed,"Java, Data Analysis, React"
+435,MC033,Jozef,Exton,jextonc2@cpanel.net,642-160-1947,Male,MCT,First Year,8.4,71,Certified Google Data Analytics,placed,"React, SQL, AWS"
+441,IT685,Philip,Simonsson,psimonssonc8@stanford.edu,365-911-4760,Male,Information Technology,Fourth Year,4.6,71,,NOt PLacEd,"Power BI, Java, C++"
+447,CS120,Edyth,Joplin,ejoplince@dedecms.com,320-584-8428,???,Computer Science,2,6,71,AWS,Internship,Java
+531,MC649,Urson,Goodinge,ugoodingeeq@shutterfly.com,516-140-2028,Male,IT,First Year,15,71,,NOt PLacEd,"Spring Boot, Data Analysis"
+534,MC471,Curran,Southern,csouthernet@usatoday.com,991-898-2531,Male,Mechatronics,4,7.7,71,Coursera,NOt PLacEd,"AWS, Data Analysis, Power BI, C++"
+605,IT560,Quintin,Hedgeman,qhedgemangs@bigcartel.com,410-455-6008,BN,Information Technology,First Year,5.2,71,Microsoft Azure,NOT PLACED,"AWS, Spring Boot, Data Analysis"
+605,MC395,Quintin,Hedgeman,qhedgemangs@bigcartel.com,3939ahf,MALE,,First Year,5.2,71,Microsoft Azure,NOT PLACED,"AWS, Spring Boot, Data Analysis"
+646,CE735,Bertrando,Kohring,bkohringhx@flavors.me,540-509-3836,Male,Civil,First Year,5.5,71,Microsoft Azure,Placed,"React, Python, SQL"
+717,CS930,Ken,Eastbury,keastburyjw@yellowpages.com,127-427-9865,Male,Computer Science,Fourth Year,7.8,71,Coursera,placed,"Machine Learning, SQL, Python"
+735,CE651,Eula,Steward,estewardke@instagram.com,665-904-8174,Female,Civil,3,6.7,71,Microsoft Azure,Placed,React
+773,CE305,Elly,Colhoun,ecolhounlg@freewebs.com,416-611-5368,Female,Civil,Third Year,7,71,NPTEL,NOt PLacEd,"C++, React, Machine Learning, Java, SQL"
+843,ME235,Griff,Doddemeade,,593-456-8789,Male,Mechanical,3,4,71,NPTEL,Internship,"C++, AWS, React"
+850,MC314,Derby,Gollin,dgollinnl@ucsd.edu,460-458-7201,Male,Mechatronics,3,9.2,71,Certified Google Data Analytics,NOT PLACED,"Power BI, AWS, React, SQL"
+78,MC172,Marilyn,Petruszka,mpetruszka25@usnews.com,,Female,Mechatronics,3,6.4,72,Coursera,NOt PLacEd,"React, Data Analysis"
+176,MC269,,Brizell,rbrizell4v@scribd.com,187-199-5089,BN,Mechatronics,Second Year,8.9,72,Certified Google Data Analytics,NOt PLacEd,"SQL, React, Spring Boot"
+223,MC236,Briano,McGillecole,bmcgillecole66@geocities.com,12345,Male,MCT,Second Year,6.9,72,,placed,"Data Analysis, SQL, Python, Machine Learning"
+233,IT142,Thaine,Holligan,tholligan6g@aboutads.info,63958-71572,genderX,Information Technology,4,5.4,72,Microsoft Azure,Internship,"Machine Learning, Data Analysis, React, Python, Java"
+338,CS972,Heddie,Canty,hcanty9d@thetimes.co.uk,927-465-4573,Female,Computer Science,Fourth Year,7.7,72,Coursera,Internship,Data Analysis
+570,CS759,Shanie,Radin,sradinft@w3.org,684-906-4287,Female,Computer Science,Second Year,9.4,72,ML,Internship,"Python, Java, Data Analysis, SQL, Power BI"
+658,MC335,Bendix,Philipson,bphilipsoni9@list-manage.com,,male,Mechatronics,1,6.2,72,,Placed,"Power BI, SQL, React, C++, Data Analysis"
+803,MC472,Tanner,Heeps,theepsma@omniture.com,675-409-7252,Male,MCT,Fourth Year,8.1,72,AWS,Internship,Data Analysis
+847,MC150,Wit,Crim,wcrimni@drupal.org,625-723-0180,Male,MCT,First Year,6.6,72,ML,NOt PLacEd,SQL
+923,MC037,Gwyneth,Aliberti,galibertipm@surveymonkey.com,373-578-7006,Female,MCT,4,5.3,72,Coursera,placed,"C++, AWS, Data Analysis, Spring Boot, React"
+163,CS761,Shir,Moult,smoult4i@tmall.com,598-898-8001,Female,Computer Science,Third Year,7,73,,Internship,"Power BI, SQL, Spring Boot, Machine Learning"
+192,MC592,Tildy,Bromfield,invalidemail.com,185-454-2921,Female,IT,First Year,7,73,,Internship,"Spring Boot, Machine Learning, C++"
+251,ME851,Dinny,Kleis,dkleis6y@umich.edu,949-383-3573,Female,Mechanical,Third Year,7.2,73,AWS,Placed,Java
+337,IT055,Rochester,Bronger,rbronger9c@usgs.gov,371-955-5654,Male,Information Technology,Second Year,5.3,73,ML,Placed,"Power BI, Spring Boot, React"
+562,IT858,Marla,Tredgold,mtredgoldfl@istockphoto.com,201-781-7537,Female,Information Technology,2,8.1,73,AWS,Internship,"Spring Boot, React, AWS"
+624,EC920,Margit,Cromie,invalidemail.com,457-253-3871,Female,Electronics,3,13,73,Coursera,NOt PLacEd,"Python, AWS, Data Analysis"
+731,MC443,Emylee,Kelleher,ekelleherka@intel.com,,Female,Mechatronics,1,6.5,73,,NOT PLACED,"AWS, SQL"
+769,EC239,Rudd,Towell,rtowelllc@cyberchimps.com,325-487-0663,Male,Electronics,Third Year,4.6,73,ML,Placed,React
+59,EC021,Heddie,Iglesiaz,higlesiaz1m@oakley.com,698-976-1382,Female,Electronics,4,8.1,74,NPTEL,Internship,"AWS, Java, C++"
+161,MC004,Hazlett,Petford,hpetford4g@t-online.de,690-874-7099,Male,MCT,2,7.9,74,,NOT PLACED,"React, AWS, Spring Boot, C++"
+433,MC975,Hubey,Geeve,hgeevec0@webnode.com,737-538-7626,Male,MCT,Third Year,4.3,74,Coursera,placed,SQL
+638,CS495,Dillie,Spridgen,dspridgenhp@cafepress.com,593-128-1924,Male,cs,2,9.2,74,ML,NOt PLacEd,"Java, Python"
+688,IT957,Duncan,Cabel,dcabelj3@webnode.com,445-113-7924,MALE,Information Technology,Second Year,5.9,74,ML,NOT PLACED,SQL
+688,MC538,Duncan,Cabel,dcabelj3@webnode.com,445-113-7924,,Information Technology,Second Year,5.9,74,ML,NOT PLACED,SQL
+699,EC411,Celia,Effaunt,,556-972-1846,Female,Electronics,1,6,74,Certified Google Data Analytics,placed,"Spring Boot, Data Analysis, C++, AWS"
+714,ME852,Thacher,Harly,tharlyjt@csmonitor.com,,Male,Mechanical,1,7,74,Microsoft Azure,NOT PLACED,Data Analysis
+716,CS247,Tabb,Cleeton,tcleetonjv@php.net,887-113-0118,Male,cs,Fourth Year,4.8,74,Certified Google Data Analytics,Internship,"React, Java, Machine Learning"
+866,IT764,Marie-jeanne,Aughtie,maughtieo1@com.com,255-598-5238,Female,Information Technology,1,9.8,74,Certified Google Data Analytics,NOt PLacEd,"Data Analysis, Machine Learning, SQL, Java, Power BI"
+874,MC058,Harlen,Raeside,hraesideo9@google.ca,258-330-8962,,Mechatronics,Fourth Year,9.5,74,Microsoft Azure,NOT PLACED,"SQL, Java, React, AWS"
+8,MC411,Myranda,,invalidemail.com,160-186-7045,Female,MCT,4,15,75,,NOT PLACED,Python
+31,CE294,Kellby,Foulstone,kfoulstoneu@prlog.org,108-735-1448,Male,Civil,Third Year,5.1,75,Coursera,NOT PLACED,"SQL, Machine Learning, Spring Boot, Power BI"
+31,MC246,Kellby,Foulstone,kfoulstoneu@prlog.org,71659-50866,other,Civil,Third Year,5.1,75,Coursera,NOT PLACED,"SQL, Machine Learning, Spring Boot, Power BI"
+302,CS180,Fredra,Collin,fcollin8d@cmu.edu,917-568-1612,BN,cs,4,5.9,75,NPTEL,Internship,"Power BI, Python"
+332,CS387,Tyrus,Dykins,tdykins97@prnewswire.com,342-103-9598,,cs,Second Year,6.2,75,ML,Internship,"AWS, Machine Learning"
+461,CE102,Nessy,Broseman,nbrosemancs@addtoany.com,245-267-1187,Female,Civil,4,6.4,75,Coursera,placed,"Machine Learning, Java"
+500,CS943,,Ghidoni,invalidemail.com,818-808-8696,Male,cs,Fourth Year,8.9,75,,NOt PLacEd,"Machine Learning, Power BI"
+500,CS943,,Ghidoni,invalidemail.com,818-808-8696,Male,cs,Fourth Year,8.9,75,,NOt PLacEd,"Machine Learning, Power BI"
+628,MC827,Saul,Fussey,sfusseyhf@uol.com.br,847-175-4665,Male,Mechatronics,Third Year,7,75,,Internship,"Power BI, Machine Learning, Java, Spring Boot"
+654,MC154,Jodi,Downgate,jdowngatei5@shutterfly.com,683-480-4871,Male,MCT,Third Year,9.2,75,Coursera,Internship,"Data Analysis, Power BI, C++, SQL, Python"
+750,CS280,Eba,Comerford,ecomerfordkt@amazonaws.com,132-603-2099,NON-BINARY,cs,2,5,75,AWS,Internship,"AWS, Python"
+811,EC217,Pattie,Duell,pduellmi@mozilla.com,193-397-9468,male,Electronics,4,7.7,75,,placed,"React, Python, SQL, C++, Machine Learning"
+920,ME680,Conrad,Joskowitz,cjoskowitzpj@examiner.com,436-768-3065,Male,,4,"7,3",75,ML,NOT PLACED,"Java, Spring Boot, React"
+925,MC643,Giraldo,Betun,gbetunpo@walmart.com,453-795-4763,Male,cs,Third Year,4.9,75,Microsoft Azure,NOT PLACED,"C++, Spring Boot"
+925,MC643,Giraldo,Betun,gbetunpo@walmart.com,453-795-4763,Male,cs,Third Year,4.9,75,Microsoft Azure,NOT PLACED,"C++, Spring Boot"
+981,CS493,Teddy,Cuckoo,tcuckoor8@about.me,670-956-4469,Male,cs,First Year,5.4,75,Microsoft Azure,Placed,"AWS, Java, React, Python"
+14,IT969,Gale,Brinicombe,gbrinicombed@simplemachines.org,,Male,IT,3,4.9,76,Microsoft Azure,Internship,"SQL, Power BI, Java, Spring Boot, AWS"
+99,CE026,Hammad,Tembey,htembey2q@opera.com,654-373-1716,Male,Civil,Third Year,8.5,76,ML,Placed,"Java, AWS, Python, Spring Boot, React"
+131,CS634,Norri,Basillon,nbasillon3m@cpanel.net,891-311-6231,Female,cs,1,-7.6,76,AWS,NOT PLACED,"Power BI, C++"
+212,ME863,Averil,Kinneally,akinneally5v@oracle.com,685-900-4027,Male,Mechanical,Fourth Year,12,76,Certified Google Data Analytics,Internship,"React, Machine Learning, Power BI, Spring Boot, AWS"
+536,ME814,Hurley,Goldby,hgoldbyev@usda.gov,977-445-3414,Male,Mechanical,Third Year,4.9,76,ML,Internship,AWS
+549,MC479,Adiana,O'Shevlin,aoshevlinf8@homestead.com,149-602-2673,Female,IT,Third Year,8.7,76,,Placed,Power BI
+559,CE032,Courtnay,Summerrell,csummerrellfi@yale.edu,182-354-8102,Male,Civil,First Year,8.7,76,,Placed,"AWS, Python"
+653,MC529,Bary,Coulthard,bcoulthardi4@slashdot.org,763-837-9150,Male,MCT,3,7.5,76,,NOt PLacEd,Spring Boot
+656,IT526,Silvain,Govey,sgoveyi7@zimbio.com,748-454-7413,,Information Technology,1,5.1,76,NPTEL,placed,"Machine Learning, Data Analysis"
+681,MC951,Mela,Reef,mreefiw@ovh.net,3939ahf,Female,Mechatronics,Fourth Year,7,76,,NOT PLACED,"Machine Learning, SQL, React, Java"
+725,CE940,Kay,Fairbourn,kfairbournk4@issuu.com,624-450-1824,Female,Civil,Fourth Year,4.2,76,NPTEL,NOt PLacEd,"Power BI, React, Data Analysis"
+752,MC450,Bibby,Havis,bhaviskv@paginegialle.it,123-579-7400,Female,Computer Science,Second Year,5.4,76,Certified Google Data Analytics,NOt PLacEd,"C++, React"
+96,ME947,Bartie,Euston,beuston2n@amazonaws.com,,Male,Mechanical,4,5.6,77,ML,NOT PLACED,"Data Analysis, Power BI, React, Machine Learning"
+164,IT290,Kathlin,Eastway,keastway4j@house.gov,110-401-0314,Female,Information Technology,3,7.5,77,ML,NOT PLACED,SQL
+241,MC978,Adi,Sleep,asleep6o@yellowbook.com,558-630-1455,MALE,MCT,First Year,7.2,77,Coursera,Internship,"Power BI, Java, Spring Boot, React"
+310,CS084,Torrin,Bredgeland,tbredgeland8l@wp.com,77590-40593,Male,Computer Science,Fourth Year,9.7,77,,Placed,"Data Analysis, Spring Boot, Power BI, React"
+321,MC977,Torie,Savage,tsavage8w@histats.com,12345,Female,MCT,Third Year,4.5,77,Certified Google Data Analytics,placed,"C++, Python, Machine Learning, Java"
+381,IT715,Ronnie,Korpal,rkorpalak@noaa.gov,602-971-1242,Male,IT,Fourth Year,4.1,77,AWS,Placed,SQL
+478,MC646,Hanni,Forbes,hforbesd9@zdnet.com,12345,male,IT,First Year,9.7,77,,NOt PLacEd,"Python, Spring Boot, Machine Learning, Java"
+659,IT093,Aharon,Soots,asootsia@google.fr,574-581-2723,Male,Information Technology,1,9.8,77,ML,placed,"Python, SQL, AWS, Power BI, Java"
+665,CE546,Alvis,Piddle,apiddleig@macromedia.com,452-139-1388,Male,Civil,1,9.3,77,NPTEL,NOT PLACED,"Power BI, SQL"
+68,IT963,Flory,Rosenbaum,frosenbaum1v@cafepress.com,12345,F,IT,Third Year,5.1,78,AWS,Placed,"Data Analysis, React, Machine Learning, Spring Boot, Java"
+73,CS442,Ruby,,rjollands20@google.com.br,886-333-2440,???,cs,First Year,4.5,78,,NOt PLacEd,"Data Analysis, C++, Java, Machine Learning, Power BI"
+145,CS144,Michele,Dorin,mdorin40@washingtonpost.com,503-478-5763,female,cs,Third Year,5.8,78,NPTEL,Internship,"C++, AWS, Java, Spring Boot, SQL"
+272,CE660,Sheffy,Prettyman,sprettyman7j@sitemeter.com,269-413-0203,Male,Civil,Third Year,4.6,78,,Placed,"AWS, Python, Spring Boot"
+305,MC457,Leonid,Sumbler,lsumbler8g@cmu.edu,761-645-7439,Male,MCT,Fourth Year,6.4,78,ML,Internship,Java
+316,IT734,L;urette,Beadles,lbeadles8r@wsj.com,571-609-2212,Female,,Fourth Year,7.9,78,AWS,NOT PLACED,"AWS, Machine Learning, Power BI, SQL, Data Analysis"
+487,MC625,Anson,Ambrogelli,aambrogellidi@timesonline.co.uk,874-735-6292,Male,MCT,Third Year,4.4,78,,Placed,"Power BI, Data Analysis, AWS, Machine Learning, Java"
+502,IT934,Addie,Edscer,aedscerdx@gnu.org,879-120-4417,F,Information Technology,First Year,9.2,78,,Placed,"React, AWS"
+518,IT650,Nial,Shelper,nshelpered@geocities.jp,427-650-1843,Male,Information Technology,Third Year,5.7,78,NPTEL,Internship,"React, Data Analysis, Python, SQL"
+535,MC619,,Kemmis,mkemmiseu@live.com,741-100-9522,Male,MCT,2,12,78,NPTEL,Placed,C++
+771,MC149,Kendricks,Foucher,kfoucherle@paginegialle.it,780-804-5287,Male,MCT,1,6.1,78,Certified Google Data Analytics,NOT PLACED,"AWS, Java, Power BI, React, Python"
+813,CS579,,Crother,wcrothermk@imdb.com,12345,Male,cs,Second Year,6.7,78,AWS,NOT PLACED,"AWS, Data Analysis, Java"
+978,CS743,Lydon,Filippov,lfilippovr5@sun.com,782-491-6092,Male,cs,2,6,78,NPTEL,Placed,"Java, Data Analysis, Machine Learning, Power BI"
+980,MC007,Evelin,Kik,ekikr7@e-recht24.de,916-953-9544,Male,MCT,1,8.4,78,AWS,Placed,"C++, Machine Learning, Java, AWS, React"
+1000,CS194,Dyanna,Blenkiron,dblenkironrr@tinyurl.com,933-887-4026,Female,cs,Second Year,5.9,78,Certified Google Data Analytics,NOT PLACED,"Python, SQL, C++, Java"
+129,CE732,Kele,Guillon,kguillon3k@example.com,541-739-2318,female,Civil,Third Year,4.3,79,,NOt PLacEd,"Python, Machine Learning"
+247,ME927,Shayne,Bidnall,sbidnall6u@comsenz.com,604-811-6043,Male,Mechanical,Second Year,5,79,AWS,NOt PLacEd,"Data Analysis, AWS, Machine Learning, SQL, Java"
+297,MC690,Blakeley,Sargeaunt,bsargeaunt88@newyorker.com,216-317-7908,Female,Mechatronics,Second Year,7.4,79,,Placed,"Java, C++, AWS, Power BI"
+297,MC690,Blakeley,Sargeaunt,bsargeaunt88@newyorker.com,216-317-7908,Female,Mechatronics,Second Year,7.4,79,,Placed,"Java, C++, AWS, Power BI"
+313,ME503,Marget,Peile,mpeile8o@myspace.com,473-647-0110,Female,Mechanical,4,5.6,79,ML,Placed,"C++, Data Analysis, React"
+313,ME503,Marget,Peile,mpeile8o@myspace.com,473-647-0110,Female,Mechanical,4,5.6,79,ML,Placed,"C++, Data Analysis, React"
+314,EC144,Redford,Blackler,rblackler8p@bing.com,334-891-3334,female,Electronics,First Year,5.9,79,NPTEL,placed,"Java, React"
+399,MC344,Bord,Picken,bpickenb2@altervista.org,880-478-8754,Male,MCT,Second Year,7.2,79,Coursera,Placed,"Machine Learning, SQL, Python"
+438,CS785,Demeter,Mulqueen,dmulqueenc5@ted.com,636-443-1471,Female,Computer Science,1,4.6,79,NPTEL,Internship,"Machine Learning, C++, React, Spring Boot"
+469,CS408,Nanni,Geeson,invalidemail.com,12345,female,cs,Third Year,6.4,79,Coursera,NOT PLACED,"React, Machine Learning, AWS, Power BI, SQL"
+489,CE845,Mandel,O'Hoey,mohoeydk@soundcloud.com,593-817-2847,Male,Civil,2,7.2,79,Microsoft Azure,placed,"Power BI, Machine Learning, Data Analysis, Java, SQL"
+709,MC729,Kyle,Flint,invalidemail.com,363-920-2429,M,MCT,3,4.4,79,Coursera,Placed,AWS
+785,CS249,Merwin,Piele,mpielels@scribd.com,223-152-3922,FEMALE,Computer Science,First Year,8.7,79,AWS,NOT PLACED,"Java, AWS, C++"
+832,EC287,Allianora,Aleksankin,aaleksankinn3@berkeley.edu,609-455-3545,Female,Electronics,Third Year,4.4,79,,NOt PLacEd,Java
+913,IT004,Brennen,Chyuerton,bchyuertonpc@odnoklassniki.ru,971-320-9921,Male,IT,2,9.3,79,,Internship,"Java, C++"
+995,EC752,Jenn,Squirrell,jsquirrellrm@sbwire.com,948-980-8085,OTHER,Electronics,Second Year,6.2,79,Coursera,Placed,"AWS, Python, SQL"
+29,IT256,Dion,Dulany,ddulanys@mac.com,504-277-0841,Male,Information Technology,4,6.5,80,Microsoft Azure,Internship,"Data Analysis, Spring Boot, Python"
+35,CE721,Ram,Runnett,rrunnetty@gmpg.org,704-269-9018,Male,Civil,First Year,6.5,80,NPTEL,NOt PLacEd,C++
+181,EC301,Orbadiah,McGrouther,omcgrouther50@homestead.com,576-522-9825,,Electronics,Fourth Year,8.1,80,Coursera,NOt PLacEd,"Machine Learning, React, Spring Boot, Power BI, C++"
+195,CE453,Orel,Frame,oframe5e@meetup.com,500-549-1762,Female,Civil,1,14,80,,Internship,"Python, Machine Learning, Power BI, Java, Spring Boot"
+209,MC882,Alys,Djurevic,adjurevic5s@theatlantic.com,645-504-2421,Female,MCT,3,8,80,Coursera,Placed,"SQL, Machine Learning"
+218,ME038,Lauritz,Townes,ltownes61@cisco.com,12345,female,Mechanical,First Year,"6,3",80,AWS,placed,Data Analysis
+237,CS331,Yorker,Marchbank,ymarchbank6k@msn.com,243-494-3122,Male,Computer Science,4,"6,3",80,Microsoft Azure,placed,"AWS, Python, SQL, Power BI, Machine Learning"
+397,MC132,Abey,Gudger,agudgerb0@bbb.org,704-424-9081,Male,Mechatronics,1,4.5,80,AWS,NOT PLACED,"Power BI, Spring Boot, AWS, C++"
+401,ME687,Son,Tawton,,963-253-4820,Male,Mechanical,2,4.4,80,,placed,Spring Boot
+411,EC494,Goober,Josselson,,618-838-9922,Male,Electronics,3,7.5,80,,NOt PLacEd,"AWS, Data Analysis"
+430,MC089,Avigdor,Halleday,ahalledaybx@cam.ac.uk,290-667-8872,Male,Mechatronics,2,5,80,ML,Internship,"Data Analysis, SQL, Power BI, Machine Learning"
+519,MC324,Kris,Halliwell,khalliwellee@latimes.com,697-243-2714,Female,Mechatronics,Third Year,4.4,80,AWS,Internship,"Spring Boot, SQL, C++"
+577,EC613,Aleece,,abalfourg0@freewebs.com,714-301-0891,Female,Electronics,Fourth Year,6.2,80,Coursera,Placed,"Spring Boot, Java, AWS, C++"
+650,MC293,Nanci,Brokenshaw,nbrokenshawi1@blog.com,590-877-7639,Female,cs,Second Year,12,80,,NOt PLacEd,"C++, Data Analysis, Python"
+652,CE015,Ethyl,Schechter,eschechteri3@ow.ly,476-479-4545,Female,Civil,Second Year,7.8,80,Coursera,Placed,Machine Learning
+856,IT862,Esdras,Mannie,,899-656-7565,Male,IT,4,7.4,80,Coursera,Placed,"Spring Boot, SQL, AWS, React"
+915,IT312,Fanechka,Devanney,fdevanneype@icio.us,817-382-7435,Female,IT,First Year,4.7,80,Certified Google Data Analytics,Placed,"Machine Learning, Data Analysis"
+933,CS543,Lon,Snugg,,324-261-9848,Male,Computer Science,First Year,8.2,80,NPTEL,Internship,Python
+967,MC948,Brock,Chastaing,bchastaingqu@cmu.edu,412-656-8386,Male,Mechatronics,3,5.2,80,Coursera,Internship,"Python, Data Analysis"
+977,CS271,Gil,Fippe,gfipper4@istockphoto.com,870-602-8880,Male,Computer Science,Fourth Year,6.8,80,Microsoft Azure,NOt PLacEd,"Power BI, Data Analysis"
+1,CE820,Kriste,Saurin,ksaurin0@addthis.com,667-131-2720,Female,Civil,Second Year,8.3,81,,placed,"Python, C++"
+54,CS827,Finn,Risdale,frisdale1h@dion.ne.jp,302-107-0222,MALE,cs,Second Year,5.3,81,,NOT PLACED,Data Analysis
+157,MC959,Elnar,Abrey,eabrey4c@free.fr,841-730-2063,Male,MCT,2,8,81,NPTEL,NOt PLacEd,"Java, C++, SQL, Data Analysis"
+159,CS225,Hershel,McLoney,hmcloney4e@noaa.gov,12345,Male,Computer Science,1,"7,3",81,Coursera,Placed,"Power BI, Python"
+193,MC025,Burnard,Capaldo,bcapaldo5c@xing.com,937-490-5379,Male,MCT,2,6.1,81,Microsoft Azure,placed,"Java, C++"
+194,CS609,Germana,Sussems,gsussems5d@google.fr,12345,Female,cs,Third Year,13,81,AWS,placed,"SQL, Machine Learning, React"
+239,CS538,Mela,Summerskill,msummerskill6m@adobe.com,798-998-0974,Female,cs,2,9.6,81,Microsoft Azure,Internship,"Machine Learning, AWS, Power BI, Spring Boot"
+349,CE058,Yurik,Manktelow,ymanktelow9o@microsoft.com,3939ahf,Male,Civil,2,5.1,81,Certified Google Data Analytics,NOT PLACED,"SQL, Machine Learning, Java"
+452,CS821,Melly,Pail,mpailcj@domainmarket.com,782-185-9097,Female,Computer Science,Second Year,9.5,81,AWS,NOT PLACED,"Python, SQL"
+486,EC776,Betti,Louisot,blouisotdh@sciencedirect.com,698-487-3359,Female,Electronics,2,5.5,81,Certified Google Data Analytics,NOT PLACED,"Spring Boot, AWS, SQL, React"
+576,MC129,Tiphani,Frascone,tfrasconefz@bloglines.com,455-574-3194,Female,Mechatronics,2,9,81,Certified Google Data Analytics,NOt PLacEd,"C++, AWS"
+676,IT455,Rosene,Trulock,rtrulockir@cdc.gov,,O,Information Technology,3,6.7,81,Certified Google Data Analytics,NOT PLACED,"React, Python, AWS, Data Analysis"
+698,MC094,Charles,Hickenbottom,chickenbottomjd@wordpress.org,628-929-1499,Male,MCT,2,9.7,81,ML,Internship,"React, Machine Learning, Data Analysis, Java"
+704,CS854,Pedro,Pagnin,ppagninjj@sourceforge.net,888-692-4931,Male,Computer Science,Fourth Year,9.7,81,NPTEL,NOt PLacEd,"Power BI, Machine Learning, Java, Spring Boot, AWS"
+708,CS701,Aggie,Penwarden,apenwardenjn@paginegialle.it,414-148-5732,Female,,4,5.2,81,AWS,placed,React
+732,MC100,Stanislaus,Constance,sconstancekb@independent.co.uk,842-103-1510,Male,Mechanical,First Year,11,81,Coursera,placed,"Machine Learning, Python, AWS, Spring Boot"
+765,MC241,,Children,cchildrenl8@dailymail.co.uk,397-542-4561,MALE,MCT,Second Year,12,81,ML,Placed,"Data Analysis, React, Spring Boot, AWS, Python"
+836,CE326,Marty,Gilberthorpe,mgilberthorpen7@friendfeed.com,12345,Male,,2,5.8,81,Certified Google Data Analytics,placed,"C++, Power BI, Machine Learning, Data Analysis, SQL"
+862,MC478,Marianna,Rubens,mrubensnx@wiley.com,179-904-6055,Female,IT,1,6.8,81,AWS,Placed,"AWS, Power BI, Machine Learning, Java, Data Analysis"
+992,MC291,Franny,Acarson,facarsonrj@123-reg.co.uk,923-170-8118,Male,MCT,First Year,6.9,81,NPTEL,placed,"Java, SQL"
+994,EC216,Gabbi,Dadds,gdaddsrl@umn.edu,988-432-9503,,Electronics,First Year,-7.6,81,,Placed,AWS
+43,CS704,Tonnie,Gething,tgething16@acquirethisname.com,228-340-6679,M,cs,1,8,82,Coursera,NOt PLacEd,"Machine Learning, Java, AWS"
+60,EC274,Johannes,Bakewell,jbakewell1n@amazon.com,340-685-4099,Male,Electronics,Fourth Year,6.7,82,NPTEL,Internship,"Java, Data Analysis, Python, C++"
+60,MC638,Johannes,Bakewell,jbakewell1n@amazon.com,340-685-4099,Male,,Fourth Year,6.7,82,NPTEL,Internship,"Java, Data Analysis, Python, C++"
+120,MC178,Tiffi,Heisler,theisler3b@github.com,338-216-9529,Female,MCT,Fourth Year,8.4,82,,Internship,"Python, SQL, AWS, Java, Power BI"
+230,IT164,Madelena,Laytham,mlaytham6d@ning.com,,Female,IT,First Year,8.7,82,NPTEL,NOT PLACED,"Power BI, C++, Python"
+240,MC447,Joshua,Drugan,,,female,MCT,2,6.9,82,AWS,NOt PLacEd,"AWS, Machine Learning"
+294,MC237,Chrissy,Duckerin,invalidemail.com,837-357-3293,,Computer Science,Third Year,5.4,82,Microsoft Azure,Internship,C++
+326,MC092,Mirilla,Thorrington,mthorrington91@ox.ac.uk,760-234-0340,Female,MCT,2,5,82,,Placed,"React, Machine Learning"
+339,MC634,Zechariah,Beldum,zbeldum9e@usda.gov,64938-11436,Male,MCT,3,5.7,82,,Placed,SQL
+389,CS887,Tomasina,Leason,tleasonas@flavors.me,127-369-3324,Female,Computer Science,First Year,5.4,82,NPTEL,Placed,"Machine Learning, React, Data Analysis, SQL"
+396,EC083,Eba,Toope,etoopeaz@webmd.com,455-298-5489,Female,Electronics,4,9,82,NPTEL,NOT PLACED,"Data Analysis, Power BI, Spring Boot"
+636,IT543,Miquela,Turban,mturbanhn@163.com,408-321-6266,Female,Information Technology,First Year,5.3,82,NPTEL,Placed,Python
+702,ME828,Florrie,Stiger,fstigerjh@marketwatch.com,129-582-4405,Female,Mechanical,Third Year,7,82,Certified Google Data Analytics,NOt PLacEd,Power BI
+742,MC611,Jed,Sextone,jsextonekl@dailymotion.com,,Male,Mechatronics,First Year,4.5,82,ML,Placed,"SQL, Spring Boot, C++"
+742,MC611,Jed,Sextone,jsextonekl@dailymotion.com,,Male,Mechatronics,First Year,4.5,82,ML,Placed,"SQL, Spring Boot, C++"
+755,EC562,Korrie,Dutchburn,kdutchburnky@google.com.au,463-421-4147,Female,Electronics,4,7.8,82,Microsoft Azure,NOt PLacEd,"SQL, C++"
+883,IT320,Nana,Fuidge,invalidemail.com,297-427-6512,Female,IT,Fourth Year,7.4,82,,Internship,"React, Java"
+902,MC333,Ric,Jeandon,rjeandonp1@google.de,364-378-5822,???,cs,3,4.9,82,,placed,Power BI
+902,MC245,Ric,Jeandon,rjeandonp1@google.de,364-378-5822,Male,cs,3,4.9,82,,placed,Power BI
+970,MC030,Arabelle,Stillgoe,astillgoeqx@vkontakte.ru,461-685-4792,Female,IT,Third Year,9.4,82,AWS,Internship,"Python, Java, Machine Learning, AWS"
+979,ME466,Kienan,Augur,kaugurr6@webmd.com,238-299-3906,Male,Mechanical,1,5.1,82,Certified Google Data Analytics,placed,"Machine Learning, Java"
+67,CS187,Buddie,Parell,bparell1u@ocn.ne.jp,522-383-0104,FEMALE,cs,1,9,83,,Internship,"Java, Machine Learning, SQL, Python"
+71,EC993,Jerrilee,Gilbeart,invalidemail.com,732-683-9605,Female,Electronics,First Year,5.1,83,Coursera,Internship,"AWS, Spring Boot"
+71,MC575,Jerrilee,Gilbeart,invalidemail.com,989-338-6687,Female,,First Year,5.1,83,Coursera,Internship,"AWS, Spring Boot"
+199,CE125,Frank,Keighley,fkeighley5i@creativecommons.org,473-241-4051,Female,Civil,Third Year,-7.6,83,ML,placed,"Power BI, Python"
+199,MC585,Frank,Keighley,fkeighley5i@creativecommons.org,473-241-4051,FEMALE,Civil,Third Year,-7.6,83,ML,placed,"Power BI, Python"
+385,MC209,Bev,Gallop,bgallopao@apache.org,754-420-2836,male,MCT,Third Year,"7,3",83,NPTEL,NOt PLacEd,"Spring Boot, Machine Learning, AWS, Python"
+468,MC113,Arlana,Cutbirth,acutbirthcz@addthis.com,541-420-4894,Female,Mechatronics,4,8.8,83,Certified Google Data Analytics,Internship,"SQL, C++, Power BI, Java"
+689,CS005,Sheelagh,Stidson,sstidsonj4@blogspot.com,690-316-8008,Female,Computer Science,Second Year,8.4,83,,Placed,"Machine Learning, Power BI"
+728,CE080,,Kelloway,ckellowayk7@creativecommons.org,841-729-7365,Male,Civil,Third Year,6.7,83,NPTEL,Internship,"C++, Data Analysis, Java, Python, Spring Boot"
+826,IT095,Wyndham,Scrowton,wscrowtonmx@jalbum.net,477-183-7967,Male,Information Technology,3,8.7,83,Certified Google Data Analytics,placed,"C++, Spring Boot, Power BI, SQL"
+864,MC711,Bar,Molder,bmoldernz@dmoz.org,189-119-8797,MALE,Mechanical,2,6.8,83,,placed,"Machine Learning, C++, Power BI, Python"
+23,MC159,,Vaud,fvaudm@mac.com,202-872-5255,FEMALE,MCT,Second Year,5.6,84,,NOT PLACED,"AWS, SQL, Spring Boot, React, Python"
+104,IT912,Chelsie,Clibbery,cclibbery2v@yolasite.com,158-168-3717,BN,IT,4,5.3,84,,placed,"SQL, Java, C++, Power BI"
+154,MC218,Marthe,Isbell,invalidemail.com,196-763-0831,Female,MCT,First Year,6.7,84,Certified Google Data Analytics,placed,"C++, Data Analysis, Spring Boot"
+169,CS764,Tobe,Henricsson,thenricsson4o@facebook.com,565-896-6770,Male,Computer Science,Fourth Year,6.7,84,Coursera,Internship,"Machine Learning, React, C++, AWS, Java"
+203,IT244,Selena,McGeffen,smcgeffen5m@hp.com,830-535-8447,Female,Information Technology,First Year,8.4,84,NPTEL,Placed,"Python, Data Analysis, Spring Boot"
+265,CS067,Fan,Wrixon,fwrixon7c@theguardian.com,495-379-1353,O,cs,Second Year,8.7,84,Coursera,Internship,Machine Learning
+292,MC454,Burg,Cramond,bcramond83@whitehouse.gov,804-962-7947,Male,MCT,First Year,8,84,,placed,"C++, Machine Learning, Power BI, Data Analysis, Python"
+301,CS113,Jada,Tremblot,jtremblot8c@odnoklassniki.ru,324-684-5775,Female,cs,Second Year,"7,3",84,NPTEL,NOt PLacEd,"Python, Machine Learning"
+350,MC410,Lindsey,Eccleston,leccleston9p@msn.com,62510-42145,genderX,Mechatronics,3,9.2,84,Microsoft Azure,NOT PLACED,"Java, Spring Boot, AWS, Machine Learning"
+537,MC719,Violet,Hobden,vhobdenew@pagesperso-orange.fr,309-237-6709,OTHER,cs,2,4.7,84,,Placed,"Machine Learning, Data Analysis, Java, SQL, C++"
+545,IT834,Chaunce,Elletson,celletsonf4@artisteer.com,438-941-7400,Male,Information Technology,Fourth Year,9.2,84,Certified Google Data Analytics,placed,"Spring Boot, Machine Learning, React"
+649,MC042,Brendis,Scuffham,bscuffhami0@discovery.com,570-452-8677,Male,MCT,2,8.2,84,ML,NOT PLACED,"Data Analysis, Java, Python, AWS"
+674,MC884,Florri,O' Scallan,foscallanip@google.co.uk,542-748-3642,Female,MCT,Fourth Year,9.6,84,ML,NOT PLACED,Spring Boot
+796,MC064,John,,jpatriam3@imdb.com,3939ahf,Male,MCT,Third Year,5.4,84,Coursera,Placed,Machine Learning
+818,EC254,Traci,Borge,tborgemp@paypal.com,920-493-9573,Female,Electronics,Fourth Year,5,84,ML,placed,"C++, Data Analysis"
+912,MC432,Jolyn,Shambrooke,jshambrookepb@intel.com,669-376-5637,other,Mechatronics,Third Year,8.3,84,Certified Google Data Analytics,Internship,"React, AWS, Machine Learning, Spring Boot, C++"
+929,ME951,Roldan,Atwater,ratwaterps@sfgate.com,201-452-8649,Male,Mechanical,First Year,9.2,84,,NOt PLacEd,Machine Learning
+942,CS316,Tully,Cornell,tcornellq5@imageshack.us,917-990-2667,BN,Computer Science,3,4.9,84,ML,NOT PLACED,"Data Analysis, Power BI, Spring Boot"
+957,MC356,,Dibble,bdibbleqk@blogtalkradio.com,170-514-3017,O,Mechatronics,Second Year,9.3,84,Coursera,Placed,"Python, C++, Data Analysis, Power BI"
+11,MC114,Alano,Jencken,ajenckena@bizjournals.com,675-101-0244,Male,MCT,3,6.5,85,Coursera,Placed,"Machine Learning, React, Power BI"
+11,MC114,Alano,Jencken,ajenckena@bizjournals.com,675-101-0244,Male,MCT,3,6.5,85,Coursera,Placed,"Machine Learning, React, Power BI"
+19,CS431,Prudi,Camock,pcamocki@ucsd.edu,476-884-8893,Female,cs,4,6.7,85,Coursera,NOt PLacEd,"SQL, React, C++"
+38,IT686,Demetri,Reely,dreely11@spiegel.de,12345,Male,Information Technology,1,6.8,85,,Placed,"Power BI, Spring Boot"
+80,IT346,Garnette,Kettell,gkettell27@theatlantic.com,,Female,IT,First Year,4,85,ML,Internship,"Power BI, AWS"
+172,IT577,Cornie,Papworth,cpapworth4r@nbcnews.com,259-171-2011,Male,IT,Second Year,7.2,85,AWS,placed,"Machine Learning, Power BI, React, Spring Boot, C++"
+220,IT739,Paige,Cunradi,invalidemail.com,440-832-6179,Female,IT,4,5.6,85,Microsoft Azure,NOt PLacEd,React
+228,EC420,Madelina,Sawood,invalidemail.com,253-498-3462,Female,Electronics,Third Year,7.7,85,ML,Internship,React
+291,CS991,Roldan,Brazer,rbrazer82@soup.io,809-421-0878,Male,cs,Second Year,7.7,85,,NOT PLACED,"C++, SQL"
+342,IT257,Anna-maria,Kleinlerer,akleinlerer9h@mozilla.com,812-196-2871,Female,IT,Third Year,5.9,85,Microsoft Azure,NOT PLACED,"Java, Power BI, Spring Boot"
+356,IT066,Danita,,dskrzynski9v@sogou.com,548-124-2862,MALE,IT,First Year,6.6,85,Microsoft Azure,NOt PLacEd,"AWS, SQL, C++"
+375,CS806,Shelden,Whodcoat,,,Male,cs,1,8.4,85,,Internship,"AWS, SQL, Power BI, C++"
+408,ME123,Norrie,McGerraghty,,284-907-0628,Male,Mechanical,2,4.5,85,ML,NOT PLACED,Java
+412,EC944,Bernardine,Dana,bdanabf@gravatar.com,,NON-BINARY,Electronics,First Year,4.5,85,AWS,NOt PLacEd,"React, Java, AWS"
+412,MC593,Bernardine,Dana,bdanabf@gravatar.com,,Female,Electronics,First Year,4.5,85,AWS,NOt PLacEd,"React, Java, AWS"
+429,CE241,Krisha,Lourens,klourensbw@bing.com,308-836-1111,MALE,Civil,2,4.4,85,,placed,"SQL, C++"
+439,IT659,Dido,Vsanelli,dvsanellic6@goodreads.com,465-879-8010,other,IT,Third Year,8.8,85,,Placed,"SQL, C++, Spring Boot"
+440,IT842,Martelle,Jennison,mjennisonc7@apache.org,,Female,IT,Second Year,5.3,85,,Placed,"React, Data Analysis, SQL, Machine Learning"
+440,IT842,Martelle,Jennison,mjennisonc7@apache.org,,Female,IT,Second Year,5.3,85,,Placed,"React, Data Analysis, SQL, Machine Learning"
+508,IT778,Riva,Manuaud,,612-241-3254,Female,Information Technology,4,8.3,85,Coursera,Internship,"C++, AWS, Spring Boot, React, Python"
+553,MC883,Sebastien,Fayerman,sfayermanfc@cpanel.net,413-296-5454,Male,cs,Third Year,12,85,Microsoft Azure,NOT PLACED,"C++, Java"
+587,MC933,Brenna,Wawer,bwawerga@mediafire.com,394-188-8370,Female,Information Technology,4,7.8,85,Certified Google Data Analytics,placed,React
+594,ME165,Neill,Shrieves,nshrievesgh@amazonaws.com,941-336-1095,Male,Mechanical,3,6.1,85,Microsoft Azure,NOT PLACED,"SQL, React, Python, C++"
+604,MC106,Emmalynne,Yitzhakov,eyitzhakovgr@baidu.com,838-133-7583,Female,Mechatronics,3,9,85,Certified Google Data Analytics,Internship,"Power BI, Java, Python"
+662,MC842,Thorndike,Sinkinson,tsinkinsonid@arizona.edu,201-190-1549,Male,MCT,4,8.8,85,Certified Google Data Analytics,NOT PLACED,Spring Boot
+740,IT019,Rochette,George,rgeorgekj@wikispaces.com,353-586-8737,Female,Information Technology,2,6.2,85,Certified Google Data Analytics,NOt PLacEd,"AWS, Python, React, Spring Boot, Power BI"
+776,IT211,Dulcie,Nunn,dnunnlj@imgur.com,426-668-5604,Female,Information Technology,4,8.5,85,Microsoft Azure,placed,Python
+780,CS551,Helen-elizabeth,Quantrill,invalidemail.com,476-380-5292,Female,cs,Third Year,4,85,,Internship,"C++, Python, Data Analysis, AWS, SQL"
+812,MC156,Alfy,Munkley,amunkleymj@pcworld.com,524-363-8734,Male,Mechatronics,3,4.8,85,NPTEL,Placed,"Java, Machine Learning, C++, Data Analysis, React"
+812,MC516,Alfy,Munkley,amunkleymj@pcworld.com,524-363-8734,male,Mechatronics,3,4.8,85,NPTEL,Placed,"Java, Machine Learning, C++, Data Analysis, React"
+817,ME154,Penn,Ferrulli,pferrullimo@jiathis.com,,non-binary,Mechanical,4,5.1,85,Microsoft Azure,Internship,"Power BI, AWS, Machine Learning, Data Analysis"
+928,EC078,Lannie,Siggin,invalidemail.com,506-814-3460,Male,Electronics,Third Year,6.1,85,Certified Google Data Analytics,NOt PLacEd,"Java, Power BI, React, SQL, Python"
+990,ME552,Nathan,Asmus,,278-874-4797,Male,Mechanical,1,5.9,85,Coursera,NOT PLACED,SQL
+21,MC815,Jandy,Halle,jhallek@toplist.cz,410-620-0758,OTHER,MCT,2,9.5,86,Certified Google Data Analytics,NOt PLacEd,"React, Machine Learning, SQL, Power BI, Spring Boot"
+53,EC696,Melody,Mansion,invalidemail.com,583-983-0358,female,Electronics,Third Year,9,86,Coursera,NOT PLACED,"Power BI, Machine Learning"
+58,IT785,Beltran,Coping,bcoping1l@photobucket.com,268-607-3763,Male,IT,4,"7,3",86,,Internship,"Java, Machine Learning, C++"
+148,ME870,Torrey,Howchin,,730-717-2744,Male,Mechanical,Third Year,5.1,86,NPTEL,placed,"Machine Learning, AWS, SQL, Spring Boot, Data Analysis"
+177,EC632,Sheela,Casotti,scasotti4w@macromedia.com,280-716-8931,Female,Electronics,First Year,6.1,86,Certified Google Data Analytics,NOt PLacEd,"Data Analysis, SQL, C++, Power BI"
+180,EC701,Kamila,Urion,kurion4z@psu.edu,76767-13025,,Electronics,4,5.6,86,AWS,Placed,"React, Spring Boot"
+182,CE461,,Bodesson,gbodesson51@umich.edu,12345,Female,Civil,First Year,-8.6,86,,NOT PLACED,"React, Spring Boot, Machine Learning"
+221,MC153,Vere,Millgate,vmillgate64@edublogs.org,721-686-7441,Female,Mechatronics,First Year,5.4,86,Certified Google Data Analytics,placed,"C++, Machine Learning, Java, Power BI, React"
+226,MC422,Ciel,Carmichael,ccarmichael69@pbs.org,673-499-7052,other,Mechatronics,Third Year,7.4,86,AWS,placed,"Spring Boot, SQL, C++"
+244,CS494,Brett,Raspison,braspison6r@merriam-webster.com,657-686-1866,O,cs,2,7.1,86,Certified Google Data Analytics,NOT PLACED,Data Analysis
+434,IT113,Gunilla,Vedyasov,gvedyasovc1@virginia.edu,191-796-4133,Female,IT,Third Year,6.7,86,Certified Google Data Analytics,Placed,Power BI
+494,CS667,Kathryn,Jerzyk,kjerzykdp@wikipedia.org,469-465-1419,Female,cs,Second Year,"6,3",86,AWS,NOT PLACED,"Power BI, Python, Spring Boot, React"
+494,MC331,Kathryn,Jerzyk,kjerzykdp@wikipedia.org,469-465-1419,NON-BINARY,cs,Second Year,"6,3",86,AWS,NOT PLACED,"Power BI, Python, Spring Boot, React"
+599,EC030,Redford,Iglesia,riglesiagm@theguardian.com,12345,Male,Electronics,Third Year,7.8,86,Coursera,Placed,"Spring Boot, SQL, React, Data Analysis"
+718,MC240,Gabrila,Pinckard,gpinckardjx@jalbum.net,633-681-1015,Female,Mechatronics,Second Year,5.5,86,,NOt PLacEd,"SQL, Data Analysis, Machine Learning, Java"
+772,IT183,Selig,Dunbobbin,sdunbobbinlf@sfgate.com,,non-binary,Information Technology,1,9.2,86,AWS,NOt PLacEd,"Data Analysis, C++, Java"
+787,MC799,Arden,Fanthom,afanthomlu@webnode.com,12345,NON-BINARY,cs,Second Year,6.6,86,,placed,"Machine Learning, React"
+900,ME313,Price,Merryweather,invalidemail.com,324-519-6247,Male,Mechanical,Third Year,5.3,86,,NOT PLACED,"React, Machine Learning, SQL"
+900,ME313,Price,Merryweather,invalidemail.com,324-519-6247,Male,Mechanical,Third Year,5.3,86,,NOT PLACED,"React, Machine Learning, SQL"
+951,IT311,Edsel,Byrne,ebyrneqe@w3.org,217-732-2905,Male,IT,1,6.7,86,ML,Internship,"Data Analysis, AWS, C++"
+962,CE364,Constantine,Wondraschek,cwondraschekqp@live.com,386-189-7227,Male,Civil,4,9.2,86,,NOt PLacEd,"Python, SQL, Spring Boot"
+46,CS477,Corabella,Aspy,caspy19@fda.gov,163-727-9513,Female,cs,Second Year,4.1,87,Certified Google Data Analytics,NOT PLACED,"React, Machine Learning, Python"
+56,CS896,Bernie,Wolvey,bwolvey1j@smh.com.au,962-691-4104,Female,Computer Science,4,6.9,87,Coursera,NOT PLACED,React
+62,EC487,Lettie,,lsherwen1p@shop-pro.jp,951-855-3058,Female,Electronics,2,4.5,87,Microsoft Azure,NOT PLACED,"React, SQL"
+122,ME698,Joelly,Beushaw,jbeushaw3d@howstuffworks.com,617-412-5605,Female,Mechanical,3,9.1,87,ML,placed,"Spring Boot, Machine Learning"
+125,CS080,Harris,Chaloner,hchaloner3g@pbs.org,750-132-3684,Male,cs,Fourth Year,7.4,87,ML,placed,"C++, SQL, Python"
+152,CS243,Misty,Leigh,mleigh47@shinystat.com,755-531-0487,Female,Computer Science,2,5.4,87,AWS,placed,Python
+188,CS024,Joshuah,Braunes,jbraunes57@digg.com,854-642-3990,Male,cs,1,4.3,87,Certified Google Data Analytics,Placed,"SQL, React"
+248,MC419,Emmey,,evanhaeften6v@photobucket.com,832-248-5947,female,Mechatronics,1,5.1,87,,Internship,"C++, AWS, Power BI, Data Analysis"
+280,CE354,Lorenzo,Colegate,lcolegate7r@dailymail.co.uk,632-450-7364,O,Civil,3,8.3,87,AWS,Placed,"SQL, React, AWS, Power BI"
+358,MC189,Florian,Seabon,invalidemail.com,689-798-3099,F,Mechatronics,2,12,87,Microsoft Azure,Internship,"SQL, Java, C++, React, AWS"
+360,MC911,Odey,Jirieck,ojirieck9z@edublogs.org,649-751-3336,Male,MCT,4,5.5,87,NPTEL,Placed,"Machine Learning, C++, Java"
+371,EC576,Benedikt,Rossin,brossinaa@youku.com,80129-55760,Male,Electronics,4,7,87,,NOt PLacEd,"Machine Learning, Power BI, React, SQL, Spring Boot"
+371,MC250,Benedikt,Rossin,brossinaa@youku.com,,Male,Electronics,4,7,87,,NOt PLacEd,"Machine Learning, Power BI, React, SQL, Spring Boot"
+402,MC127,Brandea,Allardyce,ballardyceb5@admin.ch,157-548-2820,,Mechatronics,1,4.1,87,NPTEL,Placed,"C++, Python, AWS, Java"
+564,CE236,Jewelle,Petrelli,jpetrellifn@youtu.be,326-669-7236,FEMALE,Civil,Fourth Year,8,87,NPTEL,placed,"Python, Data Analysis"
+621,CS508,Eliza,Good,egoodh8@wordpress.org,121-270-8203,M,Computer Science,3,6.2,87,NPTEL,NOt PLacEd,"Data Analysis, Python, Machine Learning, Spring Boot, Java"
+743,CS152,Launce,Kemball,lkemballkm@exblog.jp,590-826-2890,Male,Computer Science,Third Year,7,87,,NOT PLACED,"Spring Boot, Machine Learning, Java, React, Data Analysis"
+841,MC249,Aida,Diggle,adigglenc@dell.com,313-913-1189,Female,MCT,Fourth Year,7,87,,Internship,"SQL, C++, Java, React"
+916,CS188,Winni,Hurdwell,whurdwellpf@disqus.com,12345,Female,cs,4,4.8,87,,NOt PLacEd,"C++, Java, AWS, Power BI, React"
+937,CS129,Dyna,Deakan,ddeakanq0@quantcast.com,202-949-3685,Female,cs,Fourth Year,6.9,87,,NOt PLacEd,"SQL, React"
+986,CS514,Joana,Blair,invalidemail.com,205-677-8069,Female,Computer Science,3,8.5,87,Certified Google Data Analytics,Placed,"React, SQL, Data Analysis, Python, Java"
+113,IT216,Constantina,Tellenbroker,ctellenbroker34@360.cn,131-530-0375,Female,IT,Second Year,5.1,88,Certified Google Data Analytics,NOT PLACED,Data Analysis
+211,EC587,Leda,Murt,lmurt5u@house.gov,846-407-9370,Female,Electronics,4,9.1,88,ML,Internship,"React, Spring Boot, Data Analysis, Power BI, SQL"
+211,EC587,Leda,Murt,lmurt5u@house.gov,846-407-9370,Female,Electronics,4,9.1,88,ML,Internship,"React, Spring Boot, Data Analysis, Power BI, SQL"
+445,MC413,Chickie,Danieli,cdanielicc@scientificamerican.com,793-195-8752,Male,Information Technology,4,8.7,88,Certified Google Data Analytics,placed,"Spring Boot, Machine Learning, Java"
+449,CS111,Arlyne,Boick,aboickcg@loc.gov,647-807-0717,Female,Computer Science,2,5.8,88,Certified Google Data Analytics,placed,"Python, Spring Boot, SQL, Data Analysis, AWS"
+626,IT340,Kore,Everal,keveralhd@amazon.co.jp,12345,Female,IT,3,8.4,88,ML,placed,"Java, Spring Boot, C++"
+754,IT949,Tiffy,Caughan,tcaughankx@gmpg.org,987-848-3625,,Information Technology,4,9.8,88,Microsoft Azure,NOt PLacEd,"Machine Learning, AWS"
+781,MC345,Michal,Giamo,mgiamolo@twitpic.com,860-791-0432,Male,Mechatronics,3,5.1,88,AWS,Placed,"Java, Data Analysis, AWS, React, Python"
+783,MC193,Craggie,Lavies,clavieslq@icio.us,156-110-3218,Male,Information Technology,3,13,88,AWS,Placed,"AWS, Java"
+848,MC950,Katleen,McNelis,kmcnelisnj@sakura.ne.jp,215-392-1562,,Mechatronics,Fourth Year,8.5,88,,placed,"AWS, Python"
+939,CS647,Winne,Frondt,wfrondtq2@deviantart.com,751-964-6338,Female,Computer Science,4,-8.6,88,Certified Google Data Analytics,NOt PLacEd,"React, Java, AWS"
+939,CS647,Winne,Frondt,wfrondtq2@deviantart.com,751-964-6338,Female,Computer Science,4,-8.6,88,Certified Google Data Analytics,NOt PLacEd,"React, Java, AWS"
+36,IT430,Adolphe,Knightly,,978-139-2921,Male,IT,Fourth Year,7.2,89,,placed,"C++, AWS, Power BI, Machine Learning, Python"
+37,MC695,Trula,Edgett,tedgett10@qq.com,322-684-1813,other,MCT,Second Year,-8.6,89,Certified Google Data Analytics,NOt PLacEd,"Python, SQL, C++"
+42,IT013,Hettie,Stangroom,hstangroom15@google.com,488-904-4047,Female,Information Technology,1,5.7,89,,Internship,"Python, Java, AWS, React, C++"
+142,IT288,Catherine,Edmott,cedmott3x@sfgate.com,764-701-7525,Female,IT,1,5.6,89,Coursera,NOt PLacEd,"Data Analysis, React, SQL, AWS"
+183,CS262,Gage,Boswood,gboswood52@state.tx.us,82485-46768,Male,cs,First Year,4.5,89,,Internship,Power BI
+261,EC654,Felicia,Chesher,fchesher78@shutterfly.com,355-582-5808,BN,Electronics,Fourth Year,7.7,89,ML,NOt PLacEd,"Data Analysis, Machine Learning, Spring Boot"
+361,MC421,Kendrick,Dever,kdevera0@hatena.ne.jp,12345,MALE,Mechatronics,1,13,89,ML,Internship,"React, SQL, Java, Data Analysis"
+423,MC238,Kym,MacPhee,kmacpheebq@altervista.org,767-910-3435,Female,Mechatronics,4,9.2,89,,NOT PLACED,"Java, AWS, Python, Spring Boot"
+456,CS964,Del,Daile,ddailecn@jiathis.com,446-318-1816,Male,cs,Second Year,5.5,89,NPTEL,NOt PLacEd,"Spring Boot, SQL, Java, Python, React"
+483,IT649,Justino,Beecraft,jbeecraftde@answers.com,301-633-6329,,Information Technology,Fourth Year,6.2,89,NPTEL,Internship,"Python, Spring Boot"
+715,CE255,Patrizius,Etchells,petchellsju@networksolutions.com,705-773-6801,Male,Civil,4,6.7,89,,Internship,"SQL, React"
+758,MC075,Trude,Chopping,tchoppingl1@indiegogo.com,,Female,Electronics,3,6.9,89,,Placed,Power BI
+982,IT209,Cleon,Vockings,cvockingsr9@google.cn,942-921-1818,Male,IT,First Year,9.3,89,ML,Internship,"Python, Machine Learning, AWS, Spring Boot"
+4,MC715,Archie,Kettley,akettley3@msu.edu,471-156-2508,,MCT,Second Year,-8.6,90,,NOt PLacEd,"Python, SQL, Power BI, Data Analysis"
+135,CS733,Netta,Brimelow,nbrimelow3q@usa.gov,168-428-1319,Female,cs,Third Year,8.2,90,,NOt PLacEd,"Spring Boot, Python, AWS, React"
+437,IT878,Luelle,Wurst,lwurstc4@pcworld.com,700-592-9583,Female,Information Technology,4,9,90,AWS,NOT PLACED,React
+463,EC836,Vern,Enoch,venochcu@fema.gov,999-952-5195,Male,Electronics,Third Year,9.1,90,Certified Google Data Analytics,placed,"Spring Boot, Java, C++, SQL"
+673,CE822,Xylina,Mogie,xmogieio@slate.com,108-502-9906,Female,Civil,Fourth Year,9.1,90,Coursera,placed,"C++, SQL, AWS"
+723,MC547,Dodie,Kenright,dkenrightk2@opensource.org,653-618-6241,male,MCT,3,8,90,,NOT PLACED,"C++, Java, Spring Boot"
+859,IT117,Giraud,Gandey,ggandeynu@fc2.com,70330-20825,NON-BINARY,Information Technology,3,7.1,90,ML,placed,Data Analysis
+938,ME630,Bili,Winskill,bwinskillq1@usnews.com,616-397-9689,,Mechanical,4,9.8,90,Coursera,NOT PLACED,"Data Analysis, SQL, React, AWS"
+997,MC437,Gillian,Heaven,gheavenro@miitbeian.gov.cn,750-538-5492,Female,Mechatronics,Third Year,6.6,90,NPTEL,NOT PLACED,Spring Boot
+40,CS835,Shurwood,Dimeloe,sdimeloe13@issuu.com,276-314-2437,Male,Computer Science,1,6,91,,NOT PLACED,"SQL, Data Analysis, Machine Learning, Power BI, Spring Boot"
+166,MC537,Tamarra,O'Corrin,tocorrin4l@foxnews.com,248-305-1937,Female,MCT,1,7.1,91,Certified Google Data Analytics,Placed,"Python, Data Analysis"
+333,MC783,Aurel,Awdry,aawdry98@shinystat.com,,Female,Information Technology,4,5.2,91,Microsoft Azure,NOt PLacEd,"Python, C++, SQL, Data Analysis"
+383,IT296,Lorrin,Chisman,lchismanam@wiley.com,535-487-5095,female,IT,Second Year,6,91,ML,Placed,"C++, SQL, Power BI, React, Machine Learning"
+588,MC895,Frances,Cunde,fcundegb@google.pl,606-880-0953,Female,MCT,Third Year,4.8,91,Certified Google Data Analytics,NOT PLACED,"Python, C++, Power BI, Data Analysis, React"
+612,ME010,Chastity,Blench,cblenchgz@posterous.com,958-790-7318,Female,Mechanical,Third Year,8.2,91,,Placed,"Python, Spring Boot, Power BI"
+816,MC937,Mindy,Rorke,mrorkemn@exblog.jp,756-877-5586,MALE,Mechatronics,3,9.6,91,Certified Google Data Analytics,NOT PLACED,"React, SQL"
+865,IT381,Randi,O'Loughlin,roloughlino0@prweb.com,491-188-8044,female,Information Technology,3,13,91,Certified Google Data Analytics,placed,"Spring Boot, AWS, React"
+876,EC360,,Sleite,csleiteob@ed.gov,166-948-6272,Female,Electronics,Second Year,4.9,91,Microsoft Azure,Placed,Machine Learning
+904,MC336,Vernon,Cheeke,vcheekep3@wordpress.org,186-528-0803,BN,Mechatronics,First Year,8,91,Coursera,Internship,SQL
+907,MC791,Allissa,Skinley,askinleyp6@tmall.com,,Female,Mechatronics,2,-8.6,91,Certified Google Data Analytics,Internship,"AWS, Spring Boot, Java, Data Analysis"
+950,CS430,Richardo,Jobbins,rjobbinsqd@gmpg.org,12345,Male,Computer Science,4,5.4,91,NPTEL,NOT PLACED,"React, C++, Power BI, Data Analysis, Machine Learning"
+963,ME424,Waylan,Berka,wberkaqq@lycos.com,501-177-3012,Male,Mechanical,2,15,91,Certified Google Data Analytics,NOT PLACED,"C++, Data Analysis, AWS, Spring Boot, SQL"
+999,MC610,Merrielle,Bradneck,mbradneckrq@paypal.com,346-665-9277,Female,Information Technology,Fourth Year,4.7,91,NPTEL,NOt PLacEd,"Spring Boot, Machine Learning"
+130,IT170,Wildon,Mundie,wmundie3l@java.com,359-676-8187,Male,Information Technology,Third Year,6.4,92,NPTEL,NOt PLacEd,C++
+137,CS740,Keary,Rusbridge,krusbridge3s@joomla.org,914-247-8441,Male,Computer Science,1,6.5,92,,NOt PLacEd,"Python, Data Analysis, Spring Boot, Java, SQL"
+137,CS740,Keary,Rusbridge,krusbridge3s@joomla.org,914-247-8441,Male,Computer Science,1,6.5,92,,NOt PLacEd,"Python, Data Analysis, Spring Boot, Java, SQL"
+207,MC779,Ivy,Partener,ipartener5q@newyorker.com,351-997-6807,non-binary,Civil,3,9.3,92,Certified Google Data Analytics,placed,"Python, AWS, Data Analysis, React"
+249,MC208,Joannes,Lavarack,jlavarack6w@deviantart.com,200-862-3607,Female,MCT,4,7,92,Microsoft Azure,NOt PLacEd,"Python, Power BI, Data Analysis, C++, Machine Learning"
+296,IT021,Cort,Leve,cleve87@reference.com,12345,???,IT,1,8.5,92,,placed,"Spring Boot, Python"
+303,CS734,,Hagwood,khagwood8e@unicef.org,912-783-6583,Male,Computer Science,2,6.5,92,Certified Google Data Analytics,Placed,SQL
+432,IT780,Terrence,Kroon,tkroonbz@ftc.gov,435-631-9634,Male,Information Technology,First Year,4.2,92,Coursera,NOT PLACED,"Python, Spring Boot, SQL, React"
+507,MC897,Hercules,McKeurtan,hmckeurtane2@amazon.com,487-956-9387,Male,MCT,4,7.9,92,Coursera,Placed,"Power BI, Spring Boot, C++"
+512,MC603,Petey,Cannell,pcannelle7@unc.edu,914-755-4243,MALE,MCT,1,5.4,92,Coursera,Placed,"SQL, Data Analysis, React, Java"
+603,IT297,Helge,Dot,invalidemail.com,463-122-2790,Female,IT,4,7.5,92,Certified Google Data Analytics,NOt PLacEd,"Python, Power BI, Java, Machine Learning, Data Analysis"
+711,ME681,Mohammed,Hardwick,mhardwickjq@ox.ac.uk,108-496-1183,Male,Mechanical,1,5.7,92,NPTEL,Placed,"SQL, Machine Learning"
+719,CS263,Meris,Tollfree,mtollfreejy@opera.com,761-775-3420,OTHER,Computer Science,4,7.2,92,NPTEL,NOT PLACED,"AWS, Spring Boot, SQL, Java"
+762,IT191,Viole,Clampe,,,Female,IT,4,6.7,92,Certified Google Data Analytics,NOT PLACED,"Java, SQL, Python, Power BI, Data Analysis"
+762,IT191,Viole,Clampe,,,Female,IT,4,6.7,92,Certified Google Data Analytics,NOT PLACED,"Java, SQL, Python, Power BI, Data Analysis"
+835,CS142,Alard,Elgee,aelgeen6@qq.com,584-102-6185,Male,Computer Science,Fourth Year,9,92,AWS,Placed,"SQL, Java, Machine Learning, Python, React"
+880,CS347,Urbain,Voules,uvoulesof@imageshack.us,869-564-0496,Male,cs,2,9.8,92,Coursera,NOt PLacEd,"Spring Boot, Power BI, C++, React, Machine Learning"
+880,CS347,Urbain,Voules,uvoulesof@imageshack.us,869-564-0496,Male,cs,2,9.8,92,Coursera,NOt PLacEd,"Spring Boot, Power BI, C++, React, Machine Learning"
+905,MC862,Jarrett,Yanuk,jyanukp4@scribd.com,989-928-3020,Male,Mechatronics,3,-7.6,92,Certified Google Data Analytics,Internship,"Data Analysis, Java, Power BI, SQL, Python"
+117,IT483,Chelsea,Dicke,cdicke38@ustream.tv,748-283-7062,Female,IT,Fourth Year,6.7,93,ML,NOT PLACED,Python
+491,EC948,Shane,Tink,,187-822-8965,,Electronics,4,4.3,93,Certified Google Data Analytics,Internship,Data Analysis
+539,IT852,,Hayto,whaytoey@fema.gov,766-162-3679,Male,Information Technology,Third Year,9.2,93,Microsoft Azure,Internship,"SQL, React, Power BI"
+542,MC732,D'arcy,Honig,dhonigf1@wikia.com,735-553-8395,,MCT,First Year,7.4,93,,NOt PLacEd,"Spring Boot, React, Java, Machine Learning"
+746,IT390,Chandler,Carslake,ccarslakekp@example.com,285-144-8243,Male,IT,Third Year,12,93,ML,Internship,Python
+828,MC076,Ferne,Lehemann,flehemannmz@acquirethisname.com,822-727-8767,Female,Mechatronics,Second Year,4.7,93,Coursera,Placed,Power BI
+872,ME673,Denney,Speirs,dspeirso7@paypal.com,732-342-4540,Male,Mechanical,Third Year,6.2,93,NPTEL,NOt PLacEd,"Python, Spring Boot"
+890,EC046,Alister,Potes,apotesop@mit.edu,577-427-3918,other,Electronics,Fourth Year,4.3,93,Coursera,placed,Power BI
+906,MC370,Ephrem,Reddings,ereddingsp5@sfgate.com,301-417-3503,Male,Civil,1,4.4,93,,NOt PLacEd,"Data Analysis, Spring Boot"
+927,CS624,Korry,Artist,kartistpq@mlb.com,565-450-2488,Female,Computer Science,4,-8.6,93,Coursera,NOt PLacEd,"Python, Power BI, Spring Boot, AWS, C++"
+959,MC059,Erwin,Beebe,ebeebeqm@shareasale.com,529-310-1068,Male,MCT,4,8.7,93,Certified Google Data Analytics,NOt PLacEd,"React, SQL, Machine Learning, Spring Boot, Java"
+22,ME647,Tanitansy,Reckhouse,treckhousel@clickbank.net,,Female,Mechanical,3,4,94,Microsoft Azure,NOt PLacEd,"Data Analysis, C++"
+127,ME174,Robena,Kilpatrick,rkilpatrick3i@omniture.com,893-460-1428,Female,Mechanical,Fourth Year,4.8,94,AWS,Placed,"Python, C++, AWS, React"
+133,CS559,Marji,Spriddle,mspriddle3o@state.gov,976-372-1484,Female,cs,Second Year,6.7,94,,Internship,"React, AWS, SQL, C++, Data Analysis"
+185,CS713,Orran,Pursglove,opursglove54@usnews.com,,Male,Computer Science,Fourth Year,6.2,94,,NOT PLACED,"React, Spring Boot, Python, SQL, C++"
+331,MC754,Fina,Waterhous,,,Female,MCT,Third Year,4.4,94,NPTEL,NOT PLACED,"Python, C++, AWS, Data Analysis, Machine Learning"
+368,MC859,Analise,Yashaev,ayashaeva7@yale.edu,911-748-7622,Female,Mechatronics,Second Year,8.3,94,AWS,NOt PLacEd,"AWS, Python"
+427,MC801,Jules,Applebee,japplebeebu@nbcnews.com,176-214-5456,Male,Mechatronics,3,6.9,94,AWS,NOt PLacEd,"AWS, C++, SQL"
+572,IT559,Kalie,Clemente,kclementefv@meetup.com,283-375-3733,Female,Information Technology,Second Year,9.6,94,AWS,Placed,"Python, Machine Learning"
+701,IT224,Alick,Jowling,ajowlingjg@hibu.com,89038-99147,Male,Information Technology,1,6.8,94,AWS,Internship,"Power BI, AWS, Data Analysis, Java"
+798,MC570,Lorraine,,lfishpoolem5@google.co.uk,333-821-0135,O,MCT,Third Year,7.2,94,ML,Placed,Power BI
+824,IT826,Bernardina,Dennidge,bdennidgemv@qq.com,101-749-3106,Female,Information Technology,First Year,14,94,,NOt PLacEd,Python
+964,CS796,Barnaby,Hawker,bhawkerqr@uol.com.br,762-594-2448,male,cs,3,6.8,94,Microsoft Azure,placed,"C++, Java, React"
+3,MC914,Flinn,Alway,falway2@theatlantic.com,,BN,Mechatronics,1,9.8,95,,NOT PLACED,"Machine Learning, Spring Boot, Java"
+33,IT386,Brandy,Skillern,bskillernw@marriott.com,952-841-9934,Male,IT,2,7.2,95,Coursera,Internship,"SQL, Java, Data Analysis, Spring Boot, React"
+69,IT608,Ashbey,Upcott,aupcott1w@answers.com,993-451-7790,Male,Information Technology,Third Year,6,95,AWS,NOT PLACED,"Data Analysis, Power BI, React, C++"
+275,CE998,Adora,Yurshev,ayurshev7m@zimbio.com,374-151-1854,Female,Civil,First Year,4,95,AWS,NOT PLACED,"Data Analysis, React, AWS"
+299,CS737,Xenos,Maitland,xmaitland8a@ftc.gov,702-105-9035,Male,Computer Science,4,8.1,95,Microsoft Azure,NOT PLACED,"SQL, Data Analysis"
+343,MC627,Locke,Vokins,lvokins9i@ycombinator.com,899-881-0091,FEMALE,Information Technology,4,5.3,95,ML,NOT PLACED,AWS
+413,CS903,Kelwin,Wattingham,kwattinghambg@cdbaby.com,522-463-6113,Male,Computer Science,3,5.9,95,,NOt PLacEd,"AWS, Power BI, C++, SQL, Python"
+462,IT024,Trueman,Pepi,tpepict@princeton.edu,169-643-6459,Male,IT,Third Year,9.5,95,,placed,"C++, React, Power BI, SQL"
+511,EC381,Salaidh,Ratazzi,sratazzie6@scribd.com,,Female,Electronics,First Year,8.4,95,,NOt PLacEd,"AWS, Machine Learning, Spring Boot"
+566,ME811,Flossy,Klawi,fklawifp@a8.net,771-279-3384,Female,Mechanical,4,14,95,Certified Google Data Analytics,NOT PLACED,"Data Analysis, React, Power BI, Machine Learning"
+631,MC118,Adamo,Figgins,afigginshi@hp.com,116-377-8234,Male,IT,1,4.8,95,,NOt PLacEd,"SQL, React"
+643,EC199,Ruby,Cambell,rcambellhu@bloglovin.com,805-133-0473,Female,Electronics,2,8.4,95,,NOT PLACED,"SQL, Power BI"
+724,MC290,Witty,O'Heaney,woheaneyk3@wiley.com,961-699-0677,Male,MCT,2,6.9,95,Certified Google Data Analytics,NOT PLACED,"Data Analysis, C++, AWS, Python, Machine Learning"
+940,CS888,Lane,Roby,lrobyq3@cyberchimps.com,362-466-3512,Male,cs,Fourth Year,7.5,95,Microsoft Azure,Placed,"Spring Boot, Java"
+20,CS323,Daveen,,dwoolwayj@cargocollective.com,535-586-8297,FEMALE,Computer Science,4,4.5,96,Microsoft Azure,Placed,SQL
+24,IT178,Milzie,Cripin,mcripinn@cyberchimps.com,,non-binary,IT,Second Year,8.1,96,,NOt PLacEd,Java
+24,MC338,Milzie,Cripin,mcripinn@cyberchimps.com,,other,IT,Second Year,8.1,96,,NOt PLacEd,Java
+63,IT088,Bartolomeo,Adolphine,badolphine1q@youtu.be,210-951-9757,Male,IT,Third Year,4.5,96,AWS,Internship,"Python, SQL"
+287,MC814,Danette,Liffe,dliffe7y@digg.com,12345,Female,MCT,2,8.9,96,NPTEL,NOt PLacEd,"Python, AWS"
+345,CS615,Wyndham,Culmer,,282-875-3399,Male,Computer Science,2,8.5,96,Microsoft Azure,Internship,Python
+369,IT738,Ulises,Surcomb,usurcomba8@wunderground.com,479-970-9257,Male,Information Technology,Fourth Year,9,96,Microsoft Azure,placed,SQL
+378,MC481,Niccolo,Ebertz,nebertzah@cocolog-nifty.com,562-608-2612,BN,Mechatronics,Third Year,6.7,96,Microsoft Azure,placed,"Python, React, Power BI"
+647,IT996,,Beccero,jbeccerohy@adobe.com,459-615-2541,Male,Information Technology,4,4,96,,placed,"C++, React, AWS, Machine Learning"
+814,EC585,Norene,Caddies,ncaddiesml@mapy.cz,182-721-8240,FEMALE,Electronics,2,8.1,96,,NOt PLacEd,"React, Machine Learning, Spring Boot"
+844,CS898,Rhea,Castree,rcastreenf@acquirethisname.com,572-864-0738,Female,cs,3,7.5,96,Coursera,Placed,"Spring Boot, Java, Data Analysis, AWS, Python"
+888,IT293,Paton,Frangello,pfrangelloon@baidu.com,12345,Male,Information Technology,4,"7,3",96,Microsoft Azure,placed,React
+894,CS753,Arie,,invalidemail.com,258-540-2919,Male,cs,4,7.8,96,,placed,"Power BI, React"
+932,EC189,Ardine,Tibbles,atibblespv@usnews.com,263-354-5335,OTHER,Electronics,Fourth Year,4,96,,placed,"SQL, AWS"
+52,MC633,Deny,Vedntyev,dvedntyev1f@woothemes.com,424-689-1078,Female,Mechatronics,2,6.7,97,Microsoft Azure,NOT PLACED,"C++, Java, Python, React, AWS"
+83,CS962,Sabina,Buddle,sbuddle2a@google.it,828-421-3116,male,cs,Second Year,8.1,97,Coursera,Placed,"Java, React, Data Analysis"
+160,IT984,Gladys,Stebbin,gstebbin4f@paginegialle.it,471-692-2153,Female,Information Technology,3,5.3,97,,placed,"C++, Machine Learning"
+319,IT965,Dex,Jarrell,djarrell8u@discovery.com,12345,Male,Information Technology,1,-8.6,97,ML,NOt PLacEd,"Spring Boot, C++, Python"
+320,CS975,Ariel,Balnave,abalnave8v@themeforest.net,936-801-0795,MALE,cs,4,5.6,97,NPTEL,NOt PLacEd,"SQL, Power BI"
+320,MC216,Ariel,Balnave,abalnave8v@themeforest.net,936-801-0795,Male,cs,4,5.6,97,NPTEL,NOt PLacEd,"SQL, Power BI"
+324,CS849,Ly,Gotcher,lgotcher8z@twitter.com,86192-72627,MALE,Computer Science,2,4,97,Certified Google Data Analytics,Placed,"AWS, Machine Learning"
+362,ME048,,Kinsett,okinsetta1@google.nl,742-554-5087,Male,Mechanical,4,8,97,NPTEL,NOt PLacEd,"Python, Power BI, SQL, C++, Machine Learning"
+382,MC022,Katlin,Iggo,kiggoal@intel.com,279-898-3701,MALE,Mechatronics,1,6,97,ML,Internship,"Data Analysis, Java, Python"
+417,IT203,Mercedes,Dyneley,mdyneleybk@exblog.jp,775-943-1945,other,IT,1,7.9,97,ML,NOt PLacEd,"Python, C++, AWS"
+454,MC376,Eloise,Rhydderch,erhydderchcl@un.org,888-350-1514,Female,Mechatronics,2,7.7,97,ML,NOt PLacEd,"Data Analysis, SQL, Spring Boot, AWS"
+482,CE021,Clo,Greatbach,cgreatbachdd@buzzfeed.com,423-382-1144,Female,Civil,4,9,97,,Placed,"SQL, Spring Boot"
+551,CE955,Deidre,Hartil,dhartilfa@theglobeandmail.com,830-182-1628,non-binary,Civil,Second Year,8.3,97,,Internship,"Java, C++, AWS"
+573,CS204,Melitta,Killock,mkillockfw@delicious.com,12345,Female,cs,2,13,97,Coursera,NOT PLACED,"Power BI, React, C++"
+589,CS386,Alysia,Champain,achampaingc@netvibes.com,142-402-5045,Female,cs,Second Year,4.6,97,Microsoft Azure,Placed,"Python, React"
+602,IT524,Abigael,Chitty,,794-000-4553,Female,IT,Second Year,-7.6,97,,NOt PLacEd,"Power BI, Machine Learning"
+602,MC803,Abigael,Chitty,,458-374-7134,Female,IT,Second Year,-7.6,97,,NOt PLacEd,"Power BI, Machine Learning"
+623,CE794,Oswell,Lloyd-Williams,,540-792-1144,Male,Civil,1,11,97,AWS,Internship,"Spring Boot, Machine Learning"
+625,EC560,Suzy,Alwell,salwellhc@wp.com,228-898-9907,Female,Electronics,Fourth Year,8.7,97,,Internship,"Power BI, SQL, AWS, Java, Spring Boot"
+707,MC403,Aron,Dobbson,adobbsonjm@histats.com,131-596-0850,Male,Mechatronics,4,4.9,97,Coursera,Internship,"C++, Data Analysis"
+726,ME150,Brena,Juanes,bjuanesk5@usda.gov,676-159-6674,Female,Mechanical,1,6.2,97,ML,NOT PLACED,"Java, SQL"
+782,CS577,Galvin,Bonavia,gbonavialp@cornell.edu,861-901-7637,Male,Computer Science,Second Year,8.2,97,,NOt PLacEd,"Data Analysis, AWS"
+855,EC917,Ben,Docket,bdocketnq@google.nl,660-862-2748,Male,Electronics,2,-8.6,97,ML,placed,Python
+895,CS417,Wolfgang,Ethridge,wethridgeou@yale.edu,892-291-6389,Male,cs,4,8.3,97,Microsoft Azure,NOt PLacEd,"Java, C++, Power BI, SQL, Spring Boot"
+909,CS374,Alvinia,Kermeen,akermeenp8@sbwire.com,241-243-4629,Female,cs,4,9.2,97,Certified Google Data Analytics,placed,"React, Power BI"
+926,ME715,Lars,Padrick,lpadrickpp@soundcloud.com,616-254-7825,O,Mechanical,2,4.8,97,Microsoft Azure,placed,"Python, SQL"
+985,CS074,Iorgos,Algore,ialgorerc@weibo.com,890-186-6793,male,cs,Third Year,4.1,97,NPTEL,Internship,"C++, Data Analysis, Java"
+55,CE208,Bar,Tiernan,btiernan1i@nydailynews.com,87998-87116,Male,Civil,Third Year,6,98,NPTEL,Placed,"Java, AWS, Python, Power BI"
+55,MC621,Bar,Tiernan,btiernan1i@nydailynews.com,612-243-1016,male,Civil,6,6,98,NPTEL,Placed,"Java, AWS, Python, Power BI"
+84,IT968,Selestina,Monday,smonday2b@salon.com,414-100-8371,male,IT,2,8.3,98,,placed,"Power BI, Java, C++, Machine Learning"
+155,CE385,Veriee,Southcombe,vsouthcombe4a@dot.gov,616-481-4889,F,Civil,Fourth Year,4.1,98,,placed,"AWS, Data Analysis"
+259,MC195,Langston,Darth,ldarth76@craigslist.org,,Male,MCT,First Year,5.7,98,NPTEL,NOT PLACED,"C++, Data Analysis"
+262,MC873,Brock,Dewick,bdewick79@zdnet.com,221-333-3790,Male,MCT,1,4.4,98,ML,placed,"Spring Boot, Machine Learning"
+262,MC873,Brock,Dewick,bdewick79@zdnet.com,221-333-3790,Male,MCT,1,4.4,98,ML,placed,"Spring Boot, Machine Learning"
+309,IT879,Elane,Marfe,emarfe8k@yale.edu,429-129-9726,OTHER,IT,4,5.3,98,AWS,Placed,"Java, C++"
+495,CE883,,Milbourne,invalidemail.com,431-218-1766,Female,Civil,1,5.1,98,Certified Google Data Analytics,NOT PLACED,"C++, Machine Learning, AWS, Spring Boot"
+687,MC492,Ruggiero,Dmitr,rdmitrj2@hc360.com,,Male,Mechatronics,Second Year,-8.6,98,Coursera,Internship,"Data Analysis, Python, AWS"
+722,CS379,Minor,Camerati,mcameratik1@ihg.com,917-777-8922,Male,Computer Science,First Year,9.4,98,Certified Google Data Analytics,placed,"Power BI, Python, React"
+984,MC112,Zondra,Mein,zmeinrb@sbwire.com,171-972-0783,OTHER,cs,Fourth Year,5.5,98,Microsoft Azure,Placed,"C++, Java"
+79,ME009,Sax,Penritt,spenritt26@google.ca,960-366-2495,Male,Mechanical,1,5.9,99,Certified Google Data Analytics,NOt PLacEd,Machine Learning
+146,CS951,Sarge,Maylin,smaylin41@yelp.com,811-756-7844,NON-BINARY,cs,2,9.3,99,ML,Placed,C++
+263,IT299,Nady,Patemore,npatemore7a@dagondesign.com,,Female,Information Technology,First Year,4.7,99,Certified Google Data Analytics,placed,Java
+322,MC688,Rudolfo,Baudone,rbaudone8x@imdb.com,895-541-8819,Male,Mechatronics,Second Year,5.3,99,,NOt PLacEd,"SQL, C++, Spring Boot, AWS, React"
+365,ME362,Aldon,Jugging,ajugginga4@ycombinator.com,499-701-9997,Male,Mechanical,Third Year,5.5,99,Certified Google Data Analytics,placed,"C++, AWS"
+527,CE767,Tymon,Scrange,tscrangeem@mtv.com,908-518-6990,Male,Civil,Third Year,7.4,99,Certified Google Data Analytics,Placed,Power BI
+555,MC632,,Eberlein,keberleinfe@creativecommons.org,865-755-3009,Male,Mechatronics,Second Year,-7.6,99,AWS,Internship,"Data Analysis, C++, Power BI, SQL"
+617,CE561,Osbourne,Bierman,,514-996-5138,Male,Civil,First Year,-7.6,99,,NOt PLacEd,"Java, Machine Learning, AWS"
+634,IT981,Nissy,Strickett,nstricketthl@sina.com.cn,63079-39186,female,IT,4,13,99,NPTEL,Internship,AWS
+639,MC067,Karney,Cosham,kcoshamhq@acquirethisname.com,216-490-5392,Male,Mechatronics,Fourth Year,8.9,99,NPTEL,Placed,Spring Boot
+713,CS393,Boycey,Shubotham,bshubothamjs@loc.gov,654-573-9682,male,Computer Science,3,4.5,99,Certified Google Data Analytics,NOt PLacEd,"Data Analysis, Java, Python, SQL, React"
+757,EC657,Butch,Hissie,bhissiel0@theglobeandmail.com,960-964-9823,Male,Electronics,First Year,9.6,99,Coursera,NOT PLACED,"React, Machine Learning, Spring Boot, Java, AWS"
+788,EC725,Elvyn,Roller,erollerlv@soundcloud.com,462-328-1394,female,Electronics,First Year,8,99,Coursera,Placed,"SQL, Java, Power BI"
+885,IT219,Kyrstin,Eadington,keadingtonok@wix.com,985-534-6456,Female,Information Technology,invalid,8.9,99,NPTEL,NOT PLACED,"C++, Java"
+893,IT705,Wendell,Norcross,wnorcrossos@fc2.com,363-356-5362,Male,IT,Fourth Year,7.4,99,,Internship,"Spring Boot, Java"
+51,CS765,Leonidas,Andersson,landersson1e@nytimes.com,117-491-2817,FEMALE,Computer Science,4,9.7,100,NPTEL,Internship,"React, SQL, Data Analysis, C++"
+100,IT520,Philippa,Coggell,pcoggell2r@creativecommons.org,,BN,IT,3,7.9,100,,Internship,"Data Analysis, Python, AWS"
+250,MC785,Kirsti,Pace,kpace6x@msn.com,486-157-3238,Female,MCT,3,4.7,100,ML,placed,SQL
+359,ME989,Ida,Hassewell,ihassewell9y@flavors.me,931-942-5574,Female,Mechanical,Fourth Year,4.3,100,,NOT PLACED,"AWS, SQL, Spring Boot, React"
+444,IT114,Carin,Renwick,crenwickcb@tripod.com,819-869-9719,Female,IT,1,6.9,100,Certified Google Data Analytics,Internship,"C++, SQL, Power BI"
+515,IT049,Skip,Bemlott,sbemlottea@howstuffworks.com,776-333-6178,Male,Information Technology,2,15,100,Microsoft Azure,NOt PLacEd,"SQL, Java, AWS, Spring Boot, React"
+520,MC767,Zonda,Naulls,invalidemail.com,309-931-3450,Female,Mechatronics,2,4.5,100,Certified Google Data Analytics,Placed,"SQL, Java"
+525,ME385,Nonnah,Titchard,ntitchardek@stumbleupon.com,12345,Female,Mechanical,Second Year,4.5,100,Coursera,placed,"Machine Learning, SQL, Spring Boot, C++"
+596,MC559,Monty,Caddick,mcaddickgj@skyrock.com,849-342-8398,Male,MCT,First Year,4.3,100,ML,Placed,Python
+697,IT096,Ermentrude,Cheney,echeneyjc@yellowbook.com,601-597-5361,Female,Information Technology,4,13,100,Certified Google Data Analytics,NOt PLacEd,"Spring Boot, Python"
+756,IT759,Gail,Pratton,gprattonkz@pagesperso-orange.fr,388-817-6542,Male,IT,First Year,4,100,,Internship,"AWS, Spring Boot, SQL"
+767,MC217,Vinson,Ast,vastla@redcross.org,590-247-1200,other,MCT,4,6.7,100,Certified Google Data Analytics,Placed,AWS
+807,EC123,Bronny,Whitemarsh,bwhitemarshme@privacy.gov.au,334-404-4341,F,Electronics,3,6.5,100,AWS,NOt PLacEd,"SQL, Data Analysis"
+825,ME722,Maureene,Batchelder,mbatcheldermw@google.com.br,220-671-1166,Female,Mechanical,Fourth Year,5.3,100,ML,NOT PLACED,"SQL, React, Data Analysis"
+863,CE499,Antonetta,Fagg,afaggny@com.com,709-310-1809,Female,Civil,Third Year,5.7,100,Certified Google Data Analytics,NOt PLacEd,Python
+27,ME943,Cathleen,Gideon,cgideonq@cornell.edu,,Female,Mechanical,Third Year,5.6,105,,Placed,"Spring Boot, SQL"
+47,CS092,Estelle,Oliveti,eoliveti1a@ask.com,436-529-2406,abc,Computer Science,Second Year,8.9,105,NPTEL,NOt PLacEd,"Python, C++, React, Data Analysis, AWS"
+72,IT884,Madelaine,Shevlane,invalidemail.com,783-463-1719,Female,Information Technology,4,6.6,105,Certified Google Data Analytics,Placed,"Machine Learning, Spring Boot, Data Analysis"
+86,MC398,Ron,Kleisel,rkleisel2d@earthlink.net,209-720-3321,Male,Mechatronics,1,8.4,105,,Placed,"Python, Data Analysis, AWS, React, Machine Learning"
+114,EC543,Silvanus,Peinton,speinton35@apple.com,102-237-9641,Male,Electronics,1,5.8,120,AWS,NOt PLacEd,"React, Java, AWS, Python"
+162,CS691,Adelbert,Hummerston,ahummerston4h@wired.com,866-944-9561,MALE,Computer Science,Second Year,6.5,120,Microsoft Azure,Placed,"Python, React, Power BI, Java"
+190,CS345,Alexandros,McLewd,amclewd59@bloglovin.com,771-900-6462,Male,cs,Second Year,5.7,120,Certified Google Data Analytics,Internship,Python
+231,CE355,Donna,,dpallas6e@miitbeian.gov.cn,473-992-1993,MALE,Civil,4,9.5,120,,Placed,"C++, Power BI, Data Analysis, AWS"
+276,MC968,Ivan,Dutson,idutson7n@i2i.jp,316-299-2789,Male,Mechatronics,4,7.4,120,NPTEL,Internship,"Spring Boot, Java, React, Machine Learning"
+281,IT801,Averill,Rachuig,arachuig7s@uiuc.edu,111-370-5210,,IT,2,6,115,,Placed,SQL
+281,MC659,Averill,Rachuig,arachuig7s@uiuc.edu,111-370-5210,Male,IT,2,6,115,,Placed,SQL
+307,CE206,Carlita,Giovanardi,,904-272-3262,non-binary,Civil,4,4.3,115,Certified Google Data Analytics,NOt PLacEd,Machine Learning
+308,EC088,Karlotta,Woolland,kwoolland8j@chronoengine.com,496-834-8477,Female,Electronics,2,8.1,115,Certified Google Data Analytics,placed,Java
+352,EC485,Diann,,ddorgon9r@wix.com,860-146-1688,Female,Electronics,4,4.6,120,,Placed,"SQL, Power BI"
+353,IT553,Will,Ren,wren9s@vkontakte.ru,317-101-8411,Male,IT,2,7.7,120,AWS,Internship,"Machine Learning, Power BI"
+367,EC470,Eva,Maro,emaroa6@meetup.com,186-871-3361,Female,Electronics,3,7.8,120,,NOT PLACED,"Spring Boot, Java, Data Analysis"
+374,EC107,Anetta,Ashbe,aashbead@thetimes.co.uk,230-806-6417,Female,Electronics,First Year,8.1,120,,Internship,Python
+416,MC501,Nerte,Noseworthy,nnoseworthybj@goo.ne.jp,713-188-0333,Female,Mechatronics,1,5.9,120,NPTEL,Internship,"Java, React, Spring Boot, Data Analysis, Machine Learning"
+528,ME791,Kiah,Incogna,invalidemail.com,12345,Female,Mechanical,Second Year,5.1,120,,Placed,Power BI
+528,ME791,Kiah,Incogna,invalidemail.com,12345,Female,Mechanical,Second Year,5.1,120,,Placed,Power BI
+548,IT885,Anet,Surgood,asurgoodf7@bigcartel.com,995-663-6044,Female,IT,Fourth Year,8.8,120,AWS,NOt PLacEd,"Data Analysis, AWS"
+556,MC594,Bobinette,Swayton,bswaytonff@sciencedirect.com,564-616-2632,,Mechatronics,3,9.2,120,Microsoft Azure,Internship,Data Analysis
+558,MC868,Minda,Linklet,mlinkletfh@skyrock.com,457-610-8679,Female,Mechatronics,Second Year,"7,3",125,Microsoft Azure,placed,"Spring Boot, Power BI, Data Analysis"
+633,IT760,Jonas,Huegett,jhuegetthk@fda.gov,909-340-7472,M,Information Technology,4,6.2,125,NPTEL,NOT PLACED,AWS
+696,CS294,Giselbert,Fearnall,gfearnalljb@networksolutions.com,12345,Male,Computer Science,2,6.4,125,NPTEL,Internship,Data Analysis
+730,ME548,Berk,Bruntje,bbruntjek9@disqus.com,320-977-1952,Male,Mechanical,4,"7,3",125,Microsoft Azure,placed,Power BI
+744,ME598,Royall,Colyer,rcolyerkn@youtu.be,3939ahf,O,Mechanical,4,13,125,,NOt PLacEd,"AWS, Data Analysis, Java"
+790,EC845,Corliss,Dibdin,cdibdinlx@fotki.com,834-358-2418,,Electronics,First Year,4.1,125,Microsoft Azure,Internship,"Data Analysis, C++"
+806,EC163,Zeb,Spacie,zspaciemd@imageshack.us,212-253-1030,NON-BINARY,Electronics,Third Year,9,125,,NOT PLACED,"Data Analysis, SQL, C++, Python"
+808,IT638,Isidoro,Reddlesden,ireddlesdenmf@apache.org,797-393-4870,Male,IT,Second Year,6.9,125,,NOt PLacEd,"Python, Data Analysis, Spring Boot, AWS, C++"
+839,CS710,La verne,Hasely,invalidemail.com,629-240-5000,Female,cs,4,5.5,120,ML,Placed,"Java, AWS, React"
+887,CS689,Marita,Aylen,,464-769-5704,Female,cs,First Year,5.6,120,,Internship,"Machine Learning, Java, React"
+899,ME328,Shannan,Border,sborderoy@yandex.ru,349-471-0561,Male,Mechanical,4,-8.6,120,Coursera,placed,"C++, Machine Learning, Data Analysis, Power BI"
+911,CE307,Hailee,Jeves,hjevespa@histats.com,228-333-1431,Female,Civil,7,5.3,120,,Placed,"Power BI, Python, Java, Spring Boot"
+941,ME876,Randee,Spaice,rspaiceq4@goodreads.com,644-288-4410,Female,Mechanical,Second Year,8.9,120,,Placed,"Spring Boot, Python, SQL, Power BI"
+960,IT772,Dorine,Mordanti,dmordantiqn@naver.com,578-666-3611,Female,Information Technology,9,9.5,130,AWS,NOT PLACED,"SQL, Python, AWS"
+987,IT658,Jerry,Terrell,jterrellre@tuttocitta.it,320-858-3843,Male,IT,1,8.3,130,NPTEL,placed,Java
+987,IT658,Jerry,Terrell,jterrellre@tuttocitta.it,320-858-3843,Male,IT,1,8.3,130,NPTEL,placed,Java
+998,IT820,Pavel,Grishinov,invalidemail.com,437-568-3020,Male,IT,2,8.1,130,,NOt PLacEd,"Power BI, Data Analysis"
