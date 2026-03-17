@@ -193,7 +193,7 @@ with tab2:
         df['attendance_percentage'] = df['attendance_percentage'].where(df['attendance_percentage'].between (1, 100), other=np.nan)
 
         with col2:
-            st.write(df['attendance_percentage'].iloc[[0,129,130,131,5]])
+            st.write(df.loc[[0,129,130,131,5],'attendance_percentage'])
         # st.write(df['attendance_percentage'].tail(5))
 
     with st.expander("Placement Status"):
