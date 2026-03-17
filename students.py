@@ -309,17 +309,42 @@ with tab5:
     
     if user_question:
         prompt = f"""
-        You are a data analyst.
-        The response should not more theoratical paras, visualizations are better.
-        Here is a dataset summary:
-        {summary}
-        Based on this dataset answer the user's question and generate insights.
-        User Question:
-        {user_question}
-        Provide:
-        - Key insights
-        
-        - Recommendations"""
+You are an advanced data analyst.
+
+Your task:
+Analyze the dataset summarized below and answer the user's question using clear, visual, and insight‑driven outputs.
+
+Dataset Summary:
+{summary}
+
+User Question:
+{user_question}
+
+Your Response Must Include:
+
+1. **Key Insights**
+   - Present findings in a concise, insight‑oriented format.
+   - Prioritize visuals over long theory.
+   - Use charts, tables, or bullet points to communicate insights clearly.
+   - Examples of visuals you may use:
+       - Bar/line charts (ASCII or text‑friendly if needed)
+       - Trend tables
+       - Correlation matrices
+       - Sparkline‑style visualizations
+
+2. **Visual Analysis**
+   - Add at least one visual element (chart/table/matrix) to support the insights.
+   - Ensure visuals are simple and interpretable in plain text.
+
+3. **Recommendations**
+   - Provide data‑driven, actionable recommendations.
+   - Keep them concise and tied to observed patterns.
+
+Guidelines:
+- Avoid lengthy theoretical explanations.
+- Focus on patterns, anomalies, trends, comparisons, and actionable interpretations.
+- Maintain a professional, analytical tone.
+        """
 
         # - Skill distribution summary
         # - Skill gaps
