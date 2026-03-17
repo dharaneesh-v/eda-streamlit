@@ -5,7 +5,7 @@ import re
 import matplotlib.pyplot as plt
 import google.generativeai as genai
 
-tab1, tab2, tab3, tab4, tab6 = st.tabs(["Initial Data", "Data Cleaning", "Cleaned Data", "Visualization","AI Insights"])
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Initial Data", "Data Cleaning", "Cleaned Data", "Visualization","Student profile","AI Insights"])
 df = pd.read_csv('student_data.csv')
 
 with tab1:
@@ -358,4 +358,67 @@ Guidelines:
             # ASCII bars
             st.text(f"GPA: {'█' * int(rec['gpa']*2)}")
             st.text(f"Attendance: {'█' * int(rec['attendance_percentage']/5)}")
+
+
+
+
+
+with tab5:
+    st.subheader("🔍 Student Profile Search")
+
+    reg_input = st.text_input(
+        "Enter Register Number",
+        placeholder="Example: 22CS081",
+        key="profile_reg"
+    )
+
+    if st.button("Search Student", use_container_width=True, key="profile_btn"):
+        df["register_number"] = df["register_number"].astype(str)
+
+        if not reg_input.strip():
+            st.warning("Please enter a valid register number.")
+            st.stop()
+
+        student = df[df["register_number"] == reg_input.strip()]
+
+        if student.empty:
+            st.error("❌ Student not found.")
+            st.stop()
+
+        st.success("✅ Student Found")
+        rec = student.iloc[0]
+
+        # Student info
+        st.markdown("### 🧑‍🎓 Student Details")
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.write(f"**Name:** {rec['first_name']} {rec['last_name']}")
+            st.write(f"**Register Number:** {rec['register_number']}")
+            st.write(f"**Department:** {rec['department']}")
+            st.write(f"**Year:** {rec['year']}")
+
+        with col2:
+            st.write(f"**Gender:** {rec['gender']}")
+            st.write(f"**Placement Status:** {rec['placement_status']}")
+            st.write(f"**GPA:** {rec['gpa']}")
+            st.write(f"**Attendance:** {rec['attendance_percentage']}%")
+
+        # Skills
+        st.markdown("### 🧩 Skills")
+        skill_cols = [c for c in df.columns if c.startswith("skill_")]
+        skills = [rec[c] for c in skill_cols if pd.notna(rec[c]) and str(rec[c]).strip()]
+
+        if skills:
+            st.success(", ".join(skills))
+        else:
+            st.info("No skills listed")
+
+        # ASCII Visual Summary
+        st.markdown("### 📊 Performance Summary (ASCII Bars)")
+        gpa_bar = "█" * int((rec["gpa"] / 10) * 20) if pd.notna(rec["gpa"]) else ""
+        att_bar = "█" * int((rec["attendance_percentage"] / 100) * 20) if pd.notna(rec["attendance_percentage"]) else ""
+
+        st.text(f"GPA        | {gpa_bar}")
+        st.text(f"Attendance | {att_bar}")
 
