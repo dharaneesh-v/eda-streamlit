@@ -491,7 +491,7 @@ with tab6:
     # ---- Build rule conditions safely (NaNs -> False)
     gpa_low  = (df_risk["gpa"] < gpa_th).fillna(False) if "gpa" in df_risk.columns else False
     att_low  = (df_risk["attendance_percentage"] < att_th).fillna(False) if "attendance_percentage" in df_risk.columns else False
-    skill_low = (df_risk["skill_count"] < min_skill).fillna(False)
+    skill_low = (df_risk["skill_count"] > min_skill).fillna(False)
 
     # ✅ Require ALL conditions: GPA & Attendance & Skills
     df_risk["risky_all"] = gpa_low & att_low & skill_low
