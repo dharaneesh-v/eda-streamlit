@@ -309,41 +309,55 @@ with tab5:
     
     if user_question:
         prompt = f"""
-You are an advanced data analyst.
+        You are a senior data analyst. 
+        You must answer the user's question in ONE response only. 
+        Do NOT ask follow-up questions. 
+        Do NOT request additional details. 
+        Always produce the final answer directly.
+        You will be given:
+        1. DATASET SUMMARY → {summary}
+        2. USER QUESTION → {user_question}
+        Your task:
+        Analyze the dataset summary and answer the user question accurately.
+        STRICT OUTPUT FORMAT (follow exactly):
+        ------------------------------------------------------------
+        ### 📌 KEY INSIGHTS 
+        - Bullet points only.
+        - No long paragraphs.
+        - Extract trends, patterns, anomalies, comparisons.
+        ### 📊 VISUAL ANALYSIS (MANDATORY)
+        Provide at least ONE visual in plain text:
+        Choose ONE of the following formats:
+        - ASCII bar chart
+        - ASCII line trend
+        - Table summary
+        - Correlation matrix
+        - Distribution blocks
 
-Your task:
-Analyze the dataset summarized below and answer the user's question using clear, visual, and insight‑driven outputs.
+Example formats you may use:
+Bar Chart Example:
+A ┃████████████ 78%
+B ┃███████ 45%
 
-Dataset Summary:
-{summary}
+Table Example:
+| Metric | Value |
+|--------|-------|
+| Mean   | 12.5  |
 
-User Question:
-{user_question}
+(Line charts also allowed as ASCII)
 
-Your Response Must Include:
+### 🎯 RECOMMENDATIONS
+- Actionable.
+- Based only on insights above.
+- Concrete, not generic.
 
-1. **Key Insights**
-   - Present findings in a concise, insight‑oriented format.
-   - Prioritize visuals over long theory.
-   - Use charts, tables, or bullet points to communicate insights clearly.
-   - Examples of visuals you may use:
-       - Bar/line charts (ASCII or text‑friendly if needed)
-       - Trend tables
-       - Correlation matrices
-       - Sparkline‑style visualizations
+------------------------------------------------------------
 
-2. **Visual Analysis**
-   - Add at least one visual element (chart/table/matrix) to support the insights.
-   - Ensure visuals are simple and interpretable in plain text.
-
-3. **Recommendations**
-   - Provide data‑driven, actionable recommendations.
-   - Keep them concise and tied to observed patterns.
-
-Guidelines:
-- Avoid lengthy theoretical explanations.
-- Focus on patterns, anomalies, trends, comparisons, and actionable interpretations.
-- Maintain a professional, analytical tone.
+RULES:
+- No theoretical explanations.
+- No storytelling.
+- No multiple API call dependencies.
+- Always respond fully within a single message.
         """
 
         # - Skill distribution summary
