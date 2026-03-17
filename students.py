@@ -426,45 +426,52 @@ with tab5:
 
 
 with tab6:
+   
     st.subheader("🚩 At‑Risk Student Detector")
 
-    # Threshold controls
-    risk_gpa = st.slider("GPA below → Risk", 0.0, 10.0, 7.0, key="risk_gpa")
-    risk_att = st.slider("Attendance below (%) → Risk", 0, 100, 75, key="risk_att")
+    # Risk thresholds
+    gpa_th = st.slider("Flag if GPA is below", 0.0, 10.0, 7.0, key="risk_gpa")
+    att_th = st.slider("Flag if Attendance (%) is below", 0, 100, 75, key="risk_att")
     min_skill = st.slider("Minimum number of skills required", 0, 5, 2, key="risk_skill")
 
     df_risk = df.copy()
 
-    # Skill count
+    # Collect skill columns (skill_1 ... skill_5)
     skill_cols = [c for c in df.columns if c.startswith("skill_")]
+
+    # Count number of valid skills per student
     df_risk["skill_count"] = df_risk[skill_cols].apply(
-        lambda row: sum(pd.notna(row[c]) and str(row[c]).strip() for c in skill_cols),
+        lambda row: sum(
+            1 for c in skill_cols
+            if pd.notna(row[c]) and str(row[c]).strip() != ""
+        ),
         axis=1
     )
 
-    # Risk rules
-    df_risk["risk_flag"] = (
-        (df_risk["gpa"] < risk_gpa) |
-        (df_risk["attendance_percentage"] < risk_att) |
+    
+    df_risk["risky"] = (
+        (df_risk["gpa"] < gpa_th) |
+        (df_risk["attendance_percentage"] < att_th) |
         (df_risk["skill_count"] < min_skill)
     )
 
-    
     st.markdown("### Summary")
-    st.bar_chart(df_risk["risk_flag"].value_counts())
+    st.bar_chart(df_risk["risky"].value_counts())
 
     st.markdown("### Students Identified as At‑Risk")
-    risky = df_risk[df_risk["risk_flag"] == True][[
+    at_risk = df_risk[df_risk["risky"] == True][[
         "register_number", "first_name", "last_name",
         "department", "year", "gender",
         "gpa", "attendance_percentage", "skill_count"
     ]]
 
-    st.dataframe(risky, use_container_width=True)
+    st.dataframe(at_risk, use_container_width=True)
 
     st.download_button(
         "⬇ Download At‑Risk Students CSV",
-        data=risky.to_csv(index=False).encode("utf-8"),
+        at_risk.to_csv(index=False).encode("utf-8"),
         file_name="at_risk_students.csv",
         use_container_width=True
     )
+
+
