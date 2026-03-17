@@ -5,7 +5,7 @@ import re
 import matplotlib.pyplot as plt
 import google.generativeai as genai
 
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Initial Data", "Data Cleaning", "Cleaned Data", "Visualization","Student profile","AI Insights"])
+tab1, tab2, tab3, tab4, tab5, tab6 , tab7 = st.tabs(["Initial Data", "Data Cleaning", "Cleaned Data", "Visualization","Student profile","At-Risk Students","AI Insights"])
 df = pd.read_csv('student_data.csv')
 
 with tab1:
@@ -290,7 +290,7 @@ with tab4:
     
     
     
-with tab6:
+with tab7:
     # genai.configure(api_key=GEMINI_API_KEY)
     api_key1 = st.secrets.get("GEMINI_API_KEY_", "") 
     genai.configure(api_key=api_key1)
@@ -422,3 +422,29 @@ with tab5:
         st.text(f"GPA        | {gpa_bar}")
         st.text(f"Attendance | {att_bar}")
 
+
+
+
+with tab6:
+    st.subheader("🚩 At‑Risk Student Detector")
+
+    # Threshold controls
+    risk_gpa = st.slider("GPA below → Risk", 0.0, 10.0, 7.0, key="risk_gpa")
+    risk_att = st.slider("Attendance below (%) → Risk", 0, 100, 75, key="risk_att")
+    min_skill = st.slider("Minimum number of skills required", 0, 5, 2, key="risk_skill")
+
+    df_risk = df.copy()
+
+    # Skill count
+    skill_cols = [c for c in df.columns if c.startswith("skill_")]
+    df_risk["skill_count"] = df_risk[skill_cols].apply(
+        lambda row: sum(pd.notna(row[c]) and str(row[c]).strip() for c in skill_cols),
+        axis=1
+    )
+
+    # Risk rules
+    df_risk["risk_flag"] = (
+        (df_risk["gpa"] < risk_gpa) |
+        (df_risk["attendance_percentage"] < risk_att) |
+        (df_risk["skill_count"] < min_skill)
+    )
