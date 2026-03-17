@@ -9,7 +9,6 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(["Initial Data", "Data Cleaning", "Cleane
 df = pd.read_csv('student_data.csv')
 
 with tab1:
-    st.header("DN666")
     st.dataframe(df)
     
 with tab2:
