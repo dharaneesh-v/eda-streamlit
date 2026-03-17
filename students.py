@@ -430,40 +430,88 @@ with tab6:
     st.subheader("🚩 Filter Students")
     st.write(" Filter students by GPA, Attendance and skills, To analyze their career insights ")
     # Risk thresholds
-    gpa_th = st.slider("Flag if GPA is below", 0.0, 10.0, 7.0, key="risk_gpa")
-    att_th = st.slider("Flag if Attendance (%) is below", 0, 100, 75, key="risk_att")
-    min_skill = st.slider("Minimum number of skills required", 0, 5, 2, key="risk_skill")
 
+    # ---- Filters (Department & Year)
+    fcol1, fcol2 = st.columns(2)
+    dept_options = sorted(df["department"].dropna().unique().tolist()) if "department" in df.columns else []
+    year_options = sorted(pd.to_numeric(df["year"], errors="coerce").dropna().unique().astype(int).tolist()) if "year" in df.columns else []
+
+    dept_filter = fcol1.multiselect(
+        "Filter by Department (optional)",
+        options=dept_options,
+        key="risk_dept_filter"
+    )
+    year_filter = fcol2.multiselect(
+        "Filter by Year (optional)",
+        options=year_options,
+        key="risk_year_filter"
+    )
+
+    # Apply filters to a working copy
     df_risk = df.copy()
+    if dept_filter and "department" in df_risk.columns:
+        df_risk = df_risk[df_risk["department"].isin(dept_filter)]
+    if year_filter and "year" in df_risk.columns:
+        # coerce to numeric for robust matching
+        df_risk["year"] = pd.to_numeric(df_risk["year"], errors="coerce")
+        df_risk = df_risk[df_risk["year"].isin(year_filter)]
 
-    # Collect skill columns (skill_1 ... skill_5)
-    skill_cols = [c for c in df.columns if c.startswith("skill_")]
+    st.caption(f"Filtered rows: {len(df_risk):,}")
 
-    # Count number of valid skills per student
-    df_risk["skill_count"] = df_risk[skill_cols].apply(
-        lambda row: sum(
-            1 for c in skill_cols
-            if pd.notna(row[c]) and str(row[c]).strip() != ""
-        ),
-        axis=1
-    )
+    # ---- Risk thresholds
+    col_a, col_b, col_c = st.columns(3)
+    gpa_th = col_a.slider("Flag if GPA is below", 0.0, 10.0, 7.0, key="risk_gpa")
+    att_th = col_b.slider("Flag if Attendance (%) is below", 0, 100, 75, key="risk_att")
+    min_skill = col_c.slider("Minimum number of skills required", 0, 5, 2, key="risk_skill")
 
-    
-    df_risk["risky"] = (
-        (df_risk["gpa"] < gpa_th) |
-        (df_risk["attendance_percentage"] < att_th) |
-        (df_risk["skill_count"] < min_skill)
-    )
+    # ---- Skill count (skill_1..skill_5 if present)
+    skill_cols = [c for c in df_risk.columns if c.startswith("skill_")]
+    if skill_cols:
+        df_risk["skill_count"] = df_risk[skill_cols].apply(
+            lambda row: sum(
+                1 for c in skill_cols
+                if pd.notna(row[c]) and str(row[c]).strip() != ""
+            ),
+            axis=1
+        )
+    else:
+        # If skills not parsed, assume 0 (so rule can still work)
+        df_risk["skill_count"] = 0
 
+    # ---- Ensure numeric types for comparisons
+    if "gpa" in df_risk.columns:
+        df_risk["gpa"] = pd.to_numeric(df_risk["gpa"], errors="coerce")
+    if "attendance_percentage" in df_risk.columns:
+        df_risk["attendance_percentage"] = pd.to_numeric(df_risk["attendance_percentage"], errors="coerce")
+
+    # ---- Risk rules
+    # Safely handle missing columns
+    gpa_cond = df_risk["gpa"] < gpa_th if "gpa" in df_risk.columns else False
+    att_cond = df_risk["attendance_percentage"] < att_th if "attendance_percentage" in df_risk.columns else False
+    skill_cond = df_risk["skill_count"] < min_skill
+
+    df_risk["risky"] = (gpa_cond.fillna(False)) | (att_cond.fillna(False)) | (skill_cond.fillna(False))
+
+    # ---- Summary & Table
     st.markdown("### Summary")
-    st.bar_chart(df_risk["risky"].value_counts())
+    if df_risk["risky"].notna().any():
+        st.bar_chart(df_risk["risky"].value_counts())
+    else:
+        st.info("No records to summarize with the current filters.")
 
     st.markdown("### Students Identified as At‑Risk")
-    at_risk = df_risk[df_risk["risky"] == True][[
+    show_cols = [c for c in [
         "register_number", "first_name", "last_name",
         "department", "year", "gender",
         "gpa", "attendance_percentage", "skill_count"
-    ]]
+    ] if c in df_risk.columns]
+
+    at_risk = df_risk[df_risk["risky"] == True][show_cols].copy()
+
+    # Sort for readability (by severity proxies)
+    sort_cols = [c for c in ["gpa", "attendance_percentage", "skill_count"] if c in at_risk.columns]
+    if sort_cols:
+        at_risk = at_risk.sort_values(by=sort_cols, ascending=[True if c != "skill_count" else True for c in sort_cols])
 
     st.dataframe(at_risk, use_container_width=True)
 
@@ -473,5 +521,3 @@ with tab6:
         file_name="at_risk_students.csv",
         use_container_width=True
     )
-
-
