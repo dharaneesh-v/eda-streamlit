@@ -492,16 +492,6 @@ with tab4:
         if not placement_rate_gender.empty:
             st.bar_chart(placement_rate_gender.set_index("gender")["placement_rate"])
 
-    # Correlation heatmap (if possible)
-    num_cols = [c for c in ["gpa", "attendance_percentage"] if c in dfv.columns]
-    if "placement_status" in dfv.columns:
-        dfv = dfv.copy()
-        dfv["placement_binary"] = (dfv["placement_status"] == "Placed").astype(float)
-        num_cols.append("placement_binary")
-    if len(num_cols) >= 2:
-        st.markdown("### Correlation Heatmap")
-        fig_corr = corr_heatmap(dfv.dropna(subset=num_cols), num_cols, "Correlation (key metrics)")
-        st.pyplot(fig_corr)
 
     # Top Skills
     st.markdown("### Top Skills")
