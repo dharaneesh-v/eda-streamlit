@@ -499,7 +499,7 @@ with tab6:
     else:
         st.info("No records to summarize with the current filters.")
 
-    st.markdown("### Students Identified as At‑Risk")
+    st.markdown("### Students Identified ")
     show_cols = [c for c in [
         "register_number", "first_name", "last_name",
         "department", "year", "gender",
@@ -516,7 +516,7 @@ with tab6:
     st.dataframe(at_risk, use_container_width=True)
 
     st.download_button(
-        "⬇ Download At‑Risk Students CSV",
+        "⬇ Download filtered Students CSV",
         at_risk.to_csv(index=False).encode("utf-8"),
         file_name="at_risk_students.csv",
         use_container_width=True
