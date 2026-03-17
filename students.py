@@ -496,20 +496,6 @@ with tab6:
     # ✅ Require ALL conditions: GPA & Attendance & Skills
     df_risk["risky_all"] = gpa_low & att_low & skill_low
 
-    # ---- Show filtered cohort (regardless of risk)
-    st.markdown("### Filtered Cohort (Before Risk Rules)")
-    cohort_cols = [c for c in [
-        "register_number", "first_name", "last_name",
-        "department", "year", "gender", "gpa", "attendance_percentage"
-    ] if c in df_risk.columns]
-    st.dataframe(df_risk[cohort_cols], use_container_width=True)
-
-    st.download_button(
-        "⬇ Download Filtered Cohort CSV",
-        df_risk[cohort_cols].to_csv(index=False).encode("utf-8"),
-        file_name="filtered_cohort.csv",
-        use_container_width=True
-    )
 
     # ---- Summary & Table for students meeting ALL conditions
     st.markdown("### Summary of Risk Flags (ALL conditions)")
@@ -518,7 +504,7 @@ with tab6:
     else:
         st.info("No records to summarize with the current filters.")
 
-    st.markdown("### Students Identified (ALL conditions satisfied)")
+    st.markdown("### Students Identified ")
     show_cols = [c for c in [
         "register_number", "first_name", "last_name",
         "department", "year", "gender",
