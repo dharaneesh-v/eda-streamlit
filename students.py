@@ -421,14 +421,24 @@ with tab4:
     filt_col1, filt_col2, filt_col3, filt_col4 = st.columns(4)
 
     dept_sel = filt_col1.multiselect(
-        "Department", sorted(df["department"].dropna().unique().tolist()) if "department" in df.columns else []
+        "Department",
+        sorted(df["department"].dropna().unique().tolist()) if "department" in df.columns else [],
+        key="viz_dept"
     )
-    year_sel = filt_col2.multiselect("Year", sorted(df["year"].dropna().unique().tolist()) if "year" in df.columns else [])
+    year_sel = filt_col2.multiselect(
+        "Year",
+        sorted(df["year"].dropna().unique().tolist()) if "year" in df.columns else [],
+        key="viz_year"
+    )
     gender_sel = filt_col3.multiselect(
-        "Gender", sorted(df["gender"].dropna().unique().tolist()) if "gender" in df.columns else []
+        "Gender",
+        sorted(df["gender"].dropna().unique().tolist()) if "gender" in df.columns else [],
+        key="viz_gender"
     )
     place_sel = filt_col4.multiselect(
-        "Placement Status", sorted(df["placement_status"].dropna().unique().tolist()) if "placement_status" in df.columns else []
+        "Placement Status",
+        sorted(df["placement_status"].dropna().unique().tolist()) if "placement_status" in df.columns else [],
+        key="viz_place"
     )
 
     dfv = df.copy()
@@ -496,6 +506,7 @@ with tab4:
     # Correlation heatmap (if possible)
     num_cols = [c for c in ["gpa", "attendance_percentage"] if c in dfv.columns]
     if "placement_status" in dfv.columns:
+        dfv = dfv.copy()
         dfv["placement_binary"] = (dfv["placement_status"] == "Placed").astype(float)
         num_cols.append("placement_binary")
     if len(num_cols) >= 2:
@@ -542,10 +553,11 @@ with tab5:
     # Input
     user_question = st.text_input(
         "Ask anything about the dataset",
-        placeholder="Example: Which department has the best placement rate?"
+        placeholder="Example: Which department has the best placement rate?",
+        key="ai_question_input"
     )
 
-    if st.button("Generate Insights", use_container_width=True):
+    if st.button("Generate Insights", use_container_width=True, key="ai_generate_btn"):
 
         if not user_question.strip():
             st.warning("Please type a question.")
@@ -592,9 +604,10 @@ with tab6:
     reg_input = st.text_input(
         "Enter Register Number",
         placeholder="Example: 22CS081",
+        key="profile_reg_input"
     )
 
-    if st.button("Search Student", use_container_width=True):
+    if st.button("Search Student", use_container_width=True, key="profile_search_btn"):
         if not reg_input.strip():
             st.warning("Please enter a valid register number.")
             st.stop()
@@ -707,16 +720,28 @@ with tab7:
         st.warning("Missing required columns: 'gpa' and/or 'attendance_percentage'.")
     else:
         col_a, col_b, col_c, col_d = st.columns(4)
-        gpa_thresh = col_a.slider("GPA threshold (below → risk)", 0.0, 10.0, 7.0, 0.1)
-        att_thresh = col_b.slider("Attendance threshold % (below → risk)", 0, 100, 75, 1)
-        min_skills_needed = col_c.slider("Min skills (below → risk)", 0, 5, 2, 1)
-        include_placed = col_d.checkbox("Also flag 'Placed' students", value=False)
+        gpa_thresh = col_a.slider("GPA threshold (below → risk)", 0.0, 10.0, 7.0, 0.1, key="risk_gpa_thresh")
+        att_thresh = col_b.slider("Attendance threshold % (below → risk)", 0, 100, 75, 1, key="risk_att_thresh")
+        min_skills_needed = col_c.slider("Min skills (below → risk)", 0, 5, 2, 1, key="risk_min_skills")
+        include_placed = col_d.checkbox("Also flag 'Placed' students", value=False, key="risk_include_placed")
 
         # Optional filters for detector
         f1, f2, f3 = st.columns(3)
-        dept_filter = f1.multiselect("Filter by Department (optional)", sorted(df["department"].dropna().unique().tolist()) if "department" in df.columns else [])
-        year_filter = f2.multiselect("Filter by Year (optional)", sorted(df["year"].dropna().unique().tolist()) if "year" in df.columns else [])
-        gender_filter = f3.multiselect("Filter by Gender (optional)", sorted(df["gender"].dropna().unique().tolist()) if "gender" in df.columns else [])
+        dept_filter = f1.multiselect(
+            "Filter by Department (optional)",
+            sorted(df["department"].dropna().unique().tolist()) if "department" in df.columns else [],
+            key="risk_dept"
+        )
+        year_filter = f2.multiselect(
+            "Filter by Year (optional)",
+            sorted(df["year"].dropna().unique().tolist()) if "year" in df.columns else [],
+            key="risk_year"
+        )
+        gender_filter = f3.multiselect(
+            "Filter by Gender (optional)",
+            sorted(df["gender"].dropna().unique().tolist()) if "gender" in df.columns else [],
+            key="risk_gender"
+        )
 
         dfr = df.copy()
 
@@ -751,7 +776,6 @@ with tab7:
         if "placement_status" in dfr.columns:
             not_placed = dfr["placement_status"].astype(str).str.title() != "Placed"
             dfr["reason_place"] = not_placed
-            # Count placement in risk score only if we want to include placed students or if not placed
             if include_placed:
                 dfr["risk_score"] += dfr["reason_place"].fillna(False).astype(int)
         else:
@@ -794,7 +818,9 @@ with tab7:
         show_cols = [c for c in ["register_number", "first_name", "last_name", "department", "year", "gender",
                                  "gpa", "attendance_percentage", "placement_status", "skill_count",
                                  "risk_score", "risk_level", "risk_reasons"] if c in dfr.columns]
-        flagged = dfr[dfr["risk_level"].isin(["High", "Medium"])][show_cols].sort_values(["risk_level", "risk_score"], ascending=[True, False])
+        flagged = dfr[dfr["risk_level"].isin(["High", "Medium"])][show_cols].sort_values(
+            ["risk_level", "risk_score"], ascending=[True, False]
+        )
         st.dataframe(flagged, use_container_width=True)
 
         # Download
@@ -807,7 +833,7 @@ with tab7:
         )
 
         # Optional AI summary button
-        if st.button("Generate AI Summary for At‑Risk Cohort", use_container_width=True):
+        if st.button("Generate AI Summary for At‑Risk Cohort", use_container_width=True, key="risk_ai_btn"):
             api_key = st.secrets.get("GEMINI_API_KEY_", "") or os.environ.get("GEMINI_API_KEY", "")
             if not api_key:
                 st.info("Set GEMINI_API_KEY_/GEMINI_API_KEY to enable AI summary.")
@@ -861,17 +887,36 @@ with tab8:
     }
 
     c1, c2 = st.columns([1, 1])
-    role_choice = c1.selectbox("Choose a role (preset)", ["-- Select --"] + list(PRESET_ROLES.keys()))
-    custom_role = c2.text_input("Or enter a custom role (optional)")
-    custom_skills = st.text_input("Custom required skills (comma-separated, overrides preset if filled)",
-                                  placeholder="e.g., Python, SQL, Power BI")
+    role_choice = c1.selectbox("Choose a role (preset)", ["-- Select --"] + list(PRESET_ROLES.keys()), key="gap_role_choice")
+    custom_role = c2.text_input("Or enter a custom role (optional)", key="gap_custom_role")
+    custom_skills = st.text_input(
+        "Custom required skills (comma-separated, overrides preset if filled)",
+        placeholder="e.g., Python, SQL, Power BI",
+        key="gap_custom_skills"
+    )
 
     # Filters
     f1, f2, f3, f4 = st.columns(4)
-    dept_sel = f1.multiselect("Department", sorted(df["department"].dropna().unique().tolist()) if "department" in df.columns else [])
-    year_sel = f2.multiselect("Year", sorted(df["year"].dropna().unique().tolist()) if "year" in df.columns else [])
-    gender_sel = f3.multiselect("Gender", sorted(df["gender"].dropna().unique().tolist()) if "gender" in df.columns else [])
-    place_sel = f4.multiselect("Placement Status", sorted(df["placement_status"].dropna().unique().tolist()) if "placement_status" in df.columns else [])
+    dept_sel = f1.multiselect(
+        "Department",
+        sorted(df["department"].dropna().unique().tolist()) if "department" in df.columns else [],
+        key="gap_dept"
+    )
+    year_sel = f2.multiselect(
+        "Year",
+        sorted(df["year"].dropna().unique().tolist()) if "year" in df.columns else [],
+        key="gap_year"
+    )
+    gender_sel = f3.multiselect(
+        "Gender",
+        sorted(df["gender"].dropna().unique().tolist()) if "gender" in df.columns else [],
+        key="gap_gender"
+    )
+    place_sel = f4.multiselect(
+        "Placement Status",
+        sorted(df["placement_status"].dropna().unique().tolist()) if "placement_status" in df.columns else [],
+        key="gap_place"
+    )
 
     dfs = df.copy()
     if dept_sel and "department" in dfs.columns:
@@ -900,7 +945,11 @@ with tab8:
     else:
         st.info("Select a preset role or provide custom required skills.")
 
-    min_match = st.slider("Minimum matched skills to include", 0, 10, max(1, min(3, len(req_skills))) if req_skills else 1, 1)
+    min_match = st.slider(
+        "Minimum matched skills to include",
+        0, 10, max(1, min(3, len(req_skills))) if req_skills else 1, 1,
+        key="gap_min_match"
+    )
 
     if req_skills:
         # Build per-student skills set
@@ -933,9 +982,8 @@ with tab8:
             if not cov.empty:
                 st.bar_chart(cov)
 
-            # Top missing skills overall (from all students considered, not only filtered by min_match)
+            # Top missing skills overall (from all students considered)
             st.markdown("### Most Missing Required Skills (Across Filtered Students)")
-            # Recompute across dfs (not result) to see gaps
             all_matches = dfs.apply(compute_match, axis=1)
             missing_all = pd.Series(
                 [s for row in all_matches["missing_skills"].tolist() for s in (row.split(", ") if isinstance(row, str) and row else [])]
@@ -953,7 +1001,7 @@ with tab8:
             )
 
             # Optional AI summary
-            if st.button("Generate AI Summary for Skill Gap", use_container_width=True):
+            if st.button("Generate AI Summary for Skill Gap", use_container_width=True, key="gap_ai_btn"):
                 api_key = st.secrets.get("GEMINI_API_KEY_", "") or os.environ.get("GEMINI_API_KEY", "")
                 if not api_key:
                     st.info("Set GEMINI_API_KEY_/GEMINI_API_KEY to enable AI summary.")
