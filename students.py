@@ -134,17 +134,6 @@ def boxplot_by_category(df, cat_col, y_col, title):
     ax.grid(alpha=0.2)
     return fig
 
-def corr_heatmap(df, cols, title):
-    corr = df[cols].corr(numeric_only=True)
-    fig, ax = plt.subplots(figsize=(5, 4))
-    cax = ax.imshow(corr, cmap="coolwarm", vmin=-1, vmax=1)
-    ax.set_xticks(range(len(cols)))
-    ax.set_yticks(range(len(cols)))
-    ax.set_xticklabels(cols, rotation=45, ha="right")
-    ax.set_yticklabels(cols)
-    fig.colorbar(cax, ax=ax, fraction=0.046, pad=0.04)
-    ax.set_title(title)
-    return fig
 
 def extract_student_skills_row(record: pd.Series) -> set:
     """Collect normalized (title-case) skills from skill_1..skill_5 columns."""
