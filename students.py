@@ -5,7 +5,7 @@ import re
 import matplotlib.pyplot as plt
 import google.generativeai as genai
 
-tab1, tab2, tab3, tab4, tab5, tab6 , tab7 = st.tabs(["Initial Data", "Data Cleaning", "Cleaned Data", "Visualization","Student profile","At-Risk Students","AI Insights"])
+tab1, tab2, tab3, tab4, tab5, tab6 , tab7 = st.tabs(["Initial Data", "Data Cleaning", "Cleaned Data", "Visualization","Student profile","Filter Students","AI Insights"])
 df = pd.read_csv('student_data.csv')
 
 with tab1:
@@ -427,8 +427,8 @@ with tab5:
 
 with tab6:
    
-    st.subheader("🚩 At‑Risk Student Detector")
-
+    st.subheader("🚩 Filter Students")
+    st.write(" Filter students by GPA, Attendance and skills, To analyze their career insights ")
     # Risk thresholds
     gpa_th = st.slider("Flag if GPA is below", 0.0, 10.0, 7.0, key="risk_gpa")
     att_th = st.slider("Flag if Attendance (%) is below", 0, 100, 75, key="risk_att")
