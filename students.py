@@ -299,7 +299,7 @@ with tab5:
     # Gen AI Insights using GEMINI AI LLM
     
     # genai.configure(api_key=GEMINI_API_KEY)
-    genai.configure(api_key=api_key1)
+    genai.configure(api_key="AIzaSyCwKNpqAxt9dO4U9gvyEmJCQENfaqEMeWI")
     model = genai.GenerativeModel("gemini-2.5-flash-tts")
     
     # for m in genai.list_models():
