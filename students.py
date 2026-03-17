@@ -355,9 +355,9 @@ Guidelines:
         st.write(response.text)
 
 
-            # ASCII bars
-            st.text(f"GPA: {'█' * int(rec['gpa']*2)}")
-            st.text(f"Attendance: {'█' * int(rec['attendance_percentage']/5)}")
+        # ASCII bars
+        st.text(f"GPA: {'█' * int(rec['gpa']*2)}")
+        st.text(f"Attendance: {'█' * int(rec['attendance_percentage']/5)}")
 
 
 
