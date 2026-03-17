@@ -300,7 +300,7 @@ with tab5:
     
     # genai.configure(api_key=GEMINI_API_KEY)
     genai.configure(api_key="AIzaSyCwKNpqAxt9dO4U9gvyEmJCQENfaqEMeWI")
-    model = genai.GenerativeModel("gemini-2.5-flash-tts")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     
     # for m in genai.list_models():
     #     if "generateContent" in m.supported_generation_methods:
