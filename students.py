@@ -448,3 +448,23 @@ with tab6:
         (df_risk["attendance_percentage"] < risk_att) |
         (df_risk["skill_count"] < min_skill)
     )
+
+    
+    st.markdown("### Summary")
+    st.bar_chart(df_risk["risk_flag"].value_counts())
+
+    st.markdown("### Students Identified as At‑Risk")
+    risky = df_risk[df_risk["risk_flag"] == True][[
+        "register_number", "first_name", "last_name",
+        "department", "year", "gender",
+        "gpa", "attendance_percentage", "skill_count"
+    ]]
+
+    st.dataframe(risky, use_container_width=True)
+
+    st.download_button(
+        "⬇ Download At‑Risk Students CSV",
+        data=risky.to_csv(index=False).encode("utf-8"),
+        file_name="at_risk_students.csv",
+        use_container_width=True
+    )
