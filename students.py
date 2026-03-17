@@ -429,15 +429,15 @@ with tab5:
 
 
 with tab6:
+   
     st.subheader("🚩 Filter Students")
-    st.write("Filter students by Department/Year and flag at-risk students using GPA, Attendance, and Skills.")
+    st.write(" Filter students by GPA, Attendance and skills, To analyze their career insights ")
+    # Risk thresholds
 
     # ---- Filters (Department & Year)
     fcol1, fcol2 = st.columns(2)
     dept_options = sorted(df["department"].dropna().unique().tolist()) if "department" in df.columns else []
-    # Coerce year to numeric for consistency
-    year_series = pd.to_numeric(df["year"], errors="coerce") if "year" in df.columns else pd.Series(dtype="float")
-    year_options = sorted(year_series.dropna().unique().astype(int).tolist()) if not year_series.empty else []
+    year_options = sorted(pd.to_numeric(df["year"], errors="coerce").dropna().unique().astype(int).tolist()) if "year" in df.columns else []
 
     dept_filter = fcol1.multiselect(
         "Filter by Department (optional)",
@@ -450,26 +450,36 @@ with tab6:
         key="risk_year_filter"
     )
 
-    # ---- Apply filters to a working copy (order matters)
+    # Apply filters to a working copy
     df_risk = df.copy()
-
-    # Ensure consistent dtypes before filtering
-    if "year" in df_risk.columns:
-        df_risk["year"] = pd.to_numeric(df_risk["year"], errors="coerce")
-
     if dept_filter and "department" in df_risk.columns:
         df_risk = df_risk[df_risk["department"].isin(dept_filter)]
-
     if year_filter and "year" in df_risk.columns:
+        # coerce to numeric for robust matching
+        df_risk["year"] = pd.to_numeric(df_risk["year"], errors="coerce")
         df_risk = df_risk[df_risk["year"].isin(year_filter)]
 
-    st.caption(f"Filtered rows (before risk rules): {len(df_risk):,}")
+    st.caption(f"Filtered rows: {len(df_risk):,}")
 
-    # ---- Risk thresholds (apply on the filtered cohort)
+    # ---- Risk thresholds
     col_a, col_b, col_c = st.columns(3)
     gpa_th = col_a.slider("Flag if GPA is below", 0.0, 10.0, 7.0, key="risk_gpa")
     att_th = col_b.slider("Flag if Attendance (%) is below", 0, 100, 75, key="risk_att")
     min_skill = col_c.slider("Minimum number of skills required", 0, 5, 2, key="risk_skill")
+
+    # ---- Skill count (skill_1..skill_5 if present)
+    skill_cols = [c for c in df_risk.columns if c.startswith("skill_")]
+    if skill_cols:
+        df_risk["skill_count"] = df_risk[skill_cols].apply(
+            lambda row: sum(
+                1 for c in skill_cols
+                if pd.notna(row[c]) and str(row[c]).strip() != ""
+            ),
+            axis=1
+        )
+    else:
+        # If skills not parsed, assume 0 (so rule can still work)
+        df_risk["skill_count"] = 0
 
     # ---- Ensure numeric types for comparisons
     if "gpa" in df_risk.columns:
@@ -477,52 +487,22 @@ with tab6:
     if "attendance_percentage" in df_risk.columns:
         df_risk["attendance_percentage"] = pd.to_numeric(df_risk["attendance_percentage"], errors="coerce")
 
-    # ---- Skill count (skill_1..skill_5 if present)
-    skill_cols = [c for c in df_risk.columns if c.startswith("skill_")]
-    if skill_cols:
-        df_risk["skill_count"] = df_risk[skill_cols].apply(
-            lambda row: sum(1 for c in skill_cols if pd.notna(row[c]) and str(row[c]).strip() != ""),
-            axis=1
-        )
-    else:
-        # If skills not parsed, treat as 0 to allow rule to work
-        df_risk["skill_count"] = 0
-
-    # ---- Risk rules (safe to NaNs)
+    # ---- Risk rules
+    # Safely handle missing columns
     gpa_cond = df_risk["gpa"] < gpa_th if "gpa" in df_risk.columns else False
     att_cond = df_risk["attendance_percentage"] < att_th if "attendance_percentage" in df_risk.columns else False
     skill_cond = df_risk["skill_count"] < min_skill
 
-    df_risk["risky"] = (
-        gpa_cond.fillna(False) |
-        att_cond.fillna(False) |
-        skill_cond.fillna(False)
-    )
+    df_risk["risky"] = (gpa_cond.fillna(False)) | (att_cond.fillna(False)) | (skill_cond.fillna(False))
 
-    # ---- Show filtered cohort (regardless of risk)
-    st.markdown("### Filtered Cohort (Before Risk Rules)")
-    cohort_cols = [c for c in [
-        "register_number", "first_name", "last_name",
-        "department", "year", "gender",
-        "gpa", "attendance_percentage"
-    ] if c in df_risk.columns]
-    st.dataframe(df_risk[cohort_cols], use_container_width=True)
-
-    st.download_button(
-        "⬇ Download Filtered Cohort CSV",
-        df_risk[cohort_cols].to_csv(index=False).encode("utf-8"),
-        file_name="filtered_cohort.csv",
-        use_container_width=True
-    )
-
-    # ---- Summary & Table for at-risk
-    st.markdown("### Summary of Risk Flags")
+    # ---- Summary & Table
+    st.markdown("### Summary")
     if df_risk["risky"].notna().any():
         st.bar_chart(df_risk["risky"].value_counts())
     else:
         st.info("No records to summarize with the current filters.")
 
-    st.markdown("### Students Identified as At‑Risk")
+    st.markdown("### Students Identified ")
     show_cols = [c for c in [
         "register_number", "first_name", "last_name",
         "department", "year", "gender",
@@ -531,17 +511,15 @@ with tab6:
 
     at_risk = df_risk[df_risk["risky"] == True][show_cols].copy()
 
-    # Sort by severity: lower GPA, lower attendance, lower skills → first
-    # Build sort order dynamically based on available columns
+    # Sort for readability (by severity proxies)
     sort_cols = [c for c in ["gpa", "attendance_percentage", "skill_count"] if c in at_risk.columns]
     if sort_cols:
-        # all ascending=True because lower values are worse for these metrics
-        at_risk = at_risk.sort_values(by=sort_cols, ascending=[True for _ in sort_cols])
+        at_risk = at_risk.sort_values(by=sort_cols, ascending=[True if c != "skill_count" else True for c in sort_cols])
 
     st.dataframe(at_risk, use_container_width=True)
 
     st.download_button(
-        "⬇ Download At‑Risk Students CSV",
+        "⬇ Download filtered Students CSV",
         at_risk.to_csv(index=False).encode("utf-8"),
         file_name="at_risk_students.csv",
         use_container_width=True
