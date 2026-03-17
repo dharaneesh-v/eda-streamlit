@@ -9,6 +9,7 @@ tab1, tab2, tab3, tab4, tab5, tab6 , tab7 = st.tabs(["Initial Data", "Data Clean
 df = pd.read_csv('student_data.csv')
 
 with tab1:
+    st.write("Student Data")
     st.dataframe(df)
     
 with tab2:
@@ -176,7 +177,9 @@ with tab2:
         df["gpa"] = df["gpa"].round(2)
 
         with col2:
-            st.write(df['gpa'].iloc[[5,6,7,16,25,36,54,56,66,95]])
+            st.write(df.loc[[5,6,7,16,25,36,54,56,66,95], "gpa"])
+
+    #df.loc[['b', 'd'], ['Name', 'City']]
 
 
     with st.expander("Attendance"):
