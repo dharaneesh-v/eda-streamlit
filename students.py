@@ -146,6 +146,19 @@ def corr_heatmap(df, cols, title):
     ax.set_title(title)
     return fig
 
+def extract_student_skills_row(record: pd.Series) -> set:
+    """Collect normalized (title-case) skills from skill_1..skill_5 columns."""
+    skills = set()
+    for i in range(1, 6):
+        col = f"skill_{i}"
+        if col in record.index and pd.notna(record[col]) and str(record[col]).strip():
+            skills.add(str(record[col]).strip().title())
+    return skills
+
+def normalize_skill_list(skills_in):
+    """Normalize a list of skills (case/spacing)."""
+    return [s.strip().title() for s in skills_in if isinstance(s, str) and s.strip()]
+
 # =========================
 # Load Data
 # =========================
@@ -154,8 +167,17 @@ df = load_csv("student_data.csv")
 # =========================
 # Tabs
 # =========================
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
-    ["Initial Data", "Data Cleaning", "Cleaned Data", "Visualization", "AI Insights", "Student Profile"]
+tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(
+    [
+        "Initial Data",
+        "Data Cleaning",
+        "Cleaned Data",
+        "Visualization",
+        "AI Insights",
+        "Student Profile",
+        "At-Risk Detector",
+        "Skill Gap Analyzer",
+    ]
 )
 
 # =========================
@@ -674,3 +696,293 @@ Respond ONLY in bullet points.
                 st.markdown(ai_note.text)
         except Exception as e:
             st.error(f"AI system issue: {e}")
+
+# =========================
+# Tab 7: At-Risk Student Detector
+# =========================
+with tab7:
+    st.subheader("🚩 At‑Risk Student Detector")
+
+    if not set(["gpa", "attendance_percentage"]).issubset(df.columns):
+        st.warning("Missing required columns: 'gpa' and/or 'attendance_percentage'.")
+    else:
+        col_a, col_b, col_c, col_d = st.columns(4)
+        gpa_thresh = col_a.slider("GPA threshold (below → risk)", 0.0, 10.0, 7.0, 0.1)
+        att_thresh = col_b.slider("Attendance threshold % (below → risk)", 0, 100, 75, 1)
+        min_skills_needed = col_c.slider("Min skills (below → risk)", 0, 5, 2, 1)
+        include_placed = col_d.checkbox("Also flag 'Placed' students", value=False)
+
+        # Optional filters for detector
+        f1, f2, f3 = st.columns(3)
+        dept_filter = f1.multiselect("Filter by Department (optional)", sorted(df["department"].dropna().unique().tolist()) if "department" in df.columns else [])
+        year_filter = f2.multiselect("Filter by Year (optional)", sorted(df["year"].dropna().unique().tolist()) if "year" in df.columns else [])
+        gender_filter = f3.multiselect("Filter by Gender (optional)", sorted(df["gender"].dropna().unique().tolist()) if "gender" in df.columns else [])
+
+        dfr = df.copy()
+
+        # Apply filters
+        if dept_filter and "department" in dfr.columns:
+            dfr = dfr[dfr["department"].isin(dept_filter)]
+        if year_filter and "year" in dfr.columns:
+            dfr = dfr[dfr["year"].isin(year_filter)]
+        if gender_filter and "gender" in dfr.columns:
+            dfr = dfr[dfr["gender"].isin(gender_filter)]
+
+        # Prepare skills count per student
+        skill_cols = [c for c in dfr.columns if c.startswith("skill_")]
+        if skill_cols:
+            dfr["skill_count"] = dfr[skill_cols].apply(
+                lambda row: sum(1 for x in row if isinstance(x, str) and x.strip()), axis=1
+            )
+        else:
+            dfr["skill_count"] = np.nan
+
+        # Risk rules
+        dfr["risk_score"] = 0
+        dfr["reason_gpa"] = dfr["gpa"] < gpa_thresh
+        dfr["reason_att"] = dfr["attendance_percentage"] < att_thresh
+        dfr["reason_skill"] = dfr["skill_count"] < min_skills_needed if not dfr["skill_count"].isna().all() else False
+
+        dfr["risk_score"] += dfr["reason_gpa"].fillna(False).astype(int)
+        dfr["risk_score"] += dfr["reason_att"].fillna(False).astype(int)
+        if not dfr["skill_count"].isna().all():
+            dfr["risk_score"] += dfr["reason_skill"].fillna(False).astype(int)
+
+        if "placement_status" in dfr.columns:
+            not_placed = dfr["placement_status"].astype(str).str.title() != "Placed"
+            dfr["reason_place"] = not_placed
+            # Count placement in risk score only if we want to include placed students or if not placed
+            if include_placed:
+                dfr["risk_score"] += dfr["reason_place"].fillna(False).astype(int)
+        else:
+            dfr["reason_place"] = False
+
+        # Risk label
+        def risk_label(score):
+            if pd.isna(score):
+                return "Unknown"
+            if score >= 3:
+                return "High"
+            elif score == 2:
+                return "Medium"
+            elif score <= 1:
+                return "Low"
+            return "Unknown"
+
+        dfr["risk_level"] = dfr["risk_score"].apply(risk_label)
+
+        # Reasons text
+        def build_reasons(row):
+            reasons = []
+            if row.get("reason_gpa", False): reasons.append(f"GPA<{gpa_thresh}")
+            if row.get("reason_att", False): reasons.append(f"Attendance<{att_thresh}%")
+            if not pd.isna(row.get("skill_count", np.nan)) and row.get("reason_skill", False):
+                reasons.append(f"Skills<{min_skills_needed}")
+            if row.get("reason_place", False) and (include_placed or (row.get("placement_status", "") != "Placed")):
+                reasons.append("Not placed")
+            return ", ".join(reasons) if reasons else "—"
+
+        dfr["risk_reasons"] = dfr.apply(build_reasons, axis=1)
+
+        # Summary
+        st.markdown("### Overview")
+        counts = dfr["risk_level"].value_counts().reindex(["High", "Medium", "Low"], fill_value=0)
+        st.bar_chart(counts)
+
+        # Show table of High & Medium risk
+        st.markdown("### Flagged Students")
+        show_cols = [c for c in ["register_number", "first_name", "last_name", "department", "year", "gender",
+                                 "gpa", "attendance_percentage", "placement_status", "skill_count",
+                                 "risk_score", "risk_level", "risk_reasons"] if c in dfr.columns]
+        flagged = dfr[dfr["risk_level"].isin(["High", "Medium"])][show_cols].sort_values(["risk_level", "risk_score"], ascending=[True, False])
+        st.dataframe(flagged, use_container_width=True)
+
+        # Download
+        st.download_button(
+            "⬇️ Download Flagged Students CSV",
+            data=flagged.to_csv(index=False).encode("utf-8"),
+            file_name="students_at_risk.csv",
+            mime="text/csv",
+            use_container_width=True,
+        )
+
+        # Optional AI summary button
+        if st.button("Generate AI Summary for At‑Risk Cohort", use_container_width=True):
+            api_key = st.secrets.get("GEMINI_API_KEY_", "") or os.environ.get("GEMINI_API_KEY", "")
+            if not api_key:
+                st.info("Set GEMINI_API_KEY_/GEMINI_API_KEY to enable AI summary.")
+            else:
+                genai.configure(api_key=api_key)
+                # Compact cohort summary
+                cohort_summary = {
+                    "total": int(len(dfr)),
+                    "counts": counts.to_dict(),
+                    "gpa_threshold": gpa_thresh,
+                    "attendance_threshold": att_thresh,
+                    "min_skills": min_skills_needed,
+                    "dept": dept_filter,
+                    "year": year_filter,
+                    "gender": gender_filter,
+                }
+                import json
+                prompt = f"""
+You are an academic advisor. Summarize the at-risk cohort and give 5 quick actions.
+
+COHORT SUMMARY (JSON):
+{json.dumps(cohort_summary, ensure_ascii=False)}
+
+Respond with:
+- 3 bullets: what stands out
+- 1 small ASCII bar of High/Medium/Low counts
+- 5 actionable recommendations
+"""
+                try:
+                    model = genai.GenerativeModel("gemini-2.0-flash")
+                    resp = model.generate_content(prompt)
+                    st.markdown(resp.text)
+                except Exception as e:
+                    st.error(f"AI Error: {e}")
+
+# =========================
+# Tab 8: Skill Gap Analyzer
+# =========================
+with tab8:
+    st.subheader("🧠 Skill Gap Analyzer")
+
+    # Preset roles → skills (title-case)
+    PRESET_ROLES = {
+        "Data Analyst": ["Sql", "Excel", "Power Bi", "Python", "Statistics"],
+        "Software Engineer": ["Data Structures", "Algorithms", "Java", "Python", "Oop"],
+        "Web Developer": ["Html", "Css", "Javascript", "React", "Node"],
+        "Ml Engineer": ["Python", "Numpy", "Pandas", "Scikit-Learn", "Machine Learning"],
+        "Devops Engineer": ["Linux", "Docker", "Kubernetes", "Ci/Cd", "Aws"],
+        "Embedded Developer": ["C", "C++", "Embedded Systems", "Microcontrollers", "Iot"],
+        "Cybersecurity Analyst": ["Networking", "Linux", "Python", "Vulnerability Assessment", "Siem"],
+    }
+
+    c1, c2 = st.columns([1, 1])
+    role_choice = c1.selectbox("Choose a role (preset)", ["-- Select --"] + list(PRESET_ROLES.keys()))
+    custom_role = c2.text_input("Or enter a custom role (optional)")
+    custom_skills = st.text_input("Custom required skills (comma-separated, overrides preset if filled)",
+                                  placeholder="e.g., Python, SQL, Power BI")
+
+    # Filters
+    f1, f2, f3, f4 = st.columns(4)
+    dept_sel = f1.multiselect("Department", sorted(df["department"].dropna().unique().tolist()) if "department" in df.columns else [])
+    year_sel = f2.multiselect("Year", sorted(df["year"].dropna().unique().tolist()) if "year" in df.columns else [])
+    gender_sel = f3.multiselect("Gender", sorted(df["gender"].dropna().unique().tolist()) if "gender" in df.columns else [])
+    place_sel = f4.multiselect("Placement Status", sorted(df["placement_status"].dropna().unique().tolist()) if "placement_status" in df.columns else [])
+
+    dfs = df.copy()
+    if dept_sel and "department" in dfs.columns:
+        dfs = dfs[dfs["department"].isin(dept_sel)]
+    if year_sel and "year" in dfs.columns:
+        dfs = dfs[dfs["year"].isin(year_sel)]
+    if gender_sel and "gender" in dfs.columns:
+        dfs = dfs[dfs["gender"].isin(gender_sel)]
+    if place_sel and "placement_status" in dfs.columns:
+        dfs = dfs[dfs["placement_status"].isin(place_sel)]
+
+    # Determine required skills
+    if custom_skills.strip():
+        req_skills = normalize_skill_list([s for s in custom_skills.split(",")])
+        role_used = custom_role if custom_role.strip() else role_choice if role_choice != "-- Select --" else "Custom Role"
+    elif role_choice != "-- Select --":
+        req_skills = normalize_skill_list(PRESET_ROLES[role_choice])
+        role_used = role_choice
+    else:
+        req_skills = []
+        role_used = None
+
+    st.markdown("### Required Skills")
+    if req_skills:
+        st.write(", ".join(req_skills))
+    else:
+        st.info("Select a preset role or provide custom required skills.")
+
+    min_match = st.slider("Minimum matched skills to include", 0, 10, max(1, min(3, len(req_skills))) if req_skills else 1, 1)
+
+    if req_skills:
+        # Build per-student skills set
+        skills_cols = [c for c in dfs.columns if c.startswith("skill_")]
+        if not skills_cols:
+            st.warning("No parsed skill columns (skill_1..skill_5) found. Ensure 'Skills' step in Cleaning tab was executed.")
+        else:
+            # Compute matches
+            def compute_match(row):
+                student_sk = extract_student_skills_row(row)
+                match = [s for s in req_skills if s in student_sk]
+                missing = [s for s in req_skills if s not in student_sk]
+                return pd.Series({"matched_count": len(match), "matched_skills": ", ".join(match), "missing_skills": ", ".join(missing)})
+
+            matches = dfs.apply(compute_match, axis=1)
+            result = pd.concat([dfs, matches], axis=1)
+            result = result[result["matched_count"] >= min_match].copy()
+
+            # Display top candidates
+            st.markdown(f"### Candidates for **{role_used}**")
+            show_cols = [c for c in ["register_number", "first_name", "last_name", "department", "year", "gender",
+                                     "placement_status", "gpa", "attendance_percentage",
+                                     "matched_count", "matched_skills", "missing_skills"] if c in result.columns]
+            result_sorted = result.sort_values(["matched_count", "gpa", "attendance_percentage"], ascending=[False, False, False])
+            st.dataframe(result_sorted[show_cols], use_container_width=True, height=400)
+
+            # Coverage distribution
+            st.markdown("### Coverage Distribution (Matched Skills Count)")
+            cov = result_sorted["matched_count"].value_counts().sort_index()
+            if not cov.empty:
+                st.bar_chart(cov)
+
+            # Top missing skills overall (from all students considered, not only filtered by min_match)
+            st.markdown("### Most Missing Required Skills (Across Filtered Students)")
+            # Recompute across dfs (not result) to see gaps
+            all_matches = dfs.apply(compute_match, axis=1)
+            missing_all = pd.Series(
+                [s for row in all_matches["missing_skills"].tolist() for s in (row.split(", ") if isinstance(row, str) and row else [])]
+            )
+            if not missing_all.empty:
+                st.bar_chart(missing_all.value_counts().head(15))
+
+            # Download
+            st.download_button(
+                "⬇️ Download Matching Students CSV",
+                data=result_sorted[show_cols].to_csv(index=False).encode("utf-8"),
+                file_name=f"skill_matches_{(role_used or 'role').replace(' ', '_').lower()}.csv",
+                mime="text/csv",
+                use_container_width=True,
+            )
+
+            # Optional AI summary
+            if st.button("Generate AI Summary for Skill Gap", use_container_width=True):
+                api_key = st.secrets.get("GEMINI_API_KEY_", "") or os.environ.get("GEMINI_API_KEY", "")
+                if not api_key:
+                    st.info("Set GEMINI_API_KEY_/GEMINI_API_KEY to enable AI summary.")
+                else:
+                    genai.configure(api_key=api_key)
+                    # Build tight summary to keep tokens small
+                    summary = {
+                        "role": role_used,
+                        "required_skills": req_skills,
+                        "n_candidates": int(len(result_sorted)),
+                        "coverage_counts": cov.to_dict() if not cov.empty else {},
+                        "top_missing": missing_all.value_counts().head(10).to_dict() if not missing_all.empty else {},
+                    }
+                    import json
+                    prompt = f"""
+You are a placement advisor. Given the role and coverage, write:
+- 3 bullets: where students are strong
+- 3 bullets: key gaps to fix
+- 5 bullets: concrete training actions
+Add one ASCII bar showing coverage of matched skills (use counts).
+
+SUMMARY (JSON):
+{json.dumps(summary, ensure_ascii=False)}
+"""
+                    try:
+                        model = genai.GenerativeModel("gemini-2.0-flash")
+                        resp = model.generate_content(prompt)
+                        st.markdown(resp.text)
+                    except Exception as e:
+                        st.error(f"AI Error: {e}")
+    else:
+        st.info("Pick a role or enter custom skills to run the analyzer.")
