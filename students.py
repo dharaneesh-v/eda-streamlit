@@ -291,13 +291,6 @@ with tab4:
     
     
 with tab5:
-    from dotenv import load_dotenv
-    import os
-    
-    load_dotenv("secrets.env")
-    api_key1 = os.getenv("GEMINI_API_KEY")
-    # Gen AI Insights using GEMINI AI LLM
-    
     # genai.configure(api_key=GEMINI_API_KEY)
     genai.configure(api_key="AIzaSyCwKNpqAxt9dO4U9gvyEmJCQENfaqEMeWI")
     model = genai.GenerativeModel("gemini-2.5-flash")
