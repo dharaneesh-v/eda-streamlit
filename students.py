@@ -292,7 +292,7 @@ with tab4:
     
 with tab5:
     # genai.configure(api_key=GEMINI_API_KEY)
-    api_key1 = st. secrets.get("GEMINI_API_KEY_", "") 
+    api_key1 = st.secrets.get("GEMINI_API_KEY_", "") 
     genai.configure(api_key=api_key1)
     model = genai.GenerativeModel("gemini-2.5-flash")
     
