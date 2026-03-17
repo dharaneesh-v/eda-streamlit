@@ -5,7 +5,7 @@ import re
 import matplotlib.pyplot as plt
 import google.generativeai as genai
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["Initial Data", "Data Cleaning", "Cleaned Data", "Visualization","AI Insights"])
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Initial Data", "Data Cleaning", "Cleaned Data", "Visualization","Student Insights","AI Insights"])
 df = pd.read_csv('student_data.csv')
 
 with tab1:
@@ -290,7 +290,7 @@ with tab4:
     
     
     
-with tab5:
+with tab6:
     # genai.configure(api_key=GEMINI_API_KEY)
     api_key1 = st.secrets.get("GEMINI_API_KEY_", "") 
     genai.configure(api_key=api_key1)
@@ -353,4 +353,28 @@ Guidelines:
 
         st.subheader("GenAI Insights")
         st.write(response.text)
-    
+
+
+with tab5:
+    st.subheader("🔍 Student Profile Search")
+
+    reg = st.text_input("Enter Register Number:", key="student_search")
+
+    if st.button("Search", use_container_width=True):
+        df["register_number"] = df["register_number"].astype(str)
+        rec = df[df["register_number"] == reg]
+
+        if rec.empty:
+            st.error("Student not found.")
+        else:
+            rec = rec.iloc[0]
+            st.success("Student Found")
+            st.write(f"**Name:** {rec['first_name']} {rec['last_name']}")
+            st.write(f"**Department:** {rec['department']}")
+            st.write(f"**GPA:** {rec['gpa']}")
+            st.write(f"**Attendance:** {rec['attendance_percentage']}%")
+
+            # ASCII bars
+            st.text(f"GPA: {'█' * int(rec['gpa']*2)}")
+            st.text(f"Attendance: {'█' * int(rec['attendance_percentage']/5)}")
+
