@@ -308,9 +308,12 @@ with tab7:
     summary = df_summary.to_string()
     # st.write(summary)
     
-    user_question = st.text_input("Ask questions about the dataset or request insights")
+    # ⬇️ Minimal change: input + Send button
+    user_question = st.text_input("Ask questions about the dataset or request insights", key="ai_question")
+    send = st.button("Send", key="ai_send_button")
     
-    if user_question:
+    # ⬇️ Minimal change: trigger only on click (prevents many requests)
+    if send and user_question.strip():
         prompt = f"""
 You are an advanced data analyst.
 
@@ -356,7 +359,6 @@ Guidelines:
 
         st.subheader("GenAI Insights")
         st.write(response.text)
-
 
 with tab5:
     st.subheader("🔍 Student Profile Search")
