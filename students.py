@@ -500,7 +500,6 @@ Guidelines:
 - Avoid lengthy theoretical explanations.
 - Focus on patterns, anomalies, trends, comparisons, and actionable interpretations.
 - Maintain a professional, analytical tone.
-- other than questions from dataset wont answer
         """
 
       
