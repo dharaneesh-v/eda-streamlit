@@ -17,7 +17,7 @@ with tab2:
     initial_null_df = df.isna().sum()
     
     df.drop_duplicates(keep='first',inplace=True)
-    # the file has 75 duplicate data of students- same data repeated. used drop_duplicates() to remove those data
+    # the file has 39 duplicate data of students- same data repeated. used drop_duplicates() to remove those data
     
     
     with st.expander("Email"):
