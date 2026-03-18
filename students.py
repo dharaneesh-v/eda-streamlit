@@ -517,9 +517,7 @@ Guidelines:
         # - Skill gaps
 
         # 🔥 ONLY CHANGE ASKED BY YOU:
-        response = model.generate_content(
-            prompt
-        )
+        response = model.generate_content(prompt)
 
         st.subheader("GenAI Insights")
         
