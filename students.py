@@ -291,7 +291,7 @@ with tab4:
     
     st.line_chart(placement_rate_gender.set_index("gender"))
     
-
+    
 with tab5:
     st.subheader("🔍 Student Profile Search")
 
@@ -516,8 +516,9 @@ Guidelines:
         # - Skill distribution summary
         # - Skill gaps
 
+        # 🔥 ONLY CHANGE ASKED BY YOU:
         response = model.generate_content(
-            prompt,                           
+            prompt,
             stream=True,   # immediate output streaming
             generation_config={
                 "max_output_tokens": 400,
@@ -526,10 +527,9 @@ Guidelines:
         )
 
         st.subheader("GenAI Insights")
-
-        # 🔥 ONLY CHANGE REQUIRED → handle streaming properly
+        
         full_text = ""
         for chunk in response:
             if hasattr(chunk, "text") and chunk.text:
                 full_text += chunk.text
-                st.write(chunk.text)
+                st.write(chunk.text)  
