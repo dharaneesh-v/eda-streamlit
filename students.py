@@ -343,15 +343,6 @@ with tab5:
         else:
             st.info("No skills listed")
 
-        # ASCII Visual Summary
-        st.markdown("### 📊 Performance Summary (ASCII Bars)")
-        gpa_bar = "█" * int((rec["gpa"] / 10) * 20) if pd.notna(rec["gpa"]) else ""
-        att_bar = "█" * int((rec["attendance_percentage"] / 100) * 20) if pd.notna(rec["attendance_percentage"]) else ""
-
-        st.text(f"GPA        | {gpa_bar}")
-        st.text(f"Attendance | {att_bar}")
-
-
 
 
 with tab6:
