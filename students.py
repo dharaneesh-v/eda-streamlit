@@ -355,7 +355,13 @@ Guidelines:
         # - Skill distribution summary
         # - Skill gaps
 
-        response = model.generate_content(prompt)
+        response = model.generate_content(prompt,                           
+            stream=True,   # immediate output streaming
+            generation_config={
+            "max_output_tokens": 400,
+            "temperature": 0.2
+            }
+        )
 
         st.subheader("GenAI Insights")
         st.write(response.text)
