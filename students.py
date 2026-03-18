@@ -305,7 +305,7 @@ with tab7:
     
     exclude_cols = ["register_number","first_name","last_name","email","phone"]
     df_summary = df.drop(columns=exclude_cols)
-    summary = df_summary.to_string()
+    summary = df_summary.to_csv()
     # st.write(summary)
     
     # ⬇️ Minimal change: input + Send button
