@@ -292,89 +292,65 @@ with tab4:
     st.line_chart(placement_rate_gender.set_index("gender"))
     
     
+    
 with tab7:
-    st.subheader("🤖 GenAI Insights (Fast • One Click)")
-
-    # API setup
-    api_key1 = st.secrets.get("GEMINI_API_KEY_", "")
+    # genai.configure(api_key=GEMINI_API_KEY)
+    api_key1 = st.secrets.get("GEMINI_API_KEY_", "") 
     genai.configure(api_key=api_key1)
     model = genai.GenerativeModel("gemini-2.5-flash")
-
-    # ---- Build COMPRESSED summary (MUCH faster than df.to_string())
-    def compact_summary(df_in: pd.DataFrame, exclude_cols=None, top_n=5) -> str:
-        if exclude_cols is None:
-            exclude_cols = []
-        d = df_in.drop(columns=[c for c in exclude_cols if c in df_in.columns], errors="ignore").copy()
-
-        # basic
-        rows, cols = d.shape
-        schema = {c: str(d[c].dtype) for c in d.columns}
-
-        # numeric stats
-        num_cols = d.select_dtypes(include=[np.number]).columns.tolist()
-        stats = {}
-        if num_cols:
-            desc = d[num_cols].describe().T
-            for c in num_cols:
-                s = desc.loc[c]
-                stats[c] = {
-                    "mean": round(float(s["mean"]), 3),
-                    "min": round(float(s["min"]), 3),
-                    "median": round(float(s["50%"]), 3),
-                    "max": round(float(s["max"]), 3),
-                }
-
-        # top categories
-        cat_cols = d.select_dtypes(exclude=[np.number]).columns.tolist()
-        tops = {}
-        for c in cat_cols:
-            vc = d[c].astype(str).value_counts().head(top_n)
-            tops[c] = [{"value": x, "count": int(cnt)} for x, cnt in vc.items()]
-
-        summary = {
-            "shape": {"rows": rows, "cols": cols},
-            "schema": schema,
-            "numeric_stats": stats,
-            "categorical_tops": tops,
-        }
-
-        import json
-        text = json.dumps(summary, ensure_ascii=False)
-        return text[:5000] + "..." if len(text) > 5000 else text
-
-    summary = compact_summary(df, exclude_cols=["register_number","first_name","last_name","email","phone"])
-
-    # ---- Use a form (prevents 60+ LLM calls on each keystroke)
-    with st.form("ai_form"):
-        user_question = st.text_input(
-            "Ask questions about the dataset:",
-            placeholder="Example: Which department has the best placement rate?"
-        )
-        submitted = st.form_submit_button("Generate Insights ⚡")
-
-    if submitted and user_question.strip():
-
+    
+    # for m in genai.list_models():
+    #     if "generateContent" in m.supported_generation_methods:
+    #         print(m.name)
+    
+    exclude_cols = ["register_number","first_name","last_name","email","phone"]
+    df_summary = df.drop(columns=exclude_cols)
+    summary = df_summary.to_string()
+    # st.write(summary)
+    
+    user_question = st.text_input("Ask questions about the dataset or request insights")
+    
+    if user_question:
         prompt = f"""
 You are an advanced data analyst.
 
-DATASET SUMMARY (compact):
+Your task:
+Analyze the dataset summarized below and answer the user's question using clear, visual, and insight‑driven outputs.
+
+Dataset Summary:
 {summary}
 
-USER QUESTION:
+User Question:
 {user_question}
 
-Respond with:
+Your Response Must Include:
 
-### 📌 KEY INSIGHTS
-- Bullet points only.
-- Clear patterns/trends.
+1. **Key Insights**
+   - Present findings in a concise, insight‑oriented format.
+   - Prioritize visuals over long theory.
+   - Use charts, tables, or bullet points to communicate insights clearly.
+   - Examples of visuals you may use:
+       - Bar/line charts (ASCII or text‑friendly if needed)
+       - Trend tables
+       - Correlation matrices
+       - Sparkline‑style visualizations
 
-### 📊 VISUAL ANALYSIS
-- ONE ASCII visual (bar chart OR table OR correlation matrix).
+2. **Visual Analysis**
+   - Add at least one visual element (chart/table/matrix) to support the insights.
+   - Ensure visuals are simple and interpretable in plain text.
 
-### 🎯 RECOMMENDATIONS
-- Short, actionable, dataset-driven.
+3. **Recommendations**
+   - Provide data‑driven, actionable recommendations.
+   - Keep them concise and tied to observed patterns.
+
+Guidelines:
+- Avoid lengthy theoretical explanations.
+- Focus on patterns, anomalies, trends, comparisons, and actionable interpretations.
+- Maintain a professional, analytical tone.
         """
+
+        # - Skill distribution summary
+        # - Skill gaps
 
         response = model.generate_content(prompt)
 
