@@ -467,13 +467,10 @@ with tab7:
     exclude_cols = ["register_number","first_name","last_name","email","phone"]
     df_summary = df.drop(columns=exclude_cols)
     summary = df_summary.to_csv()
-    # st.write(summary)
-    
-    # ⬇️ Minimal change: input + Send button
+
     user_question = st.text_input("Ask questions about the dataset or request insights", key="ai_question")
     send = st.button("Send", key="ai_send_button")
     
-    # ⬇️ Minimal change: trigger only on click (prevents many requests)
     if send and user_question.strip():
         prompt = f"""
 You are an advanced data analyst.
@@ -513,10 +510,8 @@ Guidelines:
 - Maintain a professional, analytical tone.
         """
 
-        # - Skill distribution summary
-        # - Skill gaps
+      
 
-        # 🔥 ONLY CHANGE ASKED BY YOU:
         response = model.generate_content(prompt)
 
         st.subheader("GenAI Insights")
