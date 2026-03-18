@@ -519,7 +519,6 @@ Guidelines:
         # 🔥 ONLY CHANGE ASKED BY YOU:
         response = model.generate_content(
             prompt,
-            stream=True,   # immediate output streaming
             generation_config={
                 "max_output_tokens": 400,
                 "temperature": 0.2
