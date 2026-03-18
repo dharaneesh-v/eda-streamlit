@@ -291,80 +291,6 @@ with tab4:
     
     st.line_chart(placement_rate_gender.set_index("gender"))
     
-    
-    
-with tab7:
-    # genai.configure(api_key=GEMINI_API_KEY)
-    api_key1 = st.secrets.get("GEMINI_API_KEY_", "") 
-    genai.configure(api_key=api_key1)
-    model = genai.GenerativeModel("gemini-2.5-flash")
-    
-    # for m in genai.list_models():
-    #     if "generateContent" in m.supported_generation_methods:
-    #         print(m.name)
-    
-    exclude_cols = ["register_number","first_name","last_name","email","phone"]
-    df_summary = df.drop(columns=exclude_cols)
-    summary = df_summary.to_csv()
-    # st.write(summary)
-    
-    # ⬇️ Minimal change: input + Send button
-    user_question = st.text_input("Ask questions about the dataset or request insights", key="ai_question")
-    send = st.button("Send", key="ai_send_button")
-    
-    # ⬇️ Minimal change: trigger only on click (prevents many requests)
-    if send and user_question.strip():
-        prompt = f"""
-You are an advanced data analyst.
-
-Your task:
-Analyze the dataset summarized below and answer the user's question using clear, visual, and insight‑driven outputs.
-
-Dataset Summary:
-{summary}
-
-User Question:
-{user_question}
-
-Your Response Must Include:
-
-1. **Key Insights**
-   - Present findings in a concise, insight‑oriented format.
-   - Prioritize visuals over long theory.
-   - Use charts, tables, or bullet points to communicate insights clearly.
-   - Examples of visuals you may use:
-       - Bar/line charts (ASCII or text‑friendly if needed)
-       - Trend tables
-       - Correlation matrices
-       - Sparkline‑style visualizations
-
-2. **Visual Analysis**
-   - Add at least one visual element (chart/table/matrix) to support the insights.
-   - Ensure visuals are simple and interpretable in plain text.
-
-3. **Recommendations**
-   - Provide data‑driven, actionable recommendations.
-   - Keep them concise and tied to observed patterns.
-
-Guidelines:
-- Avoid lengthy theoretical explanations.
-- Focus on patterns, anomalies, trends, comparisons, and actionable interpretations.
-- Maintain a professional, analytical tone.
-        """
-
-        # - Skill distribution summary
-        # - Skill gaps
-
-        response = model.generate_content(prompt,                           
-            stream=True,   # immediate output streaming
-            generation_config={
-            "max_output_tokens": 400,
-            "temperature": 0.2
-            }
-        )
-
-        st.subheader("GenAI Insights")
-        st.write(response.text)
 
 with tab5:
     st.subheader("🔍 Student Profile Search")
@@ -526,3 +452,84 @@ with tab6:
         file_name="at_risk_students_all_conditions.csv",
         use_container_width=True
     )
+
+
+with tab7:
+    # genai.configure(api_key=GEMINI_API_KEY)
+    api_key1 = st.secrets.get("GEMINI_API_KEY_", "") 
+    genai.configure(api_key=api_key1)
+    model = genai.GenerativeModel("gemini-2.5-flash")
+    
+    # for m in genai.list_models():
+    #     if "generateContent" in m.supported_generation_methods:
+    #         print(m.name)
+    
+    exclude_cols = ["register_number","first_name","last_name","email","phone"]
+    df_summary = df.drop(columns=exclude_cols)
+    summary = df_summary.to_csv()
+    # st.write(summary)
+    
+    # ⬇️ Minimal change: input + Send button
+    user_question = st.text_input("Ask questions about the dataset or request insights", key="ai_question")
+    send = st.button("Send", key="ai_send_button")
+    
+    # ⬇️ Minimal change: trigger only on click (prevents many requests)
+    if send and user_question.strip():
+        prompt = f"""
+You are an advanced data analyst.
+
+Your task:
+Analyze the dataset summarized below and answer the user's question using clear, visual, and insight‑driven outputs.
+
+Dataset Summary:
+{summary}
+
+User Question:
+{user_question}
+
+Your Response Must Include:
+
+1. **Key Insights**
+   - Present findings in a concise, insight‑oriented format.
+   - Prioritize visuals over long theory.
+   - Use charts, tables, or bullet points to communicate insights clearly.
+   - Examples of visuals you may use:
+       - Bar/line charts (ASCII or text‑friendly if needed)
+       - Trend tables
+       - Correlation matrices
+       - Sparkline‑style visualizations
+
+2. **Visual Analysis**
+   - Add at least one visual element (chart/table/matrix) to support the insights.
+   - Ensure visuals are simple and interpretable in plain text.
+
+3. **Recommendations**
+   - Provide data‑driven, actionable recommendations.
+   - Keep them concise and tied to observed patterns.
+
+Guidelines:
+- Avoid lengthy theoretical explanations.
+- Focus on patterns, anomalies, trends, comparisons, and actionable interpretations.
+- Maintain a professional, analytical tone.
+        """
+
+        # - Skill distribution summary
+        # - Skill gaps
+
+        response = model.generate_content(
+            prompt,                           
+            stream=True,   # immediate output streaming
+            generation_config={
+                "max_output_tokens": 400,
+                "temperature": 0.2
+            }
+        )
+
+        st.subheader("GenAI Insights")
+
+        # 🔥 ONLY CHANGE REQUIRED → handle streaming properly
+        full_text = ""
+        for chunk in response:
+            if hasattr(chunk, "text") and chunk.text:
+                full_text += chunk.text
+                st.write(chunk.text)
