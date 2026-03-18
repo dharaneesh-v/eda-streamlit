@@ -458,7 +458,7 @@ with tab7:
     # genai.configure(api_key=GEMINI_API_KEY)
     api_key1 = st.secrets.get("GEMINI_API_KEY_", "") 
     genai.configure(api_key=api_key1)
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    model = genai.GenerativeModel("gemma-3-1b")
     
     # for m in genai.list_models():
     #     if "generateContent" in m.supported_generation_methods:
